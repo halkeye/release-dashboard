@@ -31,6 +31,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(grant);
 
 app.get('/', function (req, res) {
+  console.log('session', req.session);
   if (!req.session.grant || !req.session.grant.response.access_token) {
     return res.redirect('/connect/github');
   }
