@@ -50,7 +50,7 @@
 
     componentDidMount() {
       this.props.projects.forEach((project) => {
-        window.fetch('https://api.github.com/repos/saucelabs/' + project + '/commits?sha=deployed-latest', fetchOptions)
+        window.fetch('https://api.github.com/repos/' + project + '/commits?sha=deployed-latest', fetchOptions)
           .then(response => response.json())
           .then((commits) => {
             this.setState({ ['commit_' + project]: commits[0].commit });

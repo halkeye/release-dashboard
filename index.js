@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var session = require('express-session');
 var Grant = require('grant-express');
 var bodyParser = require('body-parser');
-
+var cookieParser = require('cookie-parser');
 
 var projects = JSON.parse(process.env.PROJECTS || "[]");
 
@@ -12,7 +12,7 @@ var grant = new Grant({
     protocol: 'https',
     state: true,
     callback: '/doneAuth',
-    transport: 'session',
+    transport: 'querystring',
     host: process.env.RETURN_HOST
   },
   github: {
@@ -25,22 +25,25 @@ var grant = new Grant({
 var app = express();
 app.set('view engine', 'ejs');
 app.use(morgan('combined'));
+app.use(cookieParser());
 app.use(session({secret: process.env.EXPRESS_SECRET_TOKEN || 'secret-token'}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(grant);
 
 app.get('/', function (req, res) {
-  if (!req.session.grant || !req.session.grant.response.access_token) {
-    return res.redirect('/connect/github');
-  }
+  const token = req.cookies['gh-token'];
+  if (!token) { return res.redirect('/connect/github'); }
   res.render('index.html.ejs', {
-    token: req.session.grant.response.access_token,
+    token: token,
     projects: projects
   } );
 });
 
 app.get('/doneAuth', function (req, res) {
+  const token = req.param('access_token');
+  if (!token) { return res.redirect('/connect/github'); }
+  res.cookie('gh-token', token, { path: '/' });
   return res.redirect('/');
 });
 app.use(express.static('public'));
