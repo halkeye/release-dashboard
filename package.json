@@ -7,8 +7,8 @@
     "node": "6.1.0"
   },
   "scripts": {
-    "webpack:deploy": "env NODE_MODULES_CACHE=false NODE_ENV=dev npm install && ./node_modules/.bin/webpack --config=webpack.config.js -p && npm prune --production",
-    "heroku-postbuild": "npm run webpack:deploy",
+    "build": "./bin/build.sh",
+    "heroku-postbuild": "./bin/build.sh",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
