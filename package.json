@@ -7,7 +7,7 @@
     "node": "6.1.0"
   },
   "scripts": {
-    "webpack:deploy": "NODE_ENV=dev npm install && webpack --config=webpack.config.js -p && npm prune --production",
+    "webpack:deploy": "NODE_ENV=dev npm install && ./node_modules/webpack --config=webpack.config.js -p && npm prune --production",
     "heroku-postbuild": "npm run webpack:deploy",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
