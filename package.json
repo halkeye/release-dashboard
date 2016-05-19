@@ -15,6 +15,7 @@
   "author": "Gavin Mogan <gavin@saucelabs.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.9.0",
     "body-parser": "^1.15.1",
     "cookie-parser": "^1.4.1",
     "ejs": "^2.4.1",

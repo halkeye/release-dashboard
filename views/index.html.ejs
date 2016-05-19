@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="gh-token" content="<%= token %>">
     <script>
-      window.projects = <%- JSON.stringify(projects) %>;
+      window.Config = { config_repo: <%- JSON.stringify(config_repo) %> };
     </script>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Releases</title>

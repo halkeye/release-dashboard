@@ -5,8 +5,6 @@ var Grant = require('grant-express');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 
-var projects = JSON.parse(process.env.PROJECTS || "[]");
-
 var grant = new Grant({
   server: {
     protocol: 'https',
@@ -36,7 +34,7 @@ app.get('/', function (req, res) {
   if (!token) { return res.redirect('/connect/github'); }
   res.render('index.html.ejs', {
     token: token,
-    projects: projects
+    config_repo: process.env.CONFIG_REPO
   } );
 });
 
