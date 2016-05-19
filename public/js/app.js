@@ -23,15 +23,15 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    window.fetch('https://api.github.com/repos/' + Config.config_repo + '/git/trees/master', fetchOptions)
+    fetch('https://api.github.com/repos/' + Config.config_repo + '/git/trees/master', fetchOptions)
       .then(response => response.json())
       .then(data => data.tree.find(x => x.path === 'config.json').url)
-      .then(url => window.fetch(url, fetchOptions))
+      .then(url => fetch(url, fetchOptions))
       .then(response => response.json())
       .then((blob) => {
-        const config = JSON.parse(window.atob(blob.content));
+        const config = JSON.parse(window.atob(blob.content.replace(/\s/g, '')));
         this.setState({ projects: config });
-      });
+      }).catch(error => console.error('error fetching config', error));
   }
 
   render() {
@@ -43,7 +43,7 @@ class App extends React.Component {
 
 const tagForProject = function (project) {
   if (project.tag) { return Promise.resolve(project.tag); }
-  return window.fetch('https://api.github.com/repos/' + project.repo + '/tags', fetchOptions)
+  return fetch('https://api.github.com/repos/' + project.repo + '/tags', fetchOptions)
     .then(response => response.json())
     .then(tags => tags[0].name);
 }
@@ -60,7 +60,7 @@ class Projects extends React.Component {
   componentDidMount() {
     this.props.projects.forEach((project) => {
       tagForProject(project)
-        .then(tag => window.fetch('https://api.github.com/repos/' + project.repo + '/commits?sha=' + tag, fetchOptions))
+        .then(tag => fetch('https://api.github.com/repos/' + project.repo + '/commits?sha=' + tag, fetchOptions))
         .then(response => response.json())
         .then((commits) => {
           this.setState({ ['commit_' + project.repo]: commits[0] });
