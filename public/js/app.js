@@ -41,13 +41,25 @@ const getConfig = memoize(function () {
     .then(url => fetch(url, fetchOptions))
     .then(response => response.json())
     .then(blob =>  JSON.parse(window.atob(blob.content.replace(/\s/g, ''))))
+    .then(projects => {
+      projects = projects.repos;
+      return Promise.all(projects.map((project) => {
+        return tagsForProject(project).then(tags => {
+          project.tags = tags;
+          project.commits_for_sha = {};
+          return getCommit(project, tags[0]).then(commits => {
+            project.commits_for_sha[tags[0]] = commits[0]
+          });
+        });
+      })).then(function() { return projects });
+    });
 });
 
-const tagForProject = memoize(function (project) {
-  if (project.tag) { return Promise.resolve(project.tag); }
+const tagsForProject = memoize(function (project) {
+  if (project.tag) { return Promise.resolve([project.tag]); }
   return fetch('https://api.github.com/repos/' + project.repo + '/tags', fetchOptions)
     .then(response => response.json())
-    .then(tags => tags[0].name);
+    .then(tags => tags.map(tag => tag.name));
 });
 
 const getCommit = memoize(function (project, sha) {
@@ -69,14 +81,14 @@ class App extends React.Component {
   }
 
   render() {
-    if (this.state.projects) { return <Projects projects={this.state.projects.repos} />; }
+    if (this.state.projects) { return <Projects projects={this.state.projects} />; }
     return (
       <div>
         <br />
         <br />
         <br />
         <Progress type={'circle'} color={'black'} />
-        {this.state.projects && <div>Loading Projects from {Config.config_repo}</div>}
+        {!this.state.projects && <div>Loading Projects from {Config.config_repo}</div>}
         {this.state.error && <div>Error - {this.state.error}</div>}
       </div>
     );
@@ -89,10 +101,6 @@ class Project extends React.Component {
     project: React.PropTypes.object.isRequired,
     commit: React.PropTypes.object
   };
-  constructor() {
-    super();
-    this.state = { };
-  }
   render() {
     const commit = this.props.commit;
     const project = this.props.project;
@@ -123,32 +131,21 @@ class Project extends React.Component {
 
 
 class Projects extends React.Component {
-  static propTypes = { projects: React.PropTypes.array.isRequired };
+  static propTypes = {
+    projects: React.PropTypes.array.isRequired
+  };
 
-  constructor() {
-    super();
-    this.state = { };
-  }
-
-  componentDidMount() {
-    this.props.projects.forEach((project) => {
-      tagForProject(project)
-        .then(tag => getCommit(project, tag))
-        .then(commits => {
-          this.setState({ ['commit_' + project.repo]: commits[0] });
-        });
-    });
-  }
   render() {
     return (
       <div>
         <GithubCorner href="https://github.com/halkeye/release-dashboard" />
         <div className="projectsContainer">{
           this.props.projects.map(project => {
+            if (!project.commits_for_sha) { return <div />; }
             return <Project
               key={project.repo}
               project={project}
-              commit={this.state['commit_' + project.repo]}
+              commit={project.commits_for_sha[project.tags[0]]}
             />;
           })
         }</div>
