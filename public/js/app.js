@@ -31,10 +31,11 @@ class App extends React.Component {
       .then((blob) => {
         const config = JSON.parse(window.atob(blob.content.replace(/\s/g, '')));
         this.setState({ projects: config });
-      }).catch(error => console.error('error fetching config', error));
+      }).catch(error => this.setState({ error: 'error fetching config:' + error }));
   }
 
   render() {
+    if (this.state.error) { return <div>Error Projects from {Config.config_repo} - {this.state.error}</div>; }
     if (!this.state.projects) { return <div>Loading Projects from {Config.config_repo}</div>; }
     return <Projects projects={this.state.projects.repos} />;
   }

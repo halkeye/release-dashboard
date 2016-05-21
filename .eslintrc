@@ -9,5 +9,12 @@
   "extends": [ "semistandard", "eslint:recommended", "plugin:react/recommended" ],
   "rules": {
     "no-unused-vars": [2, { "vars": "all", "args": "after-used" }]
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "fetch": false
   }
 }
