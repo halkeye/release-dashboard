@@ -13,7 +13,7 @@ import {memoize} from 'lodash';
 import './app.scss';
 
 window.WebFontConfig = {
-  google: { families: [ 'Roboto:400,700:latin' ] }
+  google: { families: [ 'Roboto:400,700:latin', 'Roboto+Mono:400,700:latin' ] }
 };
 (function() {
   var wf = document.createElement('script');

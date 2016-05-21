@@ -61,11 +61,13 @@ body {
   flex-wrap: nowrap;
   justify-content: flex-end;
   .sha {
+    font-family: 'Roboto Mono', Roboto, sans-serif;
     padding-left: 0.5em;
     white-space: nowrap;
   }
 
   .author {
+    font-family: 'Roboto Mono', Roboto, sans-serif;
     padding-left: 0.5em;
     white-space: nowrap;
     font-weight: bold;
