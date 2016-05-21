@@ -13,8 +13,7 @@ body {
 
 .card {
   background-color: $white;
-  width: 20em;
-  height: 20em;
+  width: 35em;
   margin: 1.0em;
   flex: none;
   border-radius: 10px;
@@ -48,7 +47,6 @@ body {
   .body {
     border-top: 1px solid #ccc;
     padding: 16px;
-    height: 80px;
     flex-grow: 2;
   }
   .footer {
@@ -56,3 +54,30 @@ body {
     border-top: 1px solid #ccc;
   }
 }
+
+.commit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  .sha {
+    padding-left: 0.5em;
+    white-space: nowrap;
+  }
+
+  .author {
+    padding-left: 0.5em;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+  .message {
+    flex-grow: 1;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
