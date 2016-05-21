@@ -4,6 +4,7 @@
     "react"
   ],
   "plugins": [
+    "lodash",
     "transform-class-properties",
     "add-module-exports"
   ]

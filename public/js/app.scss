@@ -1,0 +1,58 @@
+$white: #ffffff;
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: darken($white, 10%);
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: $white;
+  width: 20em;
+  height: 20em;
+  margin: 1.0em;
+  flex: none;
+  border-radius: 10px;
+  box-Shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  .header {
+    padding: 14px;
+    color: rgba(0, 0, 0, 0.870588);
+    line-height: 26px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    .author {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 100%;
+      overflow: hidden;
+    }
+    .info { flex-grow: 1; }
+    .repo { font-size: 30px; }
+    .avatar { padding-left: 0.5em; }
+    time { font-weight: bold; }
+  }
+  .body {
+    border-top: 1px solid #ccc;
+    padding: 16px;
+    height: 80px;
+    flex-grow: 2;
+  }
+  .footer {
+    padding: 8px;
+    border-top: 1px solid #ccc;
+  }
+}

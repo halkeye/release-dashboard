@@ -2,15 +2,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import moment from 'moment';
 import GithubCorner from 'react-github-corner';
 
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-
-import {Card, CardHeader, CardTitle, CardText} from 'material-ui/Card';
+import Progress from 'essence-progress';
+import UserAvatar from 'react-user-avatar';
+import SmartTimeAgo from 'react-smart-time-ago';
 
 import {memoize} from 'lodash';
+
+import './app.scss';
+
+window.WebFontConfig = {
+  google: { families: [ 'Roboto:400,700:latin' ] }
+};
+(function() {
+  var wf = document.createElement('script');
+  wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();
 
 const token = document.querySelector('meta[name=gh-token]').attributes.content.value;
 const Config = window.Config;
@@ -19,6 +31,8 @@ const fetchOptions = {
     'Authorization': 'token ' + token
   }
 };
+
+//const Progress = () => { return <div></div>; }
 
 const getConfig = memoize(function () {
   return fetch('https://api.github.com/repos/' + Config.config_repo + '/git/trees/master', fetchOptions)
@@ -40,7 +54,6 @@ const getCommit = memoize(function (project, sha) {
   return fetch('https://api.github.com/repos/' + project.repo + '/commits?sha=' + sha, fetchOptions)
     .then(response => response.json());
 });
-      ;
 
 class App extends React.Component {
 
@@ -56,9 +69,17 @@ class App extends React.Component {
   }
 
   render() {
-    if (this.state.error) { return <div>Error Projects from {Config.config_repo} - {this.state.error}</div>; }
-    if (!this.state.projects) { return <div>Loading Projects from {Config.config_repo}</div>; }
-    return <Projects projects={this.state.projects.repos} />;
+    if (this.state.projects) { return <Projects projects={this.state.projects.repos} />; }
+    return (
+      <div>
+        <br />
+        <br />
+        <br />
+        <Progress type={'circle'} color={'black'} />
+        {this.state.projects && <div>Loading Projects from {Config.config_repo}</div>}
+        {this.state.error && <div>Error - {this.state.error}</div>}
+      </div>
+    );
   }
 
 }
@@ -77,23 +98,25 @@ class Project extends React.Component {
     const project = this.props.project;
 
     if (!commit) { return <div />; }
-    const time = moment(commit.commit.committer.date).calendar() +
-      ' (' +
-      moment(commit.commit.committer.date).fromNow() +
-      ')';
 
     return (
-      <Card key={project.repo} style={{ width: '20em', height: '20em', margin: '1.5em', float: 'left' }}>
-        <CardTitle title={project.repo} subtitle={time} />
-        <CardHeader
-          title={commit.commit.author.name}
-          subtitle={commit.commit.author.email}
-          avatar={commit.committer.avatar_url}
-        />
-        <CardText>
+      <div className="card">
+        <div className="header">
+          <div className="info">
+            <div className="repo">{project.repo.split('/')[1]}</div>
+            <span className="ago"><SmartTimeAgo value={new Date(commit.commit.committer.date)} /></span>
+            <span> by </span>
+            <span className="author">{commit.commit.author.name}</span>
+          </div>
+          <UserAvatar size='60' name={commit.commit.author.name} src={commit.committer.avatar_url} className="avatar" />
+        </div>
+        <div className="body">
           {commit.commit.message}
-        </CardText>
-      </Card>
+        </div>
+        <div className="footer">
+          Card footer with action buttons
+        </div>
+      </div>
     );
   }
 }
@@ -120,7 +143,7 @@ class Projects extends React.Component {
     return (
       <div>
         <GithubCorner href="https://github.com/halkeye/release-dashboard" />
-        {
+        <div className="projectsContainer">{
           this.props.projects.map(project => {
             return <Project
               key={project.repo}
@@ -128,13 +151,13 @@ class Projects extends React.Component {
               commit={this.state['commit_' + project.repo]}
             />;
           })
-        }
+        }</div>
       </div>
     );
   }
 }
 
 ReactDOM.render(
-  <MuiThemeProvider muiTheme={getMuiTheme()}><App /></MuiThemeProvider>,
+  <App />,
   document.getElementById('content')
 );

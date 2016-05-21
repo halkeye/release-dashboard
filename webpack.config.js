@@ -31,10 +31,20 @@ module.exports = {
           'css',
           'sass'
         ]
+      },
+      {
+        test: /\.less$/,
+        loaders: [
+          'style',
+          'css',
+          'less'
+        ]
       }
     ]
   },
   plugins: [
+    //new webpack.ContextReplacementPlugin(/moment[\\\/]lang$/, /^\.\/(en)$/),
+    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     new webpack.ProvidePlugin({
       'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
     })
