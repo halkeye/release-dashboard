@@ -33,12 +33,13 @@ You can also add the `deployTargetInterval` key to say how often you desire to d
   "repos": [
     { "repo": "owner/repo", "deployTargetInterval": 1 },
     { "repo": "owner/repo", "deployTargetInterval": 0.5 },
-    { "repo": "owner/repo", "deployTargetInterval": 3 }
+    { "repo": "owner/repo", "deployTargetInterval": 3 },
+    { "repo": "owner/repo", "deployTargetInterval": false }
   ]
 }
 ```
 
-The unit is 'once every X days', so the first repo in the list wants to be deployed once a day. The second wants to be deployed twice a day (every `0.5` days), and the third wants to be deployed once every 3 days.
+The unit is 'once every X days', so the first repo in the list wants to be deployed once a day. The second wants to be deployed twice a day (every `0.5` days), and the third wants to be deployed once every 3 days. The last project is opting out of the deploy target interval feature entirely!
 
 ## Dev
 

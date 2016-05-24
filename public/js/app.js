@@ -169,13 +169,15 @@ class Project extends React.Component {
     const project = this.props.project;
     // if the config has a deployIntervalTarget, retrieve; default is deploying
     // once per day
-    const depIntTarget = this.props.project.deployIntervalTarget || 1;
-    const staleness = projectStaleness(new Date(commits[0].date), depIntTarget);
+    const useTarget = !!this.props.project.deployTargetInterval;
+    const depTargetInt = this.props.project.deployTargetInterval || 1;
+    const staleness = projectStaleness(new Date(commits[0].date), depTargetInt);
+    const bgColor = useTarget ? numberToColorHsl(staleness) : "#e6e6e6";
 
     if (!commits) { return <div />; }
 
     return (
-      <div className="card" style={{backgroundColor: numberToColorHsl(staleness)}}>
+      <div className="card" style={{backgroundColor: bgColor}}>
         <div className="header">
           <div className="info">
             <div className="repo">{project.repo.split('/')[1]}</div>
