@@ -100,7 +100,7 @@ const compareSha = memoize(function (project, sha1, sha2) {
 });
 
 function projectStaleness(lastUpDate, target = 1) {
-  let daysAgo = (Date.now() - lastUpDate) / 1000 / 60 / 24;
+  let daysAgo = (Date.now() - lastUpDate.getTime()) / 1000 / 60 / 60 / 24;
   // magic coefficient that shapes the staleness curve
   // experimentally determined!!!
   let stalenessCoeff = 1 / (2.4 * Math.pow(target, 0.7));
