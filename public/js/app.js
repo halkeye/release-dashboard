@@ -10,6 +10,7 @@ import SmartTimeAgo from 'react-smart-time-ago';
 
 import {memoize} from 'lodash';
 
+import { numberToColorHsl } from './color';
 import './app.scss';
 
 window.WebFontConfig = {
@@ -98,6 +99,11 @@ const compareSha = memoize(function (project, sha1, sha2) {
     .then(json => { return json.commits.map(commit => processCommit(commit)) });
 });
 
+function projectStaleness(lastUpDate) {
+  let daysAgo = (Date.now() - lastUpDate) / 1000 / 60 / 24;
+  return 1 / ((0.75 * Math.sqrt(daysAgo)) + 1);
+}
+
 class App extends React.Component {
 
   constructor() {
@@ -155,11 +161,12 @@ class Project extends React.Component {
   render() {
     const commits = this.props.commits;
     const project = this.props.project;
+    const staleness = projectStaleness(new Date(commits[0].date));
 
     if (!commits) { return <div />; }
 
     return (
-      <div className="card">
+      <div className="card" style={{backgroundColor: numberToColorHsl(staleness)}}>
         <div className="header">
           <div className="info">
             <div className="repo">{project.repo.split('/')[1]}</div>
