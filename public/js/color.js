@@ -31,8 +31,8 @@ function numberToColorHsl(i) {
   // get a hue somewhere between red and green
   const hue = i * 120 / 360;
   // tweak the following two lines to get the right tone/shade
-  const saturation = 0.4;
-  const lightness = 0.9;
+  const saturation = 0.7;
+  const lightness = 0.92;
   const rgb = hslToRgb(hue, saturation, lightness);
   return 'rgb(' + rgb[0] + ',' + rgb[1] + ',' + rgb[2] + ')';
 }

@@ -172,7 +172,7 @@ class Project extends React.Component {
     const useTarget = !!this.props.project.deployTargetInterval;
     const depTargetInt = this.props.project.deployTargetInterval || 1;
     const staleness = projectStaleness(new Date(commits[0].date), depTargetInt);
-    const bgColor = useTarget ? numberToColorHsl(staleness) : "#e6e6e6";
+    const bgColor = useTarget ? numberToColorHsl(staleness) : "#ececec";
 
     if (!commits) { return <div />; }
 
