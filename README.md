@@ -26,6 +26,20 @@ Currently supports 2 formats. `tag` being set, and `tag` being unset:
 }
 ```
 
+You can also add the `deployTargetInterval` key to say how often you desire to deploy this project. The project's card will then slowly fade from green to red if you don't deploy as often as you want, to let you know you have a stale release!
+
+```
+{
+  "repos": [
+    { "repo": "owner/repo", "deployTargetInterval": 1 },
+    { "repo": "owner/repo", "deployTargetInterval": 0.5 },
+    { "repo": "owner/repo", "deployTargetInterval": 3 }
+  ]
+}
+```
+
+The unit is 'once every X days', so the first repo in the list wants to be deployed once a day. The second wants to be deployed twice a day (every `0.5` days), and the third wants to be deployed once every 3 days.
+
 ## Dev
 
 Run the server

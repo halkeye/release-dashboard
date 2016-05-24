@@ -99,9 +99,15 @@ const compareSha = memoize(function (project, sha1, sha2) {
     .then(json => { return json.commits.map(commit => processCommit(commit)) });
 });
 
-function projectStaleness(lastUpDate) {
+function projectStaleness(lastUpDate, target = 1) {
   let daysAgo = (Date.now() - lastUpDate) / 1000 / 60 / 24;
-  return 1 / ((0.75 * Math.sqrt(daysAgo)) + 1);
+  // magic coefficient that shapes the staleness curve
+  // experimentally determined!!!
+  let stalenessCoeff = 1 / (2.4 * Math.pow(target, 0.7));
+  // generate a 1/(sqrt(x)+1)-type curve with some fiddly awesomeness
+  let staleness = (Math.pow((stalenessCoeff * daysAgo) + 1, -1)) /
+                  ((stalenessCoeff * Math.sqrt(daysAgo)) + 1);
+  return staleness;
 }
 
 class App extends React.Component {
@@ -161,7 +167,10 @@ class Project extends React.Component {
   render() {
     const commits = this.props.commits;
     const project = this.props.project;
-    const staleness = projectStaleness(new Date(commits[0].date));
+    // if the config has a deployIntervalTarget, retrieve; default is deploying
+    // once per day
+    const depIntTarget = this.props.project.deployIntervalTarget || 1;
+    const staleness = projectStaleness(new Date(commits[0].date), depIntTarget);
 
     if (!commits) { return <div />; }
 
