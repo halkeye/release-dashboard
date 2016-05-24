@@ -25,3 +25,18 @@ Currently supports 2 formats. `tag` being set, and `tag` being unset:
   ]
 }
 ```
+
+## Dev
+
+Run the server
+
+```
+# get deps
+npm install
+
+# run this in one terminal to watch for changes and recompile
+$(npm bin)/webpack -d -w
+
+# start the server in another terminal. Make sure to have your config exported!
+npm start
+```
