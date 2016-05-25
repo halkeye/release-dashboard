@@ -1,4 +1,5 @@
 $white: #ffffff;
+$faint_grey: #f1f1f1;
 
 body {
   font-family: Roboto, sans-serif;
@@ -12,7 +13,7 @@ body {
 }
 
 .card {
-  background-color: $white;
+  background-color: $faint_grey;
   width: 35em;
   margin: 1.0em;
   flex: none;
