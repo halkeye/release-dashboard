@@ -10,6 +10,7 @@ import SmartTimeAgo from 'react-smart-time-ago';
 
 import {memoize} from 'lodash';
 
+import { numberToColorHsl } from './color';
 import './app.scss';
 
 window.WebFontConfig = {
@@ -98,6 +99,17 @@ const compareSha = memoize(function (project, sha1, sha2) {
     .then(json => { return json.commits.map(commit => processCommit(commit)) });
 });
 
+function projectStaleness(lastUpDate, target = 1) {
+  let daysAgo = (Date.now() - lastUpDate.getTime()) / 1000 / 60 / 60 / 24;
+  // magic coefficient that shapes the staleness curve
+  // experimentally determined!!!
+  let stalenessCoeff = 1 / (2.4 * Math.pow(target, 0.7));
+  // generate a 1/(sqrt(x)+1)-type curve with some fiddly awesomeness
+  let staleness = (Math.pow((stalenessCoeff * daysAgo) + 1, -1)) /
+                  ((stalenessCoeff * Math.sqrt(daysAgo)) + 1);
+  return staleness;
+}
+
 class App extends React.Component {
 
   constructor() {
@@ -155,11 +167,17 @@ class Project extends React.Component {
   render() {
     const commits = this.props.commits;
     const project = this.props.project;
+    // if the config has a deployIntervalTarget, retrieve; default is deploying
+    // once per day
+    const useTarget = !!this.props.project.deployTargetInterval;
+    const depTargetInt = this.props.project.deployTargetInterval || 1;
+    const staleness = projectStaleness(new Date(commits[0].date), depTargetInt);
+    const bgColor = useTarget ? numberToColorHsl(staleness) : "#ececec";
 
     if (!commits) { return <div />; }
 
     return (
-      <div className="card">
+      <div className="card" style={{backgroundColor: bgColor}}>
         <div className="header">
           <div className="info">
             <div className="repo">{project.repo.split('/')[1]}</div>
