@@ -39,7 +39,7 @@ if ((process.env.NODE_ENV || 'development') === 'development') {
 }
 
 app.get('/', function (req, res) {
-  const token = req.cookies['gh-token'];
+  const token = req.cookies['gh-token'] || process.env.GITHUB_TOKEN;
   if (!token) { return res.redirect('/connect/github'); }
   res.render('index.html.ejs', {
     token: token,

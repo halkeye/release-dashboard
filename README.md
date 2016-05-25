@@ -10,6 +10,7 @@ Setup a bunch of env variables. Use `heroku config:set` on heroku, or simple exp
 * `GITHUB_KEY`/`GITHUB_SECRET` - Github application client key and secret (https://github.com/settings/developers)
 * `EXPRESS_SECRET_TOKEN` - Session "random" key
 * `CONFIG_REPO` - Repo to use with configuration, EX. 'saucelabs/release-dashboard-config' must have a config.json in the root directory
+* `GITHUB_TOKEN` - *(optional)* If set to any truethy value, will skip the oauth process and use that token instead
 
 ## config.json
 
