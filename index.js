@@ -28,6 +28,15 @@ app.use(session({secret: process.env.EXPRESS_SECRET_TOKEN || 'secret-token'}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(grant);
+if ((process.env.NODE_ENV || 'development') === 'development') {
+  const config = require('./webpack.config.js');
+  const compiler = require('webpack')(config);
+  const webpackDevMiddleware = require('webpack-dev-middleware');
+  app.use(webpackDevMiddleware(compiler, {
+    publicPath: config.output.publicPath,
+    stats: { colors: true }
+  }));
+}
 
 app.get('/', function (req, res) {
   const token = req.cookies['gh-token'];
