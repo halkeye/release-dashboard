@@ -151,7 +151,7 @@ class Commit extends React.Component {
   render() {
     return (
       <div className="commit">
-        <span className="message">{this.props.commit.message}</span>
+        <span className="message" title={this.props.commit.message}>{this.props.commit.message}</span>
         <span className="author">{this.props.commit.author.name}</span>
         <span className="sha">[{this.props.commit.sha.slice(0,6)}]</span>
       </div>
