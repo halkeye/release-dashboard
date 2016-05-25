@@ -49,8 +49,8 @@ const getConfig = memoize(function () {
           project.tags = tags;
           project.commits = [];
           if (tags.length > 1) {
-            return compareSha(project, tags[1], tags[0])
-              .then(commits => project.commits = commits);
+            return compareSha(project, tags[0], tags[1])
+              .then(commits => project.commits = commits.reverse());
           } else {
             return getCommit(project, tags[0])
               .then(commit => project.commits = [commit]);
@@ -94,7 +94,7 @@ const processCommit = function (commit) {
 }
 
 const compareSha = memoize(function (project, sha1, sha2) {
-  return fetch(`https://api.github.com/repos/${project.repo}/compare/${sha1}...${sha2}`, fetchOptions)
+  return fetch(`https://api.github.com/repos/${project.repo}/compare/${sha2}...${sha1}`, fetchOptions)
     .then(response => response.json())
     .then(json => { return json.commits.map(commit => processCommit(commit)) });
 });
