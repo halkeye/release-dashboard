@@ -43,21 +43,25 @@ const getConfig = memoize(function () {
     .then(response => response.json())
     .then(blob =>  JSON.parse(window.atob(blob.content.replace(/\s/g, ''))))
     .then(projects => {
-      projects = projects.repos;
-      return Promise.all(projects.map((project) => {
-        return tagsForProject(project).then(tags => {
-          project.tags = tags;
-          project.commits = [];
-          if (tags.length > 1) {
-            return compareSha(project, tags[0], tags[1])
-              .then(commits => project.commits = commits.reverse());
-          } else {
-            return getCommit(project, tags[0])
-              .then(commit => project.commits = [commit]);
-          }
-        });
-      })).then(function() { return projects });
+      return projects.repos.map(project => {
+        project.tags = [];
+        return project;
+      });
     });
+});
+
+const getCommits = memoize(function (project) {
+  return tagsForProject(project).then(tags => {
+    project.tags = tags;
+    project.commits = [];
+    if (tags.length > 1) {
+      return compareSha(project, tags[0], tags[1])
+      .then(commits => project.commits = commits.reverse());
+    } else {
+      return getCommit(project, tags[0])
+      .then(commit => project.commits = [commit]);
+    }
+  });
 });
 
 const tagsForProject = memoize(function (project) {
@@ -119,7 +123,19 @@ class App extends React.Component {
 
   componentDidMount() {
     getConfig()
-      .then(config => this.setState({ projects: config }))
+      .then(projects => {
+        this.setState({ projects: projects });
+        return projects;
+      })
+      .then(projects => {
+        projects.forEach((project) => {
+          getCommits(project).then(commits => {
+            let _commits = this.state.commits || {};
+            _commits[project.repo] = commits;
+            this.setState({ commits: _commits });
+          });
+        });
+      });
       /*
       .catch(error => {
         console.error(error); // eslint-disable-line
@@ -129,7 +145,9 @@ class App extends React.Component {
   }
 
   render() {
-    if (this.state.projects) { return <Projects projects={this.state.projects} />; }
+    if (this.state.projects) { 
+      return <Projects projects={this.state.projects} commits={this.state.commits} />; 
+    }
     return (
       <div>
         <br />
@@ -148,12 +166,35 @@ class Commit extends React.Component {
   static propTypes = {
     commit: React.PropTypes.object.isRequired
   };
-  render() {
-    return (
+  render() { return (
       <div className="commit">
         <span className="message" title={this.props.commit.message}>{this.props.commit.message}</span>
         <span className="author">{this.props.commit.author.name}</span>
         <span className="sha">[{this.props.commit.sha.slice(0,6)}]</span>
+      </div>
+    );
+  }
+}
+
+
+class LastCommitHeader extends React.Component {
+  static propTypes = { 
+    project: React.PropTypes.object,
+    commits: React.PropTypes.array 
+  };
+  render() {
+    const repoName = this.props.project.repo.split('/')[1];
+    if (!this.props.commits) {
+      return <div className="repo">{repoName}</div>
+    }
+    const commits = this.props.commits;
+    return (
+      <div>
+        <UserAvatar size='60' name={commits[0].author.name} src={commits[0].author.avatar_url} className="avatar" />
+        <div className="repo">{repoName}</div>
+        <span className="ago"><SmartTimeAgo value={new Date(commits[0].date)} /></span>
+        <span> by </span>
+        <span className="author">{commits[0].author.name}</span>
       </div>
     );
   }
@@ -165,15 +206,15 @@ class Project extends React.Component {
     commits: React.PropTypes.array
   };
   render() {
-    if (!this.props.commits) { return <div />; }
-
-    const commits = this.props.commits;
     const project = this.props.project;
-    // if the config has a deployIntervalTarget, retrieve; default is deploying
-    // once per day
     const useTarget = !!this.props.project.deployTargetInterval;
     const cardStyle = {};
-    if (useTarget) {
+
+    const commits = this.props.commits;
+
+    // if the config has a deployIntervalTarget, retrieve; default is deploying
+    // once per day
+    if (commits && useTarget) {
       const depTargetInt = this.props.project.deployTargetInterval || 1;
       const staleness = projectStaleness(new Date(commits[0].date), depTargetInt);
       cardStyle.backgroundColor = numberToColorHsl(staleness);
@@ -183,16 +224,13 @@ class Project extends React.Component {
       <div className="card" style={cardStyle}>
         <div className="header">
           <div className="info">
-            <div className="repo">{project.repo.split('/')[1]}</div>
-            <span className="ago"><SmartTimeAgo value={new Date(commits[0].date)} /></span>
-            <span> by </span>
-            <span className="author">{commits[0].author.name}</span>
+            <LastCommitHeader commits={commits} project={project} />
           </div>
-          <UserAvatar size='60' name={commits[0].author.name} src={commits[0].author.avatar_url} className="avatar" />
         </div>
         <div className="body">
           <h2>{project.tags.slice(0,2).reverse().join('...')}</h2>
-          {commits.map((commit) => <Commit key={commit.sha} commit={commit} />)}
+          { commits && commits.map((commit) => <Commit key={commit.sha} commit={commit} />) }
+          { !commits && <Progress type={'circle'} color={'black'} /> }
         </div>
       </div>
     );
@@ -202,20 +240,21 @@ class Project extends React.Component {
 
 class Projects extends React.Component {
   static propTypes = {
-    projects: React.PropTypes.array.isRequired
+    projects: React.PropTypes.array.isRequired,
+    commits: React.PropTypes.object
   };
 
   render() {
+    const commits = this.props.commits || {};
     return (
       <div>
         <GithubCorner href="https://github.com/halkeye/release-dashboard" />
         <div className="projectsContainer">{
           this.props.projects.map(project => {
-            if (!project.commits || !project.commits.length) { return <div />; }
             return <Project
               key={project.repo}
               project={project}
-              commits={project.commits}
+              commits={commits[project.repo]}
             />;
           })
         }</div>
