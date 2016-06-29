@@ -24,6 +24,8 @@
     "express": "^4.13.4",
     "express-session": "^1.13.0",
     "grant-express": "^3.6.1",
+    "javascript-natural-sort": "^0.7.1",
+    "md5": "^2.1.0",
     "morgan": "^1.7.0",
     "react-smart-time-ago": "^1.0.5",
     "react-user-avatar": "^1.8.0",
