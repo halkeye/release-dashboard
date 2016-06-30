@@ -8,7 +8,8 @@ import Progress from 'essence-progress';
 import UserAvatar from 'react-user-avatar';
 import SmartTimeAgo from 'react-smart-time-ago';
 
-import {memoize} from 'lodash';
+import naturalSort from 'javascript-natural-sort';
+import md5 from 'md5';
 
 import { numberToColorHsl } from './color';
 import './app.scss';
@@ -33,51 +34,73 @@ const fetchOptions = {
   }
 };
 
-//const Progress = () => { return <div></div>; }
+const alphaSortTags = (a, b) => naturalSort(a.name, b.name);
 
-const getConfig = memoize(function () {
+const getConfig = function () {
   return fetch('https://api.github.com/repos/' + Config.config_repo + '/git/trees/master', fetchOptions)
     .then(response => response.json())
     .then(data => data.tree.find(x => x.path === 'config.json').url)
     .then(url => fetch(url, fetchOptions))
     .then(response => response.json())
     .then(blob =>  JSON.parse(window.atob(blob.content.replace(/\s/g, ''))))
-    .then(projects => {
-      return projects.repos.map(project => {
-        project.tags = [];
-        return project;
-      });
-    });
-});
+};
 
-const getCommits = memoize(function (project) {
+const getCommits = function (project) {
   return tagsForProject(project).then(tags => {
     project.tags = tags;
     project.commits = [];
     if (tags.length > 1) {
-      return compareSha(project, tags[0], tags[1])
+      return compareSha(project, tags[0].name, tags[1].name)
       .then(commits => project.commits = commits.reverse());
     } else {
       return getCommit(project, tags[0])
       .then(commit => project.commits = [commit]);
     }
   });
-});
+};
 
-const tagsForProject = memoize(function (project) {
-  if (project.tag) { return Promise.resolve([project.tag]); }
-  return fetch('https://api.github.com/repos/' + project.repo + '/tags', fetchOptions)
+
+const getTagInfo = function(project, tag) {
+  return fetch(tag.commitUrl, fetchOptions)
     .then(response => response.json())
-    .then(tags => tags.map(tag => tag.name));
-});
+    .then(info => {
+      tag.tagger = info.tagger || info.committer;
+      return tag;
+    });
+};
 
-const getCommit = memoize(function (project, sha) {
+const tagsForProject = function (project) {
+  if (project.annotatedTagFormat) {
+    const re = new RegExp(project.annotatedTagFormat);
+    return fetch('https://api.github.com/repos/' + project.repo + '/git/refs/tags', fetchOptions)
+        .then(response => response.json())
+        //.then(tags => tags.filter(tag => tag.object.type.includes('tag'))) // annotated only
+        .then(tags => tags.filter(tag => re.test(tag.ref.substr('refs/tags/'.length))))
+        .then(tags => tags.map(tag => { return {
+          name: tag.ref.substr('refs/tags/'.length),
+          commitUrl: tag.object.url
+        }; }))
+        .then(tags => tags.sort(alphaSortTags))
+        .then(tags => tags.slice(-2).reverse())
+        .then(tags => Promise.all(tags.map((tag) => getTagInfo(project,tag))))
+  }
+  else if (project.tag) {
+    return Promise.resolve([{
+      name: project.tag
+    }]);
+  }
+};
+
+const getCommit = function (project, sha) {
   return fetch('https://api.github.com/repos/' + project.repo + '/commits?sha=' + sha, fetchOptions)
     .then(response => response.json())
     .then(commits => { return processCommit(commits[0]); });
-});
+};
 
 const processCommit = function (commit) {
+  commit.author = commit.author || {};
+  commit.committer = commit.committer || {};
+
   return {
     message: commit.commit.message.replace(/Merge pull request #\d+ from \w+\/[^ ]+/, ''),
     sha: commit.sha,
@@ -97,11 +120,11 @@ const processCommit = function (commit) {
   };
 }
 
-const compareSha = memoize(function (project, sha1, sha2) {
+const compareSha = function (project, sha1, sha2) {
   return fetch(`https://api.github.com/repos/${project.repo}/compare/${sha2}...${sha1}`, fetchOptions)
     .then(response => response.json())
     .then(json => { return json.commits.map(commit => processCommit(commit)) });
-});
+};
 
 function projectStaleness(lastUpDate, target = 1) {
   let daysAgo = (Date.now() - lastUpDate.getTime()) / 1000 / 60 / 60 / 24;
@@ -123,6 +146,12 @@ class App extends React.Component {
 
   componentDidMount() {
     getConfig()
+      .then(projects => {
+        return projects.repos.map(project => {
+          project.tags = [];
+          return project;
+        });
+      })
       .then(projects => {
         this.setState({ projects: projects });
         return projects;
@@ -166,7 +195,8 @@ class Commit extends React.Component {
   static propTypes = {
     commit: React.PropTypes.object.isRequired
   };
-  render() { return (
+  render() {
+    return (
       <div className="commit">
         <span className="message" title={this.props.commit.message}>{this.props.commit.message}</span>
         <span className="author">{this.props.commit.author.name}</span>
@@ -177,24 +207,26 @@ class Commit extends React.Component {
 }
 
 
-class LastCommitHeader extends React.Component {
+class TagHeader extends React.Component {
   static propTypes = { 
     project: React.PropTypes.object,
-    commits: React.PropTypes.array 
+    tag: React.PropTypes.object 
   };
   render() {
     const repoName = this.props.project.repo.split('/')[1];
-    if (!this.props.commits) {
+    if (!this.props.tag) {
       return <div className="repo">{repoName}</div>
     }
-    const commits = this.props.commits;
+    const tag = this.props.tag;
+    const avatarUrl = `http://www.gravatar.com/avatar/${md5(tag.tagger.email)}`;
+    console.log(tag.tagger);
     return (
       <div>
-        <UserAvatar size='60' name={commits[0].author.name} src={commits[0].author.avatar_url} className="avatar" />
+        <UserAvatar size='60' name={tag.tagger.name} src={avatarUrl} className="avatar" />
         <div className="repo">{repoName}</div>
-        <span className="ago"><SmartTimeAgo value={new Date(commits[0].date)} /></span>
+        <span className="ago"><SmartTimeAgo value={new Date(tag.tagger.date)} /></span>
         <span> by </span>
-        <span className="author">{commits[0].author.name}</span>
+        <span className="author">{tag.tagger.name}</span>
       </div>
     );
   }
@@ -216,7 +248,7 @@ class Project extends React.Component {
     // once per day
     if (commits && useTarget) {
       const depTargetInt = this.props.project.deployTargetInterval || 1;
-      const staleness = projectStaleness(new Date(commits[0].date), depTargetInt);
+      const staleness = projectStaleness(new Date(project.tags[0].tagger.date), depTargetInt);
       cardStyle.backgroundColor = numberToColorHsl(staleness);
     }
 
@@ -224,11 +256,11 @@ class Project extends React.Component {
       <div className="card" style={cardStyle}>
         <div className="header">
           <div className="info">
-            <LastCommitHeader commits={commits} project={project} />
+            <TagHeader tag={project.tags[0]} project={project} />
           </div>
         </div>
         <div className="body">
-          <h2>{project.tags.slice(0,2).reverse().join('...')}</h2>
+          <h2>{project.tags.slice(0,2).reverse().map(tag=>tag.name).join('...')}</h2>
           { commits && commits.map((commit) => <Commit key={commit.sha} commit={commit} />) }
           { !commits && <Progress type={'circle'} color={'black'} /> }
         </div>
