@@ -7,8 +7,8 @@ import { numberToColorHsl } from '../color';
 import Progress from 'essence-progress';
 
 /* Internal Components */
-import TagHeader from './TagHeader.jsx';
-import Commit from './Commit.jsx';
+import TagHeader from './TagHeader.js';
+import Commit from './Commit.js';
 
 function projectStaleness(lastUpDate, target = 1) {
   let daysAgo = (Date.now() - lastUpDate.getTime()) / 1000 / 60 / 60 / 24;

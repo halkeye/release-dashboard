@@ -1,7 +1,7 @@
 import React from 'react';
 
 import GithubCorner from 'react-github-corner';
-import Project from './Project.jsx';
+import Project from './Project.js';
 
 
 export default class Projects extends React.Component {

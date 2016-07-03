@@ -6,7 +6,7 @@ import naturalSort from 'javascript-natural-sort';
 import '../scss/app.scss';
 
 import Progress from 'essence-progress';
-import Projects from './components/Projects.jsx';
+import Projects from './components/Projects.js';
 
 window.WebFontConfig = {
   google: { families: [ 'Roboto:400,700:latin', 'Roboto+Mono:400,700:latin' ] }
