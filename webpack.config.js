@@ -1,7 +1,8 @@
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './public/js/app.js',
+  devtool: 'cheap-source-map',
+  entry: './src/js/app.js',
   output: {
     path: __dirname + '/public',
     publicPath: '/',
@@ -44,7 +45,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      NODE_ENV: process.env.NODE_ENV || 'development',
+      NODE_ENV: process.env.NODE_ENV || 'development'
     }),
     //new webpack.ContextReplacementPlugin(/moment[\\\/]lang$/, /^\.\/(en)$/),
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),

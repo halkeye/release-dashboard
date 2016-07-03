@@ -2,21 +2,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import GithubCorner from 'react-github-corner';
+import naturalSort from 'javascript-natural-sort';
+import '../scss/app.scss';
 
 import Progress from 'essence-progress';
-import UserAvatar from 'react-user-avatar';
-import SmartTimeAgo from 'react-smart-time-ago';
-
-import naturalSort from 'javascript-natural-sort';
-import md5 from 'md5';
-
-import { numberToColorHsl } from './color';
-import './app.scss';
+import Projects from './components/Projects.jsx';
 
 window.WebFontConfig = {
   google: { families: [ 'Roboto:400,700:latin', 'Roboto+Mono:400,700:latin' ] }
 };
+
 (function() {
   var wf = document.createElement('script');
   wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
@@ -126,17 +121,6 @@ const compareSha = function (project, sha1, sha2) {
     .then(json => { return json.commits.map(commit => processCommit(commit)) });
 };
 
-function projectStaleness(lastUpDate, target = 1) {
-  let daysAgo = (Date.now() - lastUpDate.getTime()) / 1000 / 60 / 60 / 24;
-  // magic coefficient that shapes the staleness curve
-  // experimentally determined!!!
-  let stalenessCoeff = 1 / (2.4 * Math.pow(target, 0.7));
-  // generate a 1/(sqrt(x)+1)-type curve with some fiddly awesomeness
-  let staleness = (Math.pow((stalenessCoeff * daysAgo) + 1, -1)) /
-                  ((stalenessCoeff * Math.sqrt(daysAgo)) + 1);
-  return staleness;
-}
-
 class App extends React.Component {
 
   constructor() {
@@ -165,17 +149,13 @@ class App extends React.Component {
           });
         });
       });
-      /*
-      .catch(error => {
-        console.error(error); // eslint-disable-line
-        this.setState({ error: 'error fetching config:' + error })
-      });
-      */
   }
 
   render() {
-    if (this.state.projects) { 
-      return <Projects projects={this.state.projects} commits={this.state.commits} />; 
+    if (this.state.projects) {
+      return <Projects
+        projects={this.state.projects || []} commits={this.state.commits || {}}
+      />;
     }
     return (
       <div>
@@ -191,109 +171,6 @@ class App extends React.Component {
 
 }
 
-class Commit extends React.Component {
-  static propTypes = {
-    commit: React.PropTypes.object.isRequired
-  };
-  render() {
-    return (
-      <div className="commit">
-        <span className="message" title={this.props.commit.message}>{this.props.commit.message}</span>
-        <span className="author">{this.props.commit.author.name}</span>
-        <span className="sha">[{this.props.commit.sha.slice(0,6)}]</span>
-      </div>
-    );
-  }
-}
-
-
-class TagHeader extends React.Component {
-  static propTypes = { 
-    project: React.PropTypes.object,
-    tag: React.PropTypes.object 
-  };
-  render() {
-    const repoName = this.props.project.repo.split('/')[1];
-    if (!this.props.tag) {
-      return <div className="repo">{repoName}</div>
-    }
-    const tag = this.props.tag;
-    const avatarUrl = `http://www.gravatar.com/avatar/${md5(tag.tagger.email)}`;
-    console.log(tag.tagger);
-    return (
-      <div>
-        <UserAvatar size='60' name={tag.tagger.name} src={avatarUrl} className="avatar" />
-        <div className="repo">{repoName}</div>
-        <span className="ago"><SmartTimeAgo value={new Date(tag.tagger.date)} /></span>
-        <span> by </span>
-        <span className="author">{tag.tagger.name}</span>
-      </div>
-    );
-  }
-}
-
-class Project extends React.Component {
-  static propTypes = {
-    project: React.PropTypes.object.isRequired,
-    commits: React.PropTypes.array
-  };
-  render() {
-    const project = this.props.project;
-    const useTarget = !!this.props.project.deployTargetInterval;
-    const cardStyle = {};
-
-    const commits = this.props.commits;
-
-    // if the config has a deployIntervalTarget, retrieve; default is deploying
-    // once per day
-    if (commits && useTarget) {
-      const depTargetInt = this.props.project.deployTargetInterval || 1;
-      const staleness = projectStaleness(new Date(project.tags[0].tagger.date), depTargetInt);
-      cardStyle.backgroundColor = numberToColorHsl(staleness);
-    }
-
-    return (
-      <div className="card" style={cardStyle}>
-        <div className="header">
-          <div className="info">
-            <TagHeader tag={project.tags[0]} project={project} />
-          </div>
-        </div>
-        <div className="body">
-          <h2>{project.tags.slice(0,2).reverse().map(tag=>tag.name).join('...')}</h2>
-          { commits && commits.map((commit) => <Commit key={commit.sha} commit={commit} />) }
-          { !commits && <Progress type={'circle'} color={'black'} /> }
-        </div>
-      </div>
-    );
-  }
-}
-
-
-class Projects extends React.Component {
-  static propTypes = {
-    projects: React.PropTypes.array.isRequired,
-    commits: React.PropTypes.object
-  };
-
-  render() {
-    const commits = this.props.commits || {};
-    return (
-      <div>
-        <GithubCorner href="https://github.com/halkeye/release-dashboard" />
-        <div className="projectsContainer">{
-          this.props.projects.map(project => {
-            return <Project
-              key={project.repo}
-              project={project}
-              commits={commits[project.repo]}
-            />;
-          })
-        }</div>
-      </div>
-    );
-  }
-}
 
 ReactDOM.render(
   <App />,
