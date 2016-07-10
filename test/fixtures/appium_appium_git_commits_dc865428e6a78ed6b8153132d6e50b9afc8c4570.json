@@ -1,0 +1,32 @@
+{
+  "sha": "dc865428e6a78ed6b8153132d6e50b9afc8c4570",
+  "url": "https://api.github.com/repos/appium/appium/git/commits/dc865428e6a78ed6b8153132d6e50b9afc8c4570",
+  "html_url": "https://github.com/appium/appium/commit/dc865428e6a78ed6b8153132d6e50b9afc8c4570",
+  "author": {
+    "name": "Isaac A. Murchie",
+    "email": "murchieisaac@gmail.com",
+    "date": "2016-03-29T18:49:04Z"
+  },
+  "committer": {
+    "name": "Isaac A. Murchie",
+    "email": "murchieisaac@gmail.com",
+    "date": "2016-03-29T18:49:04Z"
+  },
+  "tree": {
+    "sha": "291b77620912af26ac018ce79e3cd70802c0fd92",
+    "url": "https://api.github.com/repos/appium/appium/git/trees/291b77620912af26ac018ce79e3cd70802c0fd92"
+  },
+  "message": "Merge pull request #6344 from appium/isaac-changelog\n\nChangelog for 1.5.1",
+  "parents": [
+    {
+      "sha": "43d387d2c45a9611a34454ddb52471b86258f576",
+      "url": "https://api.github.com/repos/appium/appium/git/commits/43d387d2c45a9611a34454ddb52471b86258f576",
+      "html_url": "https://github.com/appium/appium/commit/43d387d2c45a9611a34454ddb52471b86258f576"
+    },
+    {
+      "sha": "96ec96f69109b18931fea5197bd4b437dba35638",
+      "url": "https://api.github.com/repos/appium/appium/git/commits/96ec96f69109b18931fea5197bd4b437dba35638",
+      "html_url": "https://github.com/appium/appium/commit/96ec96f69109b18931fea5197bd4b437dba35638"
+    }
+  ]
+}

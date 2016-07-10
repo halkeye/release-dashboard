@@ -1,0 +1,501 @@
+{
+  "commits": [
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-04-20T16:28:35Z",
+      "message": "Add changelog and bump to 1.5.2",
+      "sha": "8102f84ea8701f7a15d37bc0d3d6cc27535d7327"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-04-15T17:16:54Z",
+      "message": "Update deps and bump version",
+      "sha": "4b4856111d2a74437400016812d0ca3764f57137"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-04-15T15:33:27Z",
+      "message": "Update docs for windows install",
+      "sha": "3b6815f8475634aeacc4f489dd9a2858df784704"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-04-06T19:59:26Z",
+      "message": "Deprecate --command-timeout server arg",
+      "sha": "0b7efd1f8cde22c2e15a294f9b02a616979a2329"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-25T18:16:07Z",
+      "message": "Final tweaks for 1.5.1",
+      "sha": "8150b4f3a64a9eb74d447552d3384aa192407eeb"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "murchieisaac@gmail.com",
+        "login": "imurchie",
+        "name": "Isaac A. Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "murchieisaac@gmail.com",
+        "login": "imurchie",
+        "name": "Isaac A. Murchie"
+      },
+      "date": "2016-03-23T21:23:50Z",
+      "message": " 1.5.1",
+      "sha": "691c2f66c00524f7f22453e5f20bb126f5bba268"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-23T20:50:38Z",
+      "message": "Upgrade to v1.5.1",
+      "sha": "b590d9b9d566f76188b2d9f5a8dae23464a05ceb"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-23T14:51:01Z",
+      "message": "Add continuation-local-support to deps",
+      "sha": "0da1891ac96de906630e5d4de5b4ea71893a3990"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "email": "srinivasan.sekar1990@gmail.com",
+        "login": "SrinivasanTarget",
+        "name": "Srinivasan Sekar"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-20T15:08:05Z",
+      "message": "Doc tweaks\n\nUpdated path for npm versions\n\nUpdated path for npm versions\n\nUpdated path for npm versions",
+      "sha": "2cadaa284e3d036dc8096c0607c8b3047dce3197"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-22T17:06:39Z",
+      "message": "Add tests for logging levels",
+      "sha": "c78847855b80d074824a71362b487cbe2e1e84e1"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/5848935?v=3",
+        "email": "akhil.lb1@gmail.com",
+        "login": "akhillb",
+        "name": "Akhil Lb"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-22T11:16:58Z",
+      "message": "Renaming forgotten pairs to toPairs in lib/main.js\n\nRenaming forgotten pairs to toPairs\n\nRemoving unneccessary console.log in logDefaultCapabilitiesWarning",
+      "sha": "4970643d96a4bbf75084500e339dc6fa3cd2af75"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-21T21:55:27Z",
+      "message": "Reverse log levels",
+      "sha": "e05f93eb28f7bbc6f56c3b35b20203fbeaa69310"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "email": "srinivasan.sekar1990@gmail.com",
+        "login": "SrinivasanTarget",
+        "name": "Srinivasan Sekar"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-16T23:56:11Z",
+      "message": "Winston updates for better logging\n\nCI Comment fixes\n\nUpdated name\n\ndependency update",
+      "sha": "66184e132d3722077ba5a84c2d19382735e77c7c"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "email": "srinivasan.sekar1990@gmail.com",
+        "login": "SrinivasanTarget",
+        "name": "Srinivasan Sekar"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-17T01:23:05Z",
+      "message": "Lo-dash library update to improve js performance\n\nRemoved migration library\n\nRemoved migration library\n\nupdated request-promise to support to lo-dash 4.0\n\nReverted request promise update till we upgrade bluebird\n\nDont fix caps (will be done in inner drivers)\n\nreverted other lib updates\n\nRemoved helpers as it is moved to base driver\n\nUpdate dependencies and fix node version\n\nResolved merge conflicts\n\nUpdated lodash after merge conflicts",
+      "sha": "02b4abe4650a9d42d490cfb5a78b1613b4a810b3"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-18T16:44:26Z",
+      "message": "Update dependencies and fix node version",
+      "sha": "4034d16d2dee7fc4cdc18df9c6b102720e96cd75"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-16T21:07:12Z",
+      "message": "Dont fix caps (will be done in inner drivers)",
+      "sha": "19cb2d6f99061e4bc4dd8372e7abadfc78a0078c"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/4726068?v=3",
+        "email": "scott@howrefreshing.com.au",
+        "login": "scottdixon",
+        "name": "Scott Dixon"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-15T21:57:06Z",
+      "message": "Clarify moveTo relative coordinates",
+      "sha": "001327b8948611bf3910692c878455c1a3e6f3f1"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-15T15:50:46Z",
+      "message": "Fix string handling in grid register",
+      "sha": "51bfe25c51fe1e149ecf6d1269d1dcf8f9b2eaee"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/4670642?v=3",
+        "email": "lucyking@users.noreply.github.com",
+        "login": "lucyking",
+        "name": "lucyking"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-15T06:27:20Z",
+      "message": "Update grid-register.js\n\nIf register fail, print the failure details friendly to we newbee.",
+      "sha": "d7027c09ea76b772c3bb4642f79259f6cf9ba118"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "email": "srinivasan.sekar1990@gmail.com",
+        "login": "SrinivasanTarget",
+        "name": "Srinivasan Sekar"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-08T19:00:39Z",
+      "message": "Doc Tweaks",
+      "sha": "ed98432390b268951b1c49bb32023dddf5519031"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "email": "srinivasan.sekar1990@gmail.com",
+        "login": "SrinivasanTarget",
+        "name": "Srinivasan Sekar"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-08T11:07:37Z",
+      "message": "Doc tweaks\n\nUpdated links\n\nUpdated links",
+      "sha": "0d9b4a812a6b322720c847e9fa376ef729233218"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/4726068?v=3",
+        "email": "scott@howrefreshing.com.au",
+        "login": "scottdixon",
+        "name": "Scott Dixon"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-07T19:46:39Z",
+      "message": "Docs: updated scrollTo examples",
+      "sha": "aa8d0e70aa98674d4f8e975ed3b1d1b5bbdcab2e"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/4726068?v=3",
+        "email": "scott@howrefreshing.com.au",
+        "login": "scottdixon",
+        "name": "Scott Dixon"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-07T19:46:08Z",
+      "message": "CHANGELOG: metioned removal of  gestures in 1.5",
+      "sha": "dc4901a87afa2783a26acd4066097005e2347e98"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/308490?v=3",
+        "email": "vikram.ingleshwar@yahoo.com",
+        "login": "vikramvi",
+        "name": "vikramvi"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-03T18:07:20Z",
+      "message": "updated issue template asking users to give optional source code as well.",
+      "sha": "8313c6026bfe40343608f974e4b41e0547c9b256"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-03T00:04:19Z",
+      "message": "Fix python swipe docs",
+      "sha": "547d3083822a777f0074c4fd128f1c103767ecf8"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "murchieisaac@gmail.com",
+        "login": "imurchie",
+        "name": "Isaac A. Murchie"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-03-02T16:56:30Z",
+      "message": "Update iwd_xcode7.md\n\nDash instead of underscore.",
+      "sha": "3e931207b71df92bffc4099a7bdf3a81596d76f2"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "email": "srinivasan.sekar1990@gmail.com",
+        "login": "SrinivasanTarget",
+        "email": "srinivasan.sekar1990@gmail.com",
+        "login": "SrinivasanTarget",
+        "name": "Srinivasan Sekar"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-02-27T01:31:29Z",
+      "message": "Updated docs for authorize-ios",
+      "sha": "563670ecdea33b49e0dc2bb37e644d918a85055e"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "email": "srinivasan.sekar1990@gmail.com",
+        "login": "SrinivasanTarget",
+        "name": "Srinivasan Sekar"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-02-27T00:13:13Z",
+      "message": "Removed .gitmodules",
+      "sha": "bf0458ba9ba04df4f28f7445fd3346a4dccf1640"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "email": "srinivasan.sekar1990@gmail.com",
+        "login": "SrinivasanTarget",
+        "name": "Srinivasan Sekar"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "email": "isaac@saucelabs.com",
+        "login": "imurchie",
+        "name": "Isaac Murchie"
+      },
+      "date": "2016-02-26T23:46:47Z",
+      "message": "CI Improvements",
+      "sha": "74fa4504f82f5f5b56ca2ee7497875f465f7ef42"
+    }
+  ],
+  "project": "appium/appium",
+  "type": "RECEIVED_COMMIT"
+}

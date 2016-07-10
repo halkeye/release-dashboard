@@ -1,0 +1,16 @@
+{
+  "sha": "3d717dd59ef142680b6ff93dc87c35a32ce444a8",
+  "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/3d717dd59ef142680b6ff93dc87c35a32ce444a8",
+  "tagger": {
+    "name": "Gavin Mogan",
+    "email": "gavin@saucelabs.com",
+    "date": "2016-06-04T01:35:46Z"
+  },
+  "object": {
+    "sha": "e06bbe0f811ea8d5a8f24857c4636d3c2650099a",
+    "type": "commit",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/e06bbe0f811ea8d5a8f24857c4636d3c2650099a"
+  },
+  "tag": "ci-sauce-1.116",
+  "message": "[maven-release-plugin] copy for tag ci-sauce-1.116\n"
+}

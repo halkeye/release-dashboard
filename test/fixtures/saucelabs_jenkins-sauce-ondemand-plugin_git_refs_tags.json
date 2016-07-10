@@ -1,0 +1,1388 @@
+[
+  {
+    "ref": "refs/tags/sauce-ondemand-1.0",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.0",
+    "object": {
+      "sha": "a71ae092334c64a034f13631938043735e429c7d",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/a71ae092334c64a034f13631938043735e429c7d"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.1",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.1",
+    "object": {
+      "sha": "384db8881f938705a09d98e3153e54970ca25651",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/384db8881f938705a09d98e3153e54970ca25651"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.2",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.2",
+    "object": {
+      "sha": "fb931528c2c50abcac2862cc5a9af8694d618587",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/fb931528c2c50abcac2862cc5a9af8694d618587"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.3",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.3",
+    "object": {
+      "sha": "3aef880500779b4025248e8049b7d034e1cb612e",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/3aef880500779b4025248e8049b7d034e1cb612e"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.4",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.4",
+    "object": {
+      "sha": "8384ba9bb9be943eade2963df38dd553dfbf8bd9",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/8384ba9bb9be943eade2963df38dd553dfbf8bd9"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.5",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.5",
+    "object": {
+      "sha": "41d51189cc6f376267a861d49211ba176d3cdbeb",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/41d51189cc6f376267a861d49211ba176d3cdbeb"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.6-slave-support",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.6-slave-support",
+    "object": {
+      "sha": "5db368174eb6ab81c4d70bd8560fffba8d26cadd",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/5db368174eb6ab81c4d70bd8560fffba8d26cadd"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.6_new",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.6_new",
+    "object": {
+      "sha": "11d122935b0858b3f2913f407ea9f4b61ee04bf3",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/11d122935b0858b3f2913f407ea9f4b61ee04bf3"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.6",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.6",
+    "object": {
+      "sha": "9fbf04f601fffa0d073db88017184c6fcf863bcc",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/9fbf04f601fffa0d073db88017184c6fcf863bcc"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.7",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.7",
+    "object": {
+      "sha": "5b8df2fe644af2f51291463d3095f2ef837daf9c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/5b8df2fe644af2f51291463d3095f2ef837daf9c"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.8",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.8",
+    "object": {
+      "sha": "beee7531317a2541683d5499dcd3b80859a25132",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/beee7531317a2541683d5499dcd3b80859a25132"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.9",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.9",
+    "object": {
+      "sha": "198995453b69387669eaa8943d1f8e7bfac7bed5",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/198995453b69387669eaa8943d1f8e7bfac7bed5"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.10",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.10",
+    "object": {
+      "sha": "d0585b521d2187406a3e267cf9b08f51eade0eff",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/d0585b521d2187406a3e267cf9b08f51eade0eff"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.11",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.11",
+    "object": {
+      "sha": "ddea73e7597901d80e4ca53234e25d7de16c9083",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/ddea73e7597901d80e4ca53234e25d7de16c9083"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.12",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.12",
+    "object": {
+      "sha": "27134b58dd4a1f0409741ea4f8c23a3a7a1b9712",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/27134b58dd4a1f0409741ea4f8c23a3a7a1b9712"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.13",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.13",
+    "object": {
+      "sha": "18405caa602d07c12195503a99563b35559a3d67",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/18405caa602d07c12195503a99563b35559a3d67"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.14",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.14",
+    "object": {
+      "sha": "f8db9b198d7bb7ca118a93d348513e6bd141fd11",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/f8db9b198d7bb7ca118a93d348513e6bd141fd11"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.15",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.15",
+    "object": {
+      "sha": "ff66abae53afa51cce43a01fd94a701c0f32e2da",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/ff66abae53afa51cce43a01fd94a701c0f32e2da"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.16",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.16",
+    "object": {
+      "sha": "75109bbec41e55ac7fa3cf11485cd0c80aee7719",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/75109bbec41e55ac7fa3cf11485cd0c80aee7719"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.17",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.17",
+    "object": {
+      "sha": "0c5443169ae49084e8a7d18d3f76cfef1813c22d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/0c5443169ae49084e8a7d18d3f76cfef1813c22d"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.18",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.18",
+    "object": {
+      "sha": "c6fb6edb79ab46046f4506ac14dfe9399359189a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/c6fb6edb79ab46046f4506ac14dfe9399359189a"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.19",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.19",
+    "object": {
+      "sha": "30e144514894109a0ee45ef81c968e3be14acf2e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/30e144514894109a0ee45ef81c968e3be14acf2e"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.20",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.20",
+    "object": {
+      "sha": "9236b24bf664559fb1fec6dd1ea862f9479a6006",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/9236b24bf664559fb1fec6dd1ea862f9479a6006"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.21",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.21",
+    "object": {
+      "sha": "79a6821f81381387acb6f3fa914250f167ffd40d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/79a6821f81381387acb6f3fa914250f167ffd40d"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.22",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.22",
+    "object": {
+      "sha": "ff5fe6b72f5bafdcf043429a1f3c0068443383c3",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/ff5fe6b72f5bafdcf043429a1f3c0068443383c3"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.23",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.23",
+    "object": {
+      "sha": "dc8a9328a9b59412f98afad6a571c39c88215ebf",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/dc8a9328a9b59412f98afad6a571c39c88215ebf"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.24",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.24",
+    "object": {
+      "sha": "d9a5dffce2d49f3d8dd173985bdbaf055d97f214",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/d9a5dffce2d49f3d8dd173985bdbaf055d97f214"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.25",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.25",
+    "object": {
+      "sha": "a5f73ee135179eef41f20cd1622f0f894c9e4bd4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/a5f73ee135179eef41f20cd1622f0f894c9e4bd4"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.26",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.26",
+    "object": {
+      "sha": "8a084ed83689ec7812ab34010b7d6bb259d42d69",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/8a084ed83689ec7812ab34010b7d6bb259d42d69"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.27",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.27",
+    "object": {
+      "sha": "6e9a4bb0017148a557bd75f18b6dab4fba2d9078",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/6e9a4bb0017148a557bd75f18b6dab4fba2d9078"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.28",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.28",
+    "object": {
+      "sha": "80ba7ced099145c31c530c6e0a31c468a85ae7be",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/80ba7ced099145c31c530c6e0a31c468a85ae7be"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.29",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.29",
+    "object": {
+      "sha": "b82fd8cce70f4474d6ab6b4cb69300ea396151ad",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/b82fd8cce70f4474d6ab6b4cb69300ea396151ad"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.30",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.30",
+    "object": {
+      "sha": "05a3863fd118cf21eab4f5822042f858815eaf35",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/05a3863fd118cf21eab4f5822042f858815eaf35"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.31",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.31",
+    "object": {
+      "sha": "9e6bdbeefc6c5ce66a23a6283aabb4749af3f633",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/9e6bdbeefc6c5ce66a23a6283aabb4749af3f633"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.32",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.32",
+    "object": {
+      "sha": "a8702b89746336e751e0be03c83b0917de54fe88",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/a8702b89746336e751e0be03c83b0917de54fe88"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.33",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.33",
+    "object": {
+      "sha": "a9d6d92e9b3a61be12ec9dd2b694fb9770c52191",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/a9d6d92e9b3a61be12ec9dd2b694fb9770c52191"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.34",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.34",
+    "object": {
+      "sha": "79f5128b18eacfd5fb080d2c82aa8997e9e791e8",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/79f5128b18eacfd5fb080d2c82aa8997e9e791e8"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.35",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.35",
+    "object": {
+      "sha": "80a7e2a413fea84f769e120c1edbf8f66a00bed7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/80a7e2a413fea84f769e120c1edbf8f66a00bed7"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.36",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.36",
+    "object": {
+      "sha": "2bdd7bce2f74010025968b383a6fd52c0198edf3",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/2bdd7bce2f74010025968b383a6fd52c0198edf3"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.37",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.37",
+    "object": {
+      "sha": "9c9823eb440ada310c600aa66ca89ec18370afc7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/9c9823eb440ada310c600aa66ca89ec18370afc7"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.38",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.38",
+    "object": {
+      "sha": "9392d22b2bd4f4070d1afae0ee607af278544523",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/9392d22b2bd4f4070d1afae0ee607af278544523"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.39",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.39",
+    "object": {
+      "sha": "73141d66605cabc8d2cbd38bbd50ca55613fbd7c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/73141d66605cabc8d2cbd38bbd50ca55613fbd7c"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.40",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.40",
+    "object": {
+      "sha": "cbbe353d5e2cd3debe551ca77a49edd1fb8c4bef",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/cbbe353d5e2cd3debe551ca77a49edd1fb8c4bef"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.41",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.41",
+    "object": {
+      "sha": "daab3518755cdedb4e4ebe6988ebe1d0f8d21eeb",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/daab3518755cdedb4e4ebe6988ebe1d0f8d21eeb"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.42",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.42",
+    "object": {
+      "sha": "8d05d1249503a8e98e9b028871a3bba9f1e78927",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/8d05d1249503a8e98e9b028871a3bba9f1e78927"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.43",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.43",
+    "object": {
+      "sha": "e0903a13e709afd08653346c5ba30094e265fc79",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/e0903a13e709afd08653346c5ba30094e265fc79"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.44",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.44",
+    "object": {
+      "sha": "df57f38d8f2952d0c5adf18ff13ae5fc4be29d52",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/df57f38d8f2952d0c5adf18ff13ae5fc4be29d52"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.45",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.45",
+    "object": {
+      "sha": "55928981eaf418bb22a80ec882542da94e307596",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/55928981eaf418bb22a80ec882542da94e307596"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.46",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.46",
+    "object": {
+      "sha": "2a6becfea3d9a2845ee79c0aa5d415c84b9b02b5",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/2a6becfea3d9a2845ee79c0aa5d415c84b9b02b5"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.47",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.47",
+    "object": {
+      "sha": "00cf1203289d2b4c906f2feaa17c9a34458b499f",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/00cf1203289d2b4c906f2feaa17c9a34458b499f"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.48",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.48",
+    "object": {
+      "sha": "102ea8cc791eda31f4af055cc9a78eb81b5d2c61",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/102ea8cc791eda31f4af055cc9a78eb81b5d2c61"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.49",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.49",
+    "object": {
+      "sha": "83890b6620ea12479599a351bf907d29db8aedc2",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/83890b6620ea12479599a351bf907d29db8aedc2"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.50",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.50",
+    "object": {
+      "sha": "6cb2832417700b41a4e3ccec4be55ca8cc7d769f",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/6cb2832417700b41a4e3ccec4be55ca8cc7d769f"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.51",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.51",
+    "object": {
+      "sha": "80547456643354dd03cc1a2bba3f1574c89ecf0e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/80547456643354dd03cc1a2bba3f1574c89ecf0e"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.52",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.52",
+    "object": {
+      "sha": "34c0f066d7232b748aaae9438df7dd04736cd02c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/34c0f066d7232b748aaae9438df7dd04736cd02c"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.53",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.53",
+    "object": {
+      "sha": "34acab4dce65379b899ea1c8ce0c8a6ad8ff4db2",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/34acab4dce65379b899ea1c8ce0c8a6ad8ff4db2"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.54",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.54",
+    "object": {
+      "sha": "c50be51880b86d4eecd5938a5eae9b1a83bf0986",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/c50be51880b86d4eecd5938a5eae9b1a83bf0986"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.55",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.55",
+    "object": {
+      "sha": "c6050ccbfacbe2c26e140c2bb5e3b8b3b0c835ca",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/c6050ccbfacbe2c26e140c2bb5e3b8b3b0c835ca"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.56",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.56",
+    "object": {
+      "sha": "552935a6843feaad2ab521c10423acb0caed22e5",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/552935a6843feaad2ab521c10423acb0caed22e5"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.57",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.57",
+    "object": {
+      "sha": "2be00992421432ec689a6c4db1990777bd6fd889",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/2be00992421432ec689a6c4db1990777bd6fd889"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.58",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.58",
+    "object": {
+      "sha": "345375dd736603921714d0825a6d27128a2b69f4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/345375dd736603921714d0825a6d27128a2b69f4"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.59",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.59",
+    "object": {
+      "sha": "c175cb5bfed8f9f5870a45f0770e07446a0d9305",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/c175cb5bfed8f9f5870a45f0770e07446a0d9305"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.60",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.60",
+    "object": {
+      "sha": "bb7fa2776029a21bf1d02838a9db0270b577ce67",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/bb7fa2776029a21bf1d02838a9db0270b577ce67"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.61",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.61",
+    "object": {
+      "sha": "e18dd2c4c7316c4b15281c63f33bdeed8b02e803",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/e18dd2c4c7316c4b15281c63f33bdeed8b02e803"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.62",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.62",
+    "object": {
+      "sha": "38c060a8c749463ec538ec1c1d1ac24186935b82",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/38c060a8c749463ec538ec1c1d1ac24186935b82"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.63",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.63",
+    "object": {
+      "sha": "4b0bd3cccc902fcfcb728dd08c69fe807fb66274",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/4b0bd3cccc902fcfcb728dd08c69fe807fb66274"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.64",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.64",
+    "object": {
+      "sha": "a5f2c5efc217487c3ff1f30807850420cf6c7239",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/a5f2c5efc217487c3ff1f30807850420cf6c7239"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.65",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.65",
+    "object": {
+      "sha": "861c3fa298f3e1a5efb604e27aeb470324933b83",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/861c3fa298f3e1a5efb604e27aeb470324933b83"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.66",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.66",
+    "object": {
+      "sha": "9e1c8e43e6216b27730626941f00c2e9b3f9936d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/9e1c8e43e6216b27730626941f00c2e9b3f9936d"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.67",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.67",
+    "object": {
+      "sha": "2c8214283389608fa1112b29e61732b1996d7880",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/2c8214283389608fa1112b29e61732b1996d7880"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.68",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.68",
+    "object": {
+      "sha": "56db39e7d9efab2583bd8247d83bd36c0c7944c7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/56db39e7d9efab2583bd8247d83bd36c0c7944c7"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.69",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.69",
+    "object": {
+      "sha": "7703aab0d6a3f1b5348f59716261c029fe734873",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/7703aab0d6a3f1b5348f59716261c029fe734873"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.70",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.70",
+    "object": {
+      "sha": "7525add487bb21d77b6deca5b047f5a88a6c1cea",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/7525add487bb21d77b6deca5b047f5a88a6c1cea"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.71",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.71",
+    "object": {
+      "sha": "7f119fc46814eec195f825bf781d2d9acd54b5f4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/7f119fc46814eec195f825bf781d2d9acd54b5f4"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.72",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.72",
+    "object": {
+      "sha": "1cb8fe4f42caf87f58bf9472afd53aefd2556941",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/1cb8fe4f42caf87f58bf9472afd53aefd2556941"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.73",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.73",
+    "object": {
+      "sha": "6767599ea177cffa070acf777186fdbee7ca6acf",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/6767599ea177cffa070acf777186fdbee7ca6acf"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.74",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.74",
+    "object": {
+      "sha": "6b3f458003743184a552793173916ec31c795628",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/6b3f458003743184a552793173916ec31c795628"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.75",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.75",
+    "object": {
+      "sha": "ed21bd38f747055a862af10840e4a66e0a7bfb7b",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/ed21bd38f747055a862af10840e4a66e0a7bfb7b"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.76",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.76",
+    "object": {
+      "sha": "a9b34649dcceb4ea9fabbbabe4fedbe3713ee01a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/a9b34649dcceb4ea9fabbbabe4fedbe3713ee01a"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.77",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.77",
+    "object": {
+      "sha": "e6b10ba406c1f311fcdf32157b931ce586844665",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/e6b10ba406c1f311fcdf32157b931ce586844665"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.78",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.78",
+    "object": {
+      "sha": "d6fd81a74165d59c48e0cbceac225d18a2448092",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/d6fd81a74165d59c48e0cbceac225d18a2448092"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.79",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.79",
+    "object": {
+      "sha": "df2ccdabee8f552e18ce0818477c398829ca09ff",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/df2ccdabee8f552e18ce0818477c398829ca09ff"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.80",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.80",
+    "object": {
+      "sha": "520cbcbe039b0a0803570fb81a4f4a827dbe558e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/520cbcbe039b0a0803570fb81a4f4a827dbe558e"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.81",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.81",
+    "object": {
+      "sha": "0f4108c7ecbddf2106b7379543737382d26e7ef4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/0f4108c7ecbddf2106b7379543737382d26e7ef4"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.82",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.82",
+    "object": {
+      "sha": "c784f0ebf8a5a9b5e72d3cf0c8557f21ce3f3551",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/c784f0ebf8a5a9b5e72d3cf0c8557f21ce3f3551"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.83",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.83",
+    "object": {
+      "sha": "4061ab9f72b272602c77b3df77554b04582a95da",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/4061ab9f72b272602c77b3df77554b04582a95da"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.84",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.84",
+    "object": {
+      "sha": "dbdc6577b5089a0b99a909381d6bfa2443caf071",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/dbdc6577b5089a0b99a909381d6bfa2443caf071"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.85",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.85",
+    "object": {
+      "sha": "bda211b076497bd026a47f6c11ae29417dd860e5",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/bda211b076497bd026a47f6c11ae29417dd860e5"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.86",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.86",
+    "object": {
+      "sha": "15aa5215c91b15d732f0080d42917d21ab5530a8",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/15aa5215c91b15d732f0080d42917d21ab5530a8"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.87",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.87",
+    "object": {
+      "sha": "80331f88fbf6bdcdb25035d2cd24ab6e4a817aff",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/80331f88fbf6bdcdb25035d2cd24ab6e4a817aff"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.88",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.88",
+    "object": {
+      "sha": "0631d2d966803c60a9510af8d3031e942ac4c7de",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/0631d2d966803c60a9510af8d3031e942ac4c7de"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.89",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.89",
+    "object": {
+      "sha": "d55244322a200b9f45b14e6276ff63d7077b7628",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/d55244322a200b9f45b14e6276ff63d7077b7628"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.90",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.90",
+    "object": {
+      "sha": "3879a96da983b00bdd5eff6b6eb7b737ec31b98e",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/3879a96da983b00bdd5eff6b6eb7b737ec31b98e"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.91",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.91",
+    "object": {
+      "sha": "dcda24ec04c661d4ce743dad4ca3d5a35bc12207",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/dcda24ec04c661d4ce743dad4ca3d5a35bc12207"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.92",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.92",
+    "object": {
+      "sha": "6b584482b5159ce6887d373d28e34a01f63ff463",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/6b584482b5159ce6887d373d28e34a01f63ff463"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.93",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.93",
+    "object": {
+      "sha": "9fd0eb1580c538158b3b4267178223f38f61ceeb",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/9fd0eb1580c538158b3b4267178223f38f61ceeb"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.94",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.94",
+    "object": {
+      "sha": "820410dde9550fa550b507c48ba65f6da19ec71b",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/820410dde9550fa550b507c48ba65f6da19ec71b"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.96",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.96",
+    "object": {
+      "sha": "16b50831c83198e3d08b621bc736ffa26c56b479",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/16b50831c83198e3d08b621bc736ffa26c56b479"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.97",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.97",
+    "object": {
+      "sha": "0b4334a0f71942ea5c110916842cffba2ac8dcbb",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/0b4334a0f71942ea5c110916842cffba2ac8dcbb"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.98",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.98",
+    "object": {
+      "sha": "dc80379df6f8751951694ec91a81fc1fc3f72ca1",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/dc80379df6f8751951694ec91a81fc1fc3f72ca1"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.99",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.99",
+    "object": {
+      "sha": "836e6268ac3f967f299230f11f6dc2668e845c07",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/836e6268ac3f967f299230f11f6dc2668e845c07"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.100",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.100",
+    "object": {
+      "sha": "b3eb0ec8c716e62b287144729a0e601037e336e8",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/b3eb0ec8c716e62b287144729a0e601037e336e8"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.101",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.101",
+    "object": {
+      "sha": "a9c1d205e9f9cf04b03fb3cc685fa8c349c591d3",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/a9c1d205e9f9cf04b03fb3cc685fa8c349c591d3"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.102",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.102",
+    "object": {
+      "sha": "724469b9f97e57188532007406af970bbfc21c4e",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/724469b9f97e57188532007406af970bbfc21c4e"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.103",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.103",
+    "object": {
+      "sha": "95a54c45560884d1d1e42c4daa0363a2b03288b0",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/95a54c45560884d1d1e42c4daa0363a2b03288b0"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.104",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.104",
+    "object": {
+      "sha": "991d5773cd48a33b78e5350502f7a1f8e3df838a",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/991d5773cd48a33b78e5350502f7a1f8e3df838a"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.105",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.105",
+    "object": {
+      "sha": "f9aa8031aa93c9db58cce955048f9a3bf2a32e12",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/f9aa8031aa93c9db58cce955048f9a3bf2a32e12"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.106",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.106",
+    "object": {
+      "sha": "c76534bf29d1a1452079b99da35c17f659d20002",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/c76534bf29d1a1452079b99da35c17f659d20002"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.107",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.107",
+    "object": {
+      "sha": "9112a8ba26d2fb3e5d6a9d15cf4321aff0b9d8f4",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/9112a8ba26d2fb3e5d6a9d15cf4321aff0b9d8f4"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.108",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.108",
+    "object": {
+      "sha": "86f88a2b780004dd8cbf9d2cead8e3613025c168",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/86f88a2b780004dd8cbf9d2cead8e3613025c168"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.109",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.109",
+    "object": {
+      "sha": "8b69375512d8a6208d93c21918c67489cb96f450",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/8b69375512d8a6208d93c21918c67489cb96f450"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.110",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.110",
+    "object": {
+      "sha": "b8a1e0d59c0a7581ac94594d9a3eeb804cef4703",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/b8a1e0d59c0a7581ac94594d9a3eeb804cef4703"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.111",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.111",
+    "object": {
+      "sha": "f7502023bba0b1d9cdcba72eefb0c83ef7d9dd72",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/f7502023bba0b1d9cdcba72eefb0c83ef7d9dd72"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.112",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.112",
+    "object": {
+      "sha": "bd2dff92894e5ba5eec23adaf249aacb5da91246",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/bd2dff92894e5ba5eec23adaf249aacb5da91246"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.113",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.113",
+    "object": {
+      "sha": "6e404895bb7f0f536cad62a0e0d5715c28addcc5",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/6e404895bb7f0f536cad62a0e0d5715c28addcc5"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.114",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.114",
+    "object": {
+      "sha": "f475fd8f38904e0f7fd3e0b202a3ee10ed4ea98e",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/f475fd8f38904e0f7fd3e0b202a3ee10ed4ea98e"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.115",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.115",
+    "object": {
+      "sha": "84a9689170b0d734c3b1319cd98ed68c33c483de",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/84a9689170b0d734c3b1319cd98ed68c33c483de"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.116",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.116",
+    "object": {
+      "sha": "7b5426e45c8a86c07d61d88e83ef08babb3cb191",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/7b5426e45c8a86c07d61d88e83ef08babb3cb191"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.117",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.117",
+    "object": {
+      "sha": "0ee750a4dfd3b013ccf6550c73f27ab80907ef8c",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/0ee750a4dfd3b013ccf6550c73f27ab80907ef8c"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.118",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.118",
+    "object": {
+      "sha": "c48036d8b4d7028bc192d3ac141cfcab872bace9",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/c48036d8b4d7028bc192d3ac141cfcab872bace9"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.119",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.119",
+    "object": {
+      "sha": "12795e66760dc4b91a4a0f8dda3b8994d2dc53e9",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/12795e66760dc4b91a4a0f8dda3b8994d2dc53e9"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.120",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.120",
+    "object": {
+      "sha": "28e0ef9b139002b25851ce2081ca49a54b9b5398",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/28e0ef9b139002b25851ce2081ca49a54b9b5398"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.121",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.121",
+    "object": {
+      "sha": "e474268ab70b8670ce3d282901944d6605278555",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/e474268ab70b8670ce3d282901944d6605278555"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.122",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.122",
+    "object": {
+      "sha": "0be779f68446d8111cf2d8d65e641465fd87b67b",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/0be779f68446d8111cf2d8d65e641465fd87b67b"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.123",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.123",
+    "object": {
+      "sha": "9c4fed18875cb7b3d56c97a55a2c3b92f42269da",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/9c4fed18875cb7b3d56c97a55a2c3b92f42269da"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.124",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.124",
+    "object": {
+      "sha": "3998fbb58d8d90682622db720c99192a094453e5",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/3998fbb58d8d90682622db720c99192a094453e5"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.125",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.125",
+    "object": {
+      "sha": "ee38b7d83d7a773a9765a153c3190fd1fca4d639",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/ee38b7d83d7a773a9765a153c3190fd1fca4d639"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.126",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.126",
+    "object": {
+      "sha": "1ac48788a79b2069a0febe2845a286bdc4ac79f9",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/1ac48788a79b2069a0febe2845a286bdc4ac79f9"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.127",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.127",
+    "object": {
+      "sha": "59a8d44f7c84492e95e86da0d9cd9b0f88faa0e1",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/59a8d44f7c84492e95e86da0d9cd9b0f88faa0e1"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.128",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.128",
+    "object": {
+      "sha": "dc08b88b7c4a5fb8bf3dedf7102e4ec473c4cce5",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/dc08b88b7c4a5fb8bf3dedf7102e4ec473c4cce5"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.129",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.129",
+    "object": {
+      "sha": "31ae1d1d19207ff5523e68f2a4f28f61d0ed1e8f",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/31ae1d1d19207ff5523e68f2a4f28f61d0ed1e8f"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.130",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.130",
+    "object": {
+      "sha": "35b561f5dc2865c20607fa3139e81bd40c508106",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/35b561f5dc2865c20607fa3139e81bd40c508106"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.131",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.131",
+    "object": {
+      "sha": "c66ad9bfa0d5bdc043c7737c62022661c5e29226",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/c66ad9bfa0d5bdc043c7737c62022661c5e29226"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.132",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.132",
+    "object": {
+      "sha": "069be263d865ef8c654dee0ddc2b3da19ce53899",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/069be263d865ef8c654dee0ddc2b3da19ce53899"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.133",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.133",
+    "object": {
+      "sha": "4a2818d5c72509a3032a8b059ab69932d70ebd95",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/4a2818d5c72509a3032a8b059ab69932d70ebd95"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.134",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.134",
+    "object": {
+      "sha": "0d30a694464f4ffdff728bd5ae7a7c59761b809c",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/0d30a694464f4ffdff728bd5ae7a7c59761b809c"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.135",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.135",
+    "object": {
+      "sha": "5f64706927e5f7c5245271562c242eab5d0c4ed7",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/5f64706927e5f7c5245271562c242eab5d0c4ed7"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.136",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.136",
+    "object": {
+      "sha": "b72a1bd6590377ad8d93d955e6900e63b3f0cefc",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/b72a1bd6590377ad8d93d955e6900e63b3f0cefc"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.137",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.137",
+    "object": {
+      "sha": "79aa47a3d0ef63bdcd1aab2eeccaefdde81f369e",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/79aa47a3d0ef63bdcd1aab2eeccaefdde81f369e"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.138",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.138",
+    "object": {
+      "sha": "66929137173ac58c86a9bdf7429db039758f7752",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/66929137173ac58c86a9bdf7429db039758f7752"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.139",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.139",
+    "object": {
+      "sha": "68a2ef47c7312e51547a025bf42b8fa3d3ec4d06",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/68a2ef47c7312e51547a025bf42b8fa3d3ec4d06"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.140",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.140",
+    "object": {
+      "sha": "4ff70f48129f0673991d85fc82af9ebdd4998440",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/4ff70f48129f0673991d85fc82af9ebdd4998440"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.141",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.141",
+    "object": {
+      "sha": "7fad2dcb270070ac71b0b047a019b2c5d7515cd9",
+      "type": "commit",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/7fad2dcb270070ac71b0b047a019b2c5d7515cd9"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.142",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.142",
+    "object": {
+      "sha": "4732d057cf6757763fd0ad15afc2abf69912a55b",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/4732d057cf6757763fd0ad15afc2abf69912a55b"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.143",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.143",
+    "object": {
+      "sha": "9019f83203eb025e626e83fe4c14e651db34d151",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/9019f83203eb025e626e83fe4c14e651db34d151"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.144",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.144",
+    "object": {
+      "sha": "ec87110addbd84342ec8ab731888664a6e3bcea0",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/ec87110addbd84342ec8ab731888664a6e3bcea0"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.145",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.145",
+    "object": {
+      "sha": "7e16724d656703dfb2777425d370dec384731df7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/7e16724d656703dfb2777425d370dec384731df7"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.146",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.146",
+    "object": {
+      "sha": "4c2d163ede4c527253957684c66b61b23e61f36f",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/4c2d163ede4c527253957684c66b61b23e61f36f"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.147",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.147",
+    "object": {
+      "sha": "53f337b4aa19ded8265cc1a84f7ebf576f1e62a7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/53f337b4aa19ded8265cc1a84f7ebf576f1e62a7"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.148",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.148",
+    "object": {
+      "sha": "9800067df19a2274405c7d4218a925308533fd70",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/9800067df19a2274405c7d4218a925308533fd70"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.149",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.149",
+    "object": {
+      "sha": "f2c12ed218950c2ad0bae8388ce3aea5be88bb30",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/f2c12ed218950c2ad0bae8388ce3aea5be88bb30"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.150",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.150",
+    "object": {
+      "sha": "f067f926f02817c8f4b4a951760df900960eae87",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/f067f926f02817c8f4b4a951760df900960eae87"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.151",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.151",
+    "object": {
+      "sha": "ccbe562f535a9208601884a29da0ec0378a97b56",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/ccbe562f535a9208601884a29da0ec0378a97b56"
+    }
+  },
+  {
+    "ref": "refs/tags/sauce-ondemand-1.152",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags/sauce-ondemand-1.152",
+    "object": {
+      "sha": "54ebdac3f04c59cc31c84f91e3124dda9cecc452",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/54ebdac3f04c59cc31c84f91e3124dda9cecc452"
+    }
+  }
+]

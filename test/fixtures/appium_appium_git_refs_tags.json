@@ -1,0 +1,983 @@
+[
+  {
+    "ref": "refs/tags/l",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/l",
+    "object": {
+      "sha": "183b990b4fdfe127cf532ca321d4e09e2e7988a3",
+      "type": "commit",
+      "url": "https://api.github.com/repos/appium/appium/git/commits/183b990b4fdfe127cf532ca321d4e09e2e7988a3"
+    }
+  },
+  {
+    "ref": "refs/tags/next-release",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/next-release",
+    "object": {
+      "sha": "81b0cdf9cdd62ab7f2ed9a1f0490da3aa14d6608",
+      "type": "commit",
+      "url": "https://api.github.com/repos/appium/appium/git/commits/81b0cdf9cdd62ab7f2ed9a1f0490da3aa14d6608"
+    }
+  },
+  {
+    "ref": "refs/tags/v",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v",
+    "object": {
+      "sha": "8a4bb96d78e134a6ab1868a622a50ed5136a4aed",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/8a4bb96d78e134a6ab1868a622a50ed5136a4aed"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.4.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.4.0",
+    "object": {
+      "sha": "f358b966941e6e70520c09019e45a4c7fdcb8fc5",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/f358b966941e6e70520c09019e45a4c7fdcb8fc5"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.4.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.4.1",
+    "object": {
+      "sha": "3c4d09e16de847bbd3fc08e747c3e91d2df717f0",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/3c4d09e16de847bbd3fc08e747c3e91d2df717f0"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.5.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.5.0",
+    "object": {
+      "sha": "28a1c8944cf32f32fe89ae1fffe343ece835fdd0",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/28a1c8944cf32f32fe89ae1fffe343ece835fdd0"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.5.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.5.1",
+    "object": {
+      "sha": "f534ba1a6a96d2cb484585fad7526e9173c66bcf",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/f534ba1a6a96d2cb484585fad7526e9173c66bcf"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.5.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.5.2",
+    "object": {
+      "sha": "5eedfa586f0a597eae8b41deb3c021182c04675a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/5eedfa586f0a597eae8b41deb3c021182c04675a"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.6.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.6.0",
+    "object": {
+      "sha": "6d55831c7a9aa3e5d274c3d64a86deea1da89a43",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/6d55831c7a9aa3e5d274c3d64a86deea1da89a43"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.6.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.6.1",
+    "object": {
+      "sha": "521eed85c9847b95a4911ce319940d86187f18a6",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/521eed85c9847b95a4911ce319940d86187f18a6"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.7.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.7.0",
+    "object": {
+      "sha": "5b220dbc711d750de42a3799c4cd6ddd8636cb52",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/5b220dbc711d750de42a3799c4cd6ddd8636cb52"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.7.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.7.1",
+    "object": {
+      "sha": "ee597fbf7bc27191b81d8670f562dbefe4eb9072",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/ee597fbf7bc27191b81d8670f562dbefe4eb9072"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.7.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.7.2",
+    "object": {
+      "sha": "34fa49799c0a36a046ec621dbcac43be24709dd0",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/34fa49799c0a36a046ec621dbcac43be24709dd0"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.7.3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.7.3",
+    "object": {
+      "sha": "7414ffbdef7f32bc92fbb5e3e50b80432fdd66dd",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/7414ffbdef7f32bc92fbb5e3e50b80432fdd66dd"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.8.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.8.0",
+    "object": {
+      "sha": "dc537bfb0ce21ceeb86bcb83c8c97bac5cf67ce9",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/dc537bfb0ce21ceeb86bcb83c8c97bac5cf67ce9"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.8.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.8.1",
+    "object": {
+      "sha": "ddcebac3348ac98b2b8060c2be26bac90b2cf9a9",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/ddcebac3348ac98b2b8060c2be26bac90b2cf9a9"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.8.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.8.2",
+    "object": {
+      "sha": "f35e575582c31aee2678768fd42151194d111ac7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/f35e575582c31aee2678768fd42151194d111ac7"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.8.3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.8.3",
+    "object": {
+      "sha": "e9a05271cda1e69e3dfe76b2b854dea122c29389",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/e9a05271cda1e69e3dfe76b2b854dea122c29389"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.8.4",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.8.4",
+    "object": {
+      "sha": "4d81133f9d253fa1e5fe281635573f046be5db20",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/4d81133f9d253fa1e5fe281635573f046be5db20"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.8.5",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.8.5",
+    "object": {
+      "sha": "488eab4a87e545c92f582df8d886c1240621b8e0",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/488eab4a87e545c92f582df8d886c1240621b8e0"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.9.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.9.0",
+    "object": {
+      "sha": "cbbd075c504b5963edfbef65f640499e7d0a70e9",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/cbbd075c504b5963edfbef65f640499e7d0a70e9"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.9.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.9.1",
+    "object": {
+      "sha": "95eca4bd849f77b035c788c6bbb2e1ca6bc98fd7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/95eca4bd849f77b035c788c6bbb2e1ca6bc98fd7"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.10.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.10.0",
+    "object": {
+      "sha": "7e7ebd7914c433d92a3cebb099a2ac737fec6f51",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/7e7ebd7914c433d92a3cebb099a2ac737fec6f51"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.10.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.10.1",
+    "object": {
+      "sha": "bcb19cc9bd53384ca5d6d0d18b5552c768f127d4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/bcb19cc9bd53384ca5d6d0d18b5552c768f127d4"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.10.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.10.2",
+    "object": {
+      "sha": "8d87678d8589a4376bd02e452e3aedd8b023a822",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/8d87678d8589a4376bd02e452e3aedd8b023a822"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.10.3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.10.3",
+    "object": {
+      "sha": "ab2be0f1ed2052b1ccf333226540a4627f4ea17c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/ab2be0f1ed2052b1ccf333226540a4627f4ea17c"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.10.4",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.10.4",
+    "object": {
+      "sha": "7936ecef5a36f4fe5173c5b64a8dfb48e840961c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/7936ecef5a36f4fe5173c5b64a8dfb48e840961c"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.11.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.11.0",
+    "object": {
+      "sha": "02608cc44ac6e23f8af92879a06b1f9982adae22",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/02608cc44ac6e23f8af92879a06b1f9982adae22"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.11.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.11.1",
+    "object": {
+      "sha": "104be9c230a35eb78c6cb07b0e84da24516bba07",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/104be9c230a35eb78c6cb07b0e84da24516bba07"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.11.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.11.2",
+    "object": {
+      "sha": "fe5848baa85d4f9bae4454bfade0dab143742304",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/fe5848baa85d4f9bae4454bfade0dab143742304"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.11.3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.11.3",
+    "object": {
+      "sha": "01fcb1c9d3a6047ca144d257a30f73ff12e5db75",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/01fcb1c9d3a6047ca144d257a30f73ff12e5db75"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.11.4",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.11.4",
+    "object": {
+      "sha": "4375bfcaa10d8b99df3fbcb7e032328afdba933a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/4375bfcaa10d8b99df3fbcb7e032328afdba933a"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.12.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.12.0",
+    "object": {
+      "sha": "7f10bfc95e4c8035a5c7a76706c1f133c8244255",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/7f10bfc95e4c8035a5c7a76706c1f133c8244255"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.12.1b",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.12.1b",
+    "object": {
+      "sha": "b03f2d60864569761218ce80206d224c4429ce64",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/b03f2d60864569761218ce80206d224c4429ce64"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.12.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.12.1",
+    "object": {
+      "sha": "e39750ac8615291ec019fa60a78a3c5f4a5cb740",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/e39750ac8615291ec019fa60a78a3c5f4a5cb740"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.12.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.12.2",
+    "object": {
+      "sha": "91a96547a23c784fde73ab43824c8bac9f50fed4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/91a96547a23c784fde73ab43824c8bac9f50fed4"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.12.3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.12.3",
+    "object": {
+      "sha": "0fa75057bad42dc2b846d12503eff4de5267d639",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/0fa75057bad42dc2b846d12503eff4de5267d639"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.13.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.13.0",
+    "object": {
+      "sha": "f53b0c56670a3283e841d3f47bc3a977eee7f510",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/f53b0c56670a3283e841d3f47bc3a977eee7f510"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.14.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.14.0",
+    "object": {
+      "sha": "a50f046d491eaf7a75b59bf86223bedec22f0799",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/a50f046d491eaf7a75b59bf86223bedec22f0799"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.14.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.14.1",
+    "object": {
+      "sha": "b3120d7d13710dfc75c9e54931089c6259ecff4b",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/b3120d7d13710dfc75c9e54931089c6259ecff4b"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.14.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.14.2",
+    "object": {
+      "sha": "3f6f7869c3735ee1bb37216905b4c30a1081176c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/3f6f7869c3735ee1bb37216905b4c30a1081176c"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.15.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.15.0",
+    "object": {
+      "sha": "a4d86ee9c76c256ac90245b3906510802d3b862d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/a4d86ee9c76c256ac90245b3906510802d3b862d"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.16.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.16.0",
+    "object": {
+      "sha": "9c76b872e132e58ad482de93e686df4f68e93151",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/9c76b872e132e58ad482de93e686df4f68e93151"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.17.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.17.0",
+    "object": {
+      "sha": "ca564112d2120b63a2d82ca1a89d8b6fd1f2cbce",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/ca564112d2120b63a2d82ca1a89d8b6fd1f2cbce"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.17.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.17.1",
+    "object": {
+      "sha": "400ae798a25262c41930919f10510752448ae0a8",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/400ae798a25262c41930919f10510752448ae0a8"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.17.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.17.2",
+    "object": {
+      "sha": "8735f0ac0a2042abe04237b39a9f9358ac43528c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/8735f0ac0a2042abe04237b39a9f9358ac43528c"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.17.3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.17.3",
+    "object": {
+      "sha": "3b8480a720e90a2819e4b1238d963ec19bcdacf7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/3b8480a720e90a2819e4b1238d963ec19bcdacf7"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.17.4",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.17.4",
+    "object": {
+      "sha": "ddd5a4171e684c3c89fdfc1a6c1a3cb3c1abfeb4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/ddd5a4171e684c3c89fdfc1a6c1a3cb3c1abfeb4"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.17.5",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.17.5",
+    "object": {
+      "sha": "543ab001a56af032516507aa966079715bb498c3",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/543ab001a56af032516507aa966079715bb498c3"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.17.6",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.17.6",
+    "object": {
+      "sha": "0c5b66b59cb10d4600368076bd807c87d6eda878",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/0c5b66b59cb10d4600368076bd807c87d6eda878"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.18.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.18.0",
+    "object": {
+      "sha": "b16eb18cd79a069ce2efc16fbc9f377ec7a855c5",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/b16eb18cd79a069ce2efc16fbc9f377ec7a855c5"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.18.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.18.1",
+    "object": {
+      "sha": "a2e350b9c9a6af9c088c32300b71b40dbc3e054b",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/a2e350b9c9a6af9c088c32300b71b40dbc3e054b"
+    }
+  },
+  {
+    "ref": "refs/tags/v0.18.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v0.18.2",
+    "object": {
+      "sha": "858ea2a18d84512d90f54ea4f11c2a59abddb333",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/858ea2a18d84512d90f54ea4f11c2a59abddb333"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.0.0-beta.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.0.0-beta.1",
+    "object": {
+      "sha": "9ffeace3dcf22a6013fd92d0899511361ace2697",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/9ffeace3dcf22a6013fd92d0899511361ace2697"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.0.0-beta.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.0.0-beta.2",
+    "object": {
+      "sha": "54928c543d6ccd6154e34b2b2290ef7b72733d90",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/54928c543d6ccd6154e34b2b2290ef7b72733d90"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.0.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.0.0",
+    "object": {
+      "sha": "592e5b86c3d5996fbc39ddc96a35a59c4d648029",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/592e5b86c3d5996fbc39ddc96a35a59c4d648029"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.1.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.1.0",
+    "object": {
+      "sha": "7a1bc0725df252c792cfd72bcddbe80751e75957",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/7a1bc0725df252c792cfd72bcddbe80751e75957"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.2.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.2.0",
+    "object": {
+      "sha": "9b8198f97b948f88661c8631ba92c6ec553d1530",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/9b8198f97b948f88661c8631ba92c6ec553d1530"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.2.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.2.1",
+    "object": {
+      "sha": "7435e62293a7725282834c71c99787a17fbe13b1",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/7435e62293a7725282834c71c99787a17fbe13b1"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.2.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.2.2",
+    "object": {
+      "sha": "a3029bb11977d911784382d209827cc82e0c19fd",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/a3029bb11977d911784382d209827cc82e0c19fd"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.2.3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.2.3",
+    "object": {
+      "sha": "945b91af8abb70f09b3d72dfd9bfa7800ccc0391",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/945b91af8abb70f09b3d72dfd9bfa7800ccc0391"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.2.4",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.2.4",
+    "object": {
+      "sha": "e417f86bbb35d6356741badce70f3406212c3a00",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/e417f86bbb35d6356741badce70f3406212c3a00"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.0-beta1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.0-beta1",
+    "object": {
+      "sha": "88c6a7977de556868561ff3bf403d508b286efe8",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/88c6a7977de556868561ff3bf403d508b286efe8"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.0",
+    "object": {
+      "sha": "f7de192e4a09fdb087ac9e7955f521db630499db",
+      "type": "commit",
+      "url": "https://api.github.com/repos/appium/appium/git/commits/f7de192e4a09fdb087ac9e7955f521db630499db"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.1",
+    "object": {
+      "sha": "1160ce02bb89c354cb99317985123acf39f0e7d3",
+      "type": "commit",
+      "url": "https://api.github.com/repos/appium/appium/git/commits/1160ce02bb89c354cb99317985123acf39f0e7d3"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.2-Beta1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.2-Beta1",
+    "object": {
+      "sha": "7ec35c2649cd4a483783cd0f43601189b2f03788",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/7ec35c2649cd4a483783cd0f43601189b2f03788"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.2-beta2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.2-beta2",
+    "object": {
+      "sha": "8b2af98123a2a31620f6c32bfe92efebb4cf9790",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/8b2af98123a2a31620f6c32bfe92efebb4cf9790"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.2",
+    "object": {
+      "sha": "9083dd97a1ee58db5fbbf4cc2341836d74fbd195",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/9083dd97a1ee58db5fbbf4cc2341836d74fbd195"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.3",
+    "object": {
+      "sha": "74eb854d84f50eaf387c0eede5eb057c7303e20f",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/74eb854d84f50eaf387c0eede5eb057c7303e20f"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.4-beta1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.4-beta1",
+    "object": {
+      "sha": "85b6875e2979345034250742f7cfc47565010e63",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/85b6875e2979345034250742f7cfc47565010e63"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.4",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.4",
+    "object": {
+      "sha": "ac881a0b7ea22ba921facac37fdc18bc48f644a2",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/ac881a0b7ea22ba921facac37fdc18bc48f644a2"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.5-beta",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.5-beta",
+    "object": {
+      "sha": "bafc8ececdc94565f34c3cb6cfbde7f4ffd0e16d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/bafc8ececdc94565f34c3cb6cfbde7f4ffd0e16d"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.5",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.5",
+    "object": {
+      "sha": "1c8e5942954c81fdddc935493702595bc484d3af",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/1c8e5942954c81fdddc935493702595bc484d3af"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.6",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.6",
+    "object": {
+      "sha": "70b1c4e851a7c8b5cd58e8b5cc042e12a7165682",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/70b1c4e851a7c8b5cd58e8b5cc042e12a7165682"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.7-Beta",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.7-Beta",
+    "object": {
+      "sha": "b1c7d561f629de4eeb0de8827aeb44ba213e6d69",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/b1c7d561f629de4eeb0de8827aeb44ba213e6d69"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.3.7",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.3.7",
+    "object": {
+      "sha": "72fbfaa116d3d9f6a862600ee99cf02f6d0e2182",
+      "type": "commit",
+      "url": "https://api.github.com/repos/appium/appium/git/commits/72fbfaa116d3d9f6a862600ee99cf02f6d0e2182"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.0-beta",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.0-beta",
+    "object": {
+      "sha": "9afd3cde9588f62c0d73f60de302a6997e4579c8",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/9afd3cde9588f62c0d73f60de302a6997e4579c8"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.0",
+    "object": {
+      "sha": "da8601a63d4aed525b43cec5a4523379887fbbc1",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/da8601a63d4aed525b43cec5a4523379887fbbc1"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.1",
+    "object": {
+      "sha": "04de44fafd535201681a1dc01cfcf6e7295ea567",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/04de44fafd535201681a1dc01cfcf6e7295ea567"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.2",
+    "object": {
+      "sha": "aff92e05011aab4c91041c447234874633796639",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/aff92e05011aab4c91041c447234874633796639"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.3-beta",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.3-beta",
+    "object": {
+      "sha": "5302e3f1ce7cb6ee4824a1b0ec8aed2a512f504b",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/5302e3f1ce7cb6ee4824a1b0ec8aed2a512f504b"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.3",
+    "object": {
+      "sha": "2d3322f1c4399a8debe7639005dc59dc8b2afcc5",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/2d3322f1c4399a8debe7639005dc59dc8b2afcc5"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.4",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.4",
+    "object": {
+      "sha": "0e142ff73c4879ecd1d5ddbf28417495257c9323",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/0e142ff73c4879ecd1d5ddbf28417495257c9323"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.5-beta",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.5-beta",
+    "object": {
+      "sha": "773bbfcbfd40feaaa888eb01431496d52ee27f1e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/773bbfcbfd40feaaa888eb01431496d52ee27f1e"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.5",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.5",
+    "object": {
+      "sha": "77eb7aa499717ea3a01ba33ba01b6e9be0d03ecc",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/77eb7aa499717ea3a01ba33ba01b6e9be0d03ecc"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.6-beta",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.6-beta",
+    "object": {
+      "sha": "a088d47e6ddbdf897a092134c190642cde194181",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/a088d47e6ddbdf897a092134c190642cde194181"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.6",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.6",
+    "object": {
+      "sha": "5d67451e3d6419b964d2ce742a757c1c783e46cb",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/5d67451e3d6419b964d2ce742a757c1c783e46cb"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.7-beta",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.7-beta",
+    "object": {
+      "sha": "193aaf5fc4c264d39d3fe506e762df0b2eb0608b",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/193aaf5fc4c264d39d3fe506e762df0b2eb0608b"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.7-beta2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.7-beta2",
+    "object": {
+      "sha": "e155dd9a52fb78c0d83d57812f3d6d0581fcf581",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/e155dd9a52fb78c0d83d57812f3d6d0581fcf581"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.7-beta3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.7-beta3",
+    "object": {
+      "sha": "928d9c616bad6650763d6e47dd35e5f6712eab77",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/928d9c616bad6650763d6e47dd35e5f6712eab77"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.7",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.7",
+    "object": {
+      "sha": "3db75f419491ef4608ca33c55be7f5d064d58f6e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/3db75f419491ef4608ca33c55be7f5d064d58f6e"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.8-beta",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.8-beta",
+    "object": {
+      "sha": "504edc83fa2ab60dc0eb3fea1799c68f1a293593",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/504edc83fa2ab60dc0eb3fea1799c68f1a293593"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.8",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.8",
+    "object": {
+      "sha": "547132c2e24dd28a27eea4a08da81a6ae1e1dd32",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/547132c2e24dd28a27eea4a08da81a6ae1e1dd32"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.9",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.9",
+    "object": {
+      "sha": "96c9921fd00cd4c4a054ea11c75e2e773204b676",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/96c9921fd00cd4c4a054ea11c75e2e773204b676"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.10",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.10",
+    "object": {
+      "sha": "8e831b65195e1529dc791a26cedfcfd4884a436d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/8e831b65195e1529dc791a26cedfcfd4884a436d"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.11",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.11",
+    "object": {
+      "sha": "22a942ea43154cf8cf03070406efbbe247c4d342",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/22a942ea43154cf8cf03070406efbbe247c4d342"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.12",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.12",
+    "object": {
+      "sha": "42525c1b6dc124aa21da9d14d86f21c2b699a493",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/42525c1b6dc124aa21da9d14d86f21c2b699a493"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.13",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.13",
+    "object": {
+      "sha": "46988c8d81b6154bd8c606b098ab12c2736b326d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/46988c8d81b6154bd8c606b098ab12c2736b326d"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.14",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.14",
+    "object": {
+      "sha": "93bcfe0613321674f30bd905f67883863c9bdf76",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/93bcfe0613321674f30bd905f67883863c9bdf76"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.15",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.15",
+    "object": {
+      "sha": "a13a85c026010a81f6f795064a46e0e4f339a63f",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/a13a85c026010a81f6f795064a46e0e4f339a63f"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.4.16",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.4.16",
+    "object": {
+      "sha": "bd1518d5e6d0354408ab82f865e95aa9274a86b1",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/bd1518d5e6d0354408ab82f865e95aa9274a86b1"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.5.0-beta8",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.5.0-beta8",
+    "object": {
+      "sha": "88fb51b9f289f13b1ba4f15ffb3a509e550e40c1",
+      "type": "commit",
+      "url": "https://api.github.com/repos/appium/appium/git/commits/88fb51b9f289f13b1ba4f15ffb3a509e550e40c1"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.5.0",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.5.0",
+    "object": {
+      "sha": "4b1fbc610895158d5d6611bf18485d0720f77378",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/4b1fbc610895158d5d6611bf18485d0720f77378"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.5.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.5.1",
+    "object": {
+      "sha": "dc865428e6a78ed6b8153132d6e50b9afc8c4570",
+      "type": "commit",
+      "url": "https://api.github.com/repos/appium/appium/git/commits/dc865428e6a78ed6b8153132d6e50b9afc8c4570"
+    }
+  },
+  {
+    "ref": "refs/tags/v1.5.2",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/v1.5.2",
+    "object": {
+      "sha": "0c39422cb3fd243db00a2f0225be7452a2627cd8",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/0c39422cb3fd243db00a2f0225be7452a2627cd8"
+    }
+  },
+  {
+    "ref": "refs/tags/1.4.8",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/1.4.8",
+    "object": {
+      "sha": "41a29cef73c9f44d1a935b71df854d925c1c7c5f",
+      "type": "commit",
+      "url": "https://api.github.com/repos/appium/appium/git/commits/41a29cef73c9f44d1a935b71df854d925c1c7c5f"
+    }
+  },
+  {
+    "ref": "refs/tags/1.5.0-beta12",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/1.5.0-beta12",
+    "object": {
+      "sha": "45a7ccd0cc5038fb8778754b4eee3057fd601fa3",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/45a7ccd0cc5038fb8778754b4eee3057fd601fa3"
+    }
+  },
+  {
+    "ref": "refs/tags/1.5.1",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/1.5.1",
+    "object": {
+      "sha": "2a13d54a71e8e936de7d3fc4f1a4a450a34297e2",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/2a13d54a71e8e936de7d3fc4f1a4a450a34297e2"
+    }
+  },
+  {
+    "ref": "refs/tags/1.5.3",
+    "url": "https://api.github.com/repos/appium/appium/git/refs/tags/1.5.3",
+    "object": {
+      "sha": "5fd5cc7eff283b1978c75fb4f0c89794cbb9cf41",
+      "type": "tag",
+      "url": "https://api.github.com/repos/appium/appium/git/tags/5fd5cc7eff283b1978c75fb4f0c89794cbb9cf41"
+    }
+  }
+]

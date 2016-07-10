@@ -1,0 +1,2626 @@
+{
+  "url": "https://api.github.com/repos/appium/appium/compare/v1.5.1...v1.5.2",
+  "html_url": "https://github.com/appium/appium/compare/v1.5.1...v1.5.2",
+  "permalink_url": "https://github.com/appium/appium/compare/appium:dc86542...appium:8102f84",
+  "diff_url": "https://github.com/appium/appium/compare/v1.5.1...v1.5.2.diff",
+  "patch_url": "https://github.com/appium/appium/compare/v1.5.1...v1.5.2.patch",
+  "base_commit": {
+    "sha": "dc865428e6a78ed6b8153132d6e50b9afc8c4570",
+    "commit": {
+      "author": {
+        "name": "Isaac A. Murchie",
+        "email": "murchieisaac@gmail.com",
+        "date": "2016-03-29T18:49:04Z"
+      },
+      "committer": {
+        "name": "Isaac A. Murchie",
+        "email": "murchieisaac@gmail.com",
+        "date": "2016-03-29T18:49:04Z"
+      },
+      "message": "Merge pull request #6344 from appium/isaac-changelog\n\nChangelog for 1.5.1",
+      "tree": {
+        "sha": "291b77620912af26ac018ce79e3cd70802c0fd92",
+        "url": "https://api.github.com/repos/appium/appium/git/trees/291b77620912af26ac018ce79e3cd70802c0fd92"
+      },
+      "url": "https://api.github.com/repos/appium/appium/git/commits/dc865428e6a78ed6b8153132d6e50b9afc8c4570",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/appium/appium/commits/dc865428e6a78ed6b8153132d6e50b9afc8c4570",
+    "html_url": "https://github.com/appium/appium/commit/dc865428e6a78ed6b8153132d6e50b9afc8c4570",
+    "comments_url": "https://api.github.com/repos/appium/appium/commits/dc865428e6a78ed6b8153132d6e50b9afc8c4570/comments",
+    "author": {
+      "login": "imurchie",
+      "id": 2614354,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/imurchie",
+      "html_url": "https://github.com/imurchie",
+      "followers_url": "https://api.github.com/users/imurchie/followers",
+      "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+      "organizations_url": "https://api.github.com/users/imurchie/orgs",
+      "repos_url": "https://api.github.com/users/imurchie/repos",
+      "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/imurchie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "imurchie",
+      "id": 2614354,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/imurchie",
+      "html_url": "https://github.com/imurchie",
+      "followers_url": "https://api.github.com/users/imurchie/followers",
+      "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+      "organizations_url": "https://api.github.com/users/imurchie/orgs",
+      "repos_url": "https://api.github.com/users/imurchie/repos",
+      "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/imurchie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "43d387d2c45a9611a34454ddb52471b86258f576",
+        "url": "https://api.github.com/repos/appium/appium/commits/43d387d2c45a9611a34454ddb52471b86258f576",
+        "html_url": "https://github.com/appium/appium/commit/43d387d2c45a9611a34454ddb52471b86258f576"
+      },
+      {
+        "sha": "96ec96f69109b18931fea5197bd4b437dba35638",
+        "url": "https://api.github.com/repos/appium/appium/commits/96ec96f69109b18931fea5197bd4b437dba35638",
+        "html_url": "https://github.com/appium/appium/commit/96ec96f69109b18931fea5197bd4b437dba35638"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "93004e134878b75c03ff78a6b7041a1f846d0429",
+    "commit": {
+      "author": {
+        "name": "Jonathan Lipps",
+        "email": "jlipps@gmail.com",
+        "date": "2016-02-25T23:14:47Z"
+      },
+      "committer": {
+        "name": "Jonathan Lipps",
+        "email": "jlipps@gmail.com",
+        "date": "2016-02-25T23:14:47Z"
+      },
+      "message": "update changelog bits",
+      "tree": {
+        "sha": "84047b861810c7505f80076b536be5264a16e48b",
+        "url": "https://api.github.com/repos/appium/appium/git/trees/84047b861810c7505f80076b536be5264a16e48b"
+      },
+      "url": "https://api.github.com/repos/appium/appium/git/commits/93004e134878b75c03ff78a6b7041a1f846d0429",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/appium/appium/commits/93004e134878b75c03ff78a6b7041a1f846d0429",
+    "html_url": "https://github.com/appium/appium/commit/93004e134878b75c03ff78a6b7041a1f846d0429",
+    "comments_url": "https://api.github.com/repos/appium/appium/commits/93004e134878b75c03ff78a6b7041a1f846d0429/comments",
+    "author": {
+      "login": "jlipps",
+      "id": 605053,
+      "avatar_url": "https://avatars.githubusercontent.com/u/605053?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jlipps",
+      "html_url": "https://github.com/jlipps",
+      "followers_url": "https://api.github.com/users/jlipps/followers",
+      "following_url": "https://api.github.com/users/jlipps/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jlipps/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jlipps/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jlipps/subscriptions",
+      "organizations_url": "https://api.github.com/users/jlipps/orgs",
+      "repos_url": "https://api.github.com/users/jlipps/repos",
+      "events_url": "https://api.github.com/users/jlipps/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jlipps/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jlipps",
+      "id": 605053,
+      "avatar_url": "https://avatars.githubusercontent.com/u/605053?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jlipps",
+      "html_url": "https://github.com/jlipps",
+      "followers_url": "https://api.github.com/users/jlipps/followers",
+      "following_url": "https://api.github.com/users/jlipps/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jlipps/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jlipps/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jlipps/subscriptions",
+      "organizations_url": "https://api.github.com/users/jlipps/orgs",
+      "repos_url": "https://api.github.com/users/jlipps/repos",
+      "events_url": "https://api.github.com/users/jlipps/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jlipps/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5f03ce546e24684d56762531e783f28d61e2a13e",
+        "url": "https://api.github.com/repos/appium/appium/commits/5f03ce546e24684d56762531e783f28d61e2a13e",
+        "html_url": "https://github.com/appium/appium/commit/5f03ce546e24684d56762531e783f28d61e2a13e"
+      }
+    ]
+  },
+  "status": "diverged",
+  "ahead_by": 29,
+  "behind_by": 49,
+  "total_commits": 29,
+  "commits": [
+    {
+      "sha": "74fa4504f82f5f5b56ca2ee7497875f465f7ef42",
+      "commit": {
+        "author": {
+          "name": "Srinivasan Sekar",
+          "email": "srinivasan.sekar1990@gmail.com",
+          "date": "2016-02-26T23:46:47Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-08T22:08:47Z"
+        },
+        "message": "CI Improvements",
+        "tree": {
+          "sha": "2f11195b903d1849a0c0ac77e1cc3576391b871e",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/2f11195b903d1849a0c0ac77e1cc3576391b871e"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/74fa4504f82f5f5b56ca2ee7497875f465f7ef42",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/74fa4504f82f5f5b56ca2ee7497875f465f7ef42",
+      "html_url": "https://github.com/appium/appium/commit/74fa4504f82f5f5b56ca2ee7497875f465f7ef42",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/74fa4504f82f5f5b56ca2ee7497875f465f7ef42/comments",
+      "author": {
+        "login": "SrinivasanTarget",
+        "id": 8896549,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SrinivasanTarget",
+        "html_url": "https://github.com/SrinivasanTarget",
+        "followers_url": "https://api.github.com/users/SrinivasanTarget/followers",
+        "following_url": "https://api.github.com/users/SrinivasanTarget/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SrinivasanTarget/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SrinivasanTarget/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SrinivasanTarget/subscriptions",
+        "organizations_url": "https://api.github.com/users/SrinivasanTarget/orgs",
+        "repos_url": "https://api.github.com/users/SrinivasanTarget/repos",
+        "events_url": "https://api.github.com/users/SrinivasanTarget/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SrinivasanTarget/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "93004e134878b75c03ff78a6b7041a1f846d0429",
+          "url": "https://api.github.com/repos/appium/appium/commits/93004e134878b75c03ff78a6b7041a1f846d0429",
+          "html_url": "https://github.com/appium/appium/commit/93004e134878b75c03ff78a6b7041a1f846d0429"
+        }
+      ]
+    },
+    {
+      "sha": "bf0458ba9ba04df4f28f7445fd3346a4dccf1640",
+      "commit": {
+        "author": {
+          "name": "Srinivasan Sekar",
+          "email": "srinivasan.sekar1990@gmail.com",
+          "date": "2016-02-27T00:13:13Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-08T22:11:17Z"
+        },
+        "message": "Removed .gitmodules",
+        "tree": {
+          "sha": "201cec370656d905c9592e0e78d71efdcf29c280",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/201cec370656d905c9592e0e78d71efdcf29c280"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/bf0458ba9ba04df4f28f7445fd3346a4dccf1640",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/bf0458ba9ba04df4f28f7445fd3346a4dccf1640",
+      "html_url": "https://github.com/appium/appium/commit/bf0458ba9ba04df4f28f7445fd3346a4dccf1640",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/bf0458ba9ba04df4f28f7445fd3346a4dccf1640/comments",
+      "author": {
+        "login": "SrinivasanTarget",
+        "id": 8896549,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SrinivasanTarget",
+        "html_url": "https://github.com/SrinivasanTarget",
+        "followers_url": "https://api.github.com/users/SrinivasanTarget/followers",
+        "following_url": "https://api.github.com/users/SrinivasanTarget/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SrinivasanTarget/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SrinivasanTarget/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SrinivasanTarget/subscriptions",
+        "organizations_url": "https://api.github.com/users/SrinivasanTarget/orgs",
+        "repos_url": "https://api.github.com/users/SrinivasanTarget/repos",
+        "events_url": "https://api.github.com/users/SrinivasanTarget/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SrinivasanTarget/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "74fa4504f82f5f5b56ca2ee7497875f465f7ef42",
+          "url": "https://api.github.com/repos/appium/appium/commits/74fa4504f82f5f5b56ca2ee7497875f465f7ef42",
+          "html_url": "https://github.com/appium/appium/commit/74fa4504f82f5f5b56ca2ee7497875f465f7ef42"
+        }
+      ]
+    },
+    {
+      "sha": "563670ecdea33b49e0dc2bb37e644d918a85055e",
+      "commit": {
+        "author": {
+          "name": "Srinivasan Sekar",
+          "email": "srinivasan.sekar1990@gmail.com",
+          "date": "2016-02-27T01:31:29Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-08T22:11:42Z"
+        },
+        "message": "Updated docs for authorize-ios",
+        "tree": {
+          "sha": "a1c084f439def9f159f7e3acc2977865cb9bda59",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/a1c084f439def9f159f7e3acc2977865cb9bda59"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/563670ecdea33b49e0dc2bb37e644d918a85055e",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/563670ecdea33b49e0dc2bb37e644d918a85055e",
+      "html_url": "https://github.com/appium/appium/commit/563670ecdea33b49e0dc2bb37e644d918a85055e",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/563670ecdea33b49e0dc2bb37e644d918a85055e/comments",
+      "author": {
+        "login": "SrinivasanTarget",
+        "id": 8896549,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SrinivasanTarget",
+        "html_url": "https://github.com/SrinivasanTarget",
+        "followers_url": "https://api.github.com/users/SrinivasanTarget/followers",
+        "following_url": "https://api.github.com/users/SrinivasanTarget/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SrinivasanTarget/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SrinivasanTarget/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SrinivasanTarget/subscriptions",
+        "organizations_url": "https://api.github.com/users/SrinivasanTarget/orgs",
+        "repos_url": "https://api.github.com/users/SrinivasanTarget/repos",
+        "events_url": "https://api.github.com/users/SrinivasanTarget/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SrinivasanTarget/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bf0458ba9ba04df4f28f7445fd3346a4dccf1640",
+          "url": "https://api.github.com/repos/appium/appium/commits/bf0458ba9ba04df4f28f7445fd3346a4dccf1640",
+          "html_url": "https://github.com/appium/appium/commit/bf0458ba9ba04df4f28f7445fd3346a4dccf1640"
+        }
+      ]
+    },
+    {
+      "sha": "3e931207b71df92bffc4099a7bdf3a81596d76f2",
+      "commit": {
+        "author": {
+          "name": "Isaac A. Murchie",
+          "email": "murchieisaac@gmail.com",
+          "date": "2016-03-02T16:56:30Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-08T22:11:58Z"
+        },
+        "message": "Update iwd_xcode7.md\n\nDash instead of underscore.",
+        "tree": {
+          "sha": "ec76befe743840276a4802c04e025bae6529932a",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/ec76befe743840276a4802c04e025bae6529932a"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/3e931207b71df92bffc4099a7bdf3a81596d76f2",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/3e931207b71df92bffc4099a7bdf3a81596d76f2",
+      "html_url": "https://github.com/appium/appium/commit/3e931207b71df92bffc4099a7bdf3a81596d76f2",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/3e931207b71df92bffc4099a7bdf3a81596d76f2/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "563670ecdea33b49e0dc2bb37e644d918a85055e",
+          "url": "https://api.github.com/repos/appium/appium/commits/563670ecdea33b49e0dc2bb37e644d918a85055e",
+          "html_url": "https://github.com/appium/appium/commit/563670ecdea33b49e0dc2bb37e644d918a85055e"
+        }
+      ]
+    },
+    {
+      "sha": "547d3083822a777f0074c4fd128f1c103767ecf8",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-03T00:04:19Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-08T22:12:15Z"
+        },
+        "message": "Fix python swipe docs",
+        "tree": {
+          "sha": "9b672f362dc72bb86df2bf19c54515094e49ed9a",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/9b672f362dc72bb86df2bf19c54515094e49ed9a"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/547d3083822a777f0074c4fd128f1c103767ecf8",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/547d3083822a777f0074c4fd128f1c103767ecf8",
+      "html_url": "https://github.com/appium/appium/commit/547d3083822a777f0074c4fd128f1c103767ecf8",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/547d3083822a777f0074c4fd128f1c103767ecf8/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3e931207b71df92bffc4099a7bdf3a81596d76f2",
+          "url": "https://api.github.com/repos/appium/appium/commits/3e931207b71df92bffc4099a7bdf3a81596d76f2",
+          "html_url": "https://github.com/appium/appium/commit/3e931207b71df92bffc4099a7bdf3a81596d76f2"
+        }
+      ]
+    },
+    {
+      "sha": "8313c6026bfe40343608f974e4b41e0547c9b256",
+      "commit": {
+        "author": {
+          "name": "vikramvi",
+          "email": "vikram.ingleshwar@yahoo.com",
+          "date": "2016-03-03T18:07:20Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-08T22:12:28Z"
+        },
+        "message": "updated issue template asking users to give optional source code as well.",
+        "tree": {
+          "sha": "cd9943d7761c992a418bec70f9ba457c2b9cf66e",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/cd9943d7761c992a418bec70f9ba457c2b9cf66e"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/8313c6026bfe40343608f974e4b41e0547c9b256",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/8313c6026bfe40343608f974e4b41e0547c9b256",
+      "html_url": "https://github.com/appium/appium/commit/8313c6026bfe40343608f974e4b41e0547c9b256",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/8313c6026bfe40343608f974e4b41e0547c9b256/comments",
+      "author": {
+        "login": "vikramvi",
+        "id": 308490,
+        "avatar_url": "https://avatars.githubusercontent.com/u/308490?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vikramvi",
+        "html_url": "https://github.com/vikramvi",
+        "followers_url": "https://api.github.com/users/vikramvi/followers",
+        "following_url": "https://api.github.com/users/vikramvi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vikramvi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vikramvi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vikramvi/subscriptions",
+        "organizations_url": "https://api.github.com/users/vikramvi/orgs",
+        "repos_url": "https://api.github.com/users/vikramvi/repos",
+        "events_url": "https://api.github.com/users/vikramvi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vikramvi/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "547d3083822a777f0074c4fd128f1c103767ecf8",
+          "url": "https://api.github.com/repos/appium/appium/commits/547d3083822a777f0074c4fd128f1c103767ecf8",
+          "html_url": "https://github.com/appium/appium/commit/547d3083822a777f0074c4fd128f1c103767ecf8"
+        }
+      ]
+    },
+    {
+      "sha": "dc4901a87afa2783a26acd4066097005e2347e98",
+      "commit": {
+        "author": {
+          "name": "Scott Dixon",
+          "email": "scott@howrefreshing.com.au",
+          "date": "2016-03-07T19:46:08Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-08T22:12:43Z"
+        },
+        "message": "CHANGELOG: metioned removal of  gestures in 1.5",
+        "tree": {
+          "sha": "3a52a4110cce15f6971c4b1fd08c4fa4d4121684",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/3a52a4110cce15f6971c4b1fd08c4fa4d4121684"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/dc4901a87afa2783a26acd4066097005e2347e98",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/dc4901a87afa2783a26acd4066097005e2347e98",
+      "html_url": "https://github.com/appium/appium/commit/dc4901a87afa2783a26acd4066097005e2347e98",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/dc4901a87afa2783a26acd4066097005e2347e98/comments",
+      "author": {
+        "login": "scottdixon",
+        "id": 4726068,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4726068?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/scottdixon",
+        "html_url": "https://github.com/scottdixon",
+        "followers_url": "https://api.github.com/users/scottdixon/followers",
+        "following_url": "https://api.github.com/users/scottdixon/following{/other_user}",
+        "gists_url": "https://api.github.com/users/scottdixon/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/scottdixon/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/scottdixon/subscriptions",
+        "organizations_url": "https://api.github.com/users/scottdixon/orgs",
+        "repos_url": "https://api.github.com/users/scottdixon/repos",
+        "events_url": "https://api.github.com/users/scottdixon/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/scottdixon/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8313c6026bfe40343608f974e4b41e0547c9b256",
+          "url": "https://api.github.com/repos/appium/appium/commits/8313c6026bfe40343608f974e4b41e0547c9b256",
+          "html_url": "https://github.com/appium/appium/commit/8313c6026bfe40343608f974e4b41e0547c9b256"
+        }
+      ]
+    },
+    {
+      "sha": "aa8d0e70aa98674d4f8e975ed3b1d1b5bbdcab2e",
+      "commit": {
+        "author": {
+          "name": "Scott Dixon",
+          "email": "scott@howrefreshing.com.au",
+          "date": "2016-03-07T19:46:39Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-08T22:12:52Z"
+        },
+        "message": "Docs: updated scrollTo examples",
+        "tree": {
+          "sha": "c3f68ec5091187730e1af5e56ca48ac2143239f4",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/c3f68ec5091187730e1af5e56ca48ac2143239f4"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/aa8d0e70aa98674d4f8e975ed3b1d1b5bbdcab2e",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/aa8d0e70aa98674d4f8e975ed3b1d1b5bbdcab2e",
+      "html_url": "https://github.com/appium/appium/commit/aa8d0e70aa98674d4f8e975ed3b1d1b5bbdcab2e",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/aa8d0e70aa98674d4f8e975ed3b1d1b5bbdcab2e/comments",
+      "author": {
+        "login": "scottdixon",
+        "id": 4726068,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4726068?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/scottdixon",
+        "html_url": "https://github.com/scottdixon",
+        "followers_url": "https://api.github.com/users/scottdixon/followers",
+        "following_url": "https://api.github.com/users/scottdixon/following{/other_user}",
+        "gists_url": "https://api.github.com/users/scottdixon/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/scottdixon/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/scottdixon/subscriptions",
+        "organizations_url": "https://api.github.com/users/scottdixon/orgs",
+        "repos_url": "https://api.github.com/users/scottdixon/repos",
+        "events_url": "https://api.github.com/users/scottdixon/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/scottdixon/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dc4901a87afa2783a26acd4066097005e2347e98",
+          "url": "https://api.github.com/repos/appium/appium/commits/dc4901a87afa2783a26acd4066097005e2347e98",
+          "html_url": "https://github.com/appium/appium/commit/dc4901a87afa2783a26acd4066097005e2347e98"
+        }
+      ]
+    },
+    {
+      "sha": "0d9b4a812a6b322720c847e9fa376ef729233218",
+      "commit": {
+        "author": {
+          "name": "Srinivasan Sekar",
+          "email": "srinivasan.sekar1990@gmail.com",
+          "date": "2016-03-08T11:07:37Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-08T22:13:03Z"
+        },
+        "message": "Doc tweaks\n\nUpdated links\n\nUpdated links",
+        "tree": {
+          "sha": "6807b6b34b94d67ac919ee00065e5150880bb237",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/6807b6b34b94d67ac919ee00065e5150880bb237"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/0d9b4a812a6b322720c847e9fa376ef729233218",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/0d9b4a812a6b322720c847e9fa376ef729233218",
+      "html_url": "https://github.com/appium/appium/commit/0d9b4a812a6b322720c847e9fa376ef729233218",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/0d9b4a812a6b322720c847e9fa376ef729233218/comments",
+      "author": {
+        "login": "SrinivasanTarget",
+        "id": 8896549,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SrinivasanTarget",
+        "html_url": "https://github.com/SrinivasanTarget",
+        "followers_url": "https://api.github.com/users/SrinivasanTarget/followers",
+        "following_url": "https://api.github.com/users/SrinivasanTarget/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SrinivasanTarget/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SrinivasanTarget/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SrinivasanTarget/subscriptions",
+        "organizations_url": "https://api.github.com/users/SrinivasanTarget/orgs",
+        "repos_url": "https://api.github.com/users/SrinivasanTarget/repos",
+        "events_url": "https://api.github.com/users/SrinivasanTarget/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SrinivasanTarget/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "aa8d0e70aa98674d4f8e975ed3b1d1b5bbdcab2e",
+          "url": "https://api.github.com/repos/appium/appium/commits/aa8d0e70aa98674d4f8e975ed3b1d1b5bbdcab2e",
+          "html_url": "https://github.com/appium/appium/commit/aa8d0e70aa98674d4f8e975ed3b1d1b5bbdcab2e"
+        }
+      ]
+    },
+    {
+      "sha": "ed98432390b268951b1c49bb32023dddf5519031",
+      "commit": {
+        "author": {
+          "name": "Srinivasan Sekar",
+          "email": "srinivasan.sekar1990@gmail.com",
+          "date": "2016-03-08T19:00:39Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-08T22:13:14Z"
+        },
+        "message": "Doc Tweaks",
+        "tree": {
+          "sha": "cb3337d81a57da894699ebc2ad272b97bbb73f61",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/cb3337d81a57da894699ebc2ad272b97bbb73f61"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/ed98432390b268951b1c49bb32023dddf5519031",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/ed98432390b268951b1c49bb32023dddf5519031",
+      "html_url": "https://github.com/appium/appium/commit/ed98432390b268951b1c49bb32023dddf5519031",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/ed98432390b268951b1c49bb32023dddf5519031/comments",
+      "author": {
+        "login": "SrinivasanTarget",
+        "id": 8896549,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SrinivasanTarget",
+        "html_url": "https://github.com/SrinivasanTarget",
+        "followers_url": "https://api.github.com/users/SrinivasanTarget/followers",
+        "following_url": "https://api.github.com/users/SrinivasanTarget/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SrinivasanTarget/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SrinivasanTarget/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SrinivasanTarget/subscriptions",
+        "organizations_url": "https://api.github.com/users/SrinivasanTarget/orgs",
+        "repos_url": "https://api.github.com/users/SrinivasanTarget/repos",
+        "events_url": "https://api.github.com/users/SrinivasanTarget/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SrinivasanTarget/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0d9b4a812a6b322720c847e9fa376ef729233218",
+          "url": "https://api.github.com/repos/appium/appium/commits/0d9b4a812a6b322720c847e9fa376ef729233218",
+          "html_url": "https://github.com/appium/appium/commit/0d9b4a812a6b322720c847e9fa376ef729233218"
+        }
+      ]
+    },
+    {
+      "sha": "d7027c09ea76b772c3bb4642f79259f6cf9ba118",
+      "commit": {
+        "author": {
+          "name": "lucyking",
+          "email": "lucyking@users.noreply.github.com",
+          "date": "2016-03-15T06:27:20Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-15T15:48:42Z"
+        },
+        "message": "Update grid-register.js\n\nIf register fail, print the failure details friendly to we newbee.",
+        "tree": {
+          "sha": "1756a5c0b9dce938fd794a6f5ca1f61367fd31c1",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/1756a5c0b9dce938fd794a6f5ca1f61367fd31c1"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/d7027c09ea76b772c3bb4642f79259f6cf9ba118",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/d7027c09ea76b772c3bb4642f79259f6cf9ba118",
+      "html_url": "https://github.com/appium/appium/commit/d7027c09ea76b772c3bb4642f79259f6cf9ba118",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/d7027c09ea76b772c3bb4642f79259f6cf9ba118/comments",
+      "author": {
+        "login": "lucyking",
+        "id": 4670642,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4670642?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucyking",
+        "html_url": "https://github.com/lucyking",
+        "followers_url": "https://api.github.com/users/lucyking/followers",
+        "following_url": "https://api.github.com/users/lucyking/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucyking/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucyking/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucyking/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucyking/orgs",
+        "repos_url": "https://api.github.com/users/lucyking/repos",
+        "events_url": "https://api.github.com/users/lucyking/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucyking/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ed98432390b268951b1c49bb32023dddf5519031",
+          "url": "https://api.github.com/repos/appium/appium/commits/ed98432390b268951b1c49bb32023dddf5519031",
+          "html_url": "https://github.com/appium/appium/commit/ed98432390b268951b1c49bb32023dddf5519031"
+        }
+      ]
+    },
+    {
+      "sha": "51bfe25c51fe1e149ecf6d1269d1dcf8f9b2eaee",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-15T15:50:46Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-15T15:51:13Z"
+        },
+        "message": "Fix string handling in grid register",
+        "tree": {
+          "sha": "ba0244f53f8d598c862de5cc3bccc2eb52bc2930",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/ba0244f53f8d598c862de5cc3bccc2eb52bc2930"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/51bfe25c51fe1e149ecf6d1269d1dcf8f9b2eaee",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/51bfe25c51fe1e149ecf6d1269d1dcf8f9b2eaee",
+      "html_url": "https://github.com/appium/appium/commit/51bfe25c51fe1e149ecf6d1269d1dcf8f9b2eaee",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/51bfe25c51fe1e149ecf6d1269d1dcf8f9b2eaee/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d7027c09ea76b772c3bb4642f79259f6cf9ba118",
+          "url": "https://api.github.com/repos/appium/appium/commits/d7027c09ea76b772c3bb4642f79259f6cf9ba118",
+          "html_url": "https://github.com/appium/appium/commit/d7027c09ea76b772c3bb4642f79259f6cf9ba118"
+        }
+      ]
+    },
+    {
+      "sha": "001327b8948611bf3910692c878455c1a3e6f3f1",
+      "commit": {
+        "author": {
+          "name": "Scott Dixon",
+          "email": "scott@howrefreshing.com.au",
+          "date": "2016-03-15T21:57:06Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:53:40Z"
+        },
+        "message": "Clarify moveTo relative coordinates",
+        "tree": {
+          "sha": "8193553f45515c008bafb1c6f1354883d2e5c218",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/8193553f45515c008bafb1c6f1354883d2e5c218"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/001327b8948611bf3910692c878455c1a3e6f3f1",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/001327b8948611bf3910692c878455c1a3e6f3f1",
+      "html_url": "https://github.com/appium/appium/commit/001327b8948611bf3910692c878455c1a3e6f3f1",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/001327b8948611bf3910692c878455c1a3e6f3f1/comments",
+      "author": {
+        "login": "scottdixon",
+        "id": 4726068,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4726068?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/scottdixon",
+        "html_url": "https://github.com/scottdixon",
+        "followers_url": "https://api.github.com/users/scottdixon/followers",
+        "following_url": "https://api.github.com/users/scottdixon/following{/other_user}",
+        "gists_url": "https://api.github.com/users/scottdixon/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/scottdixon/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/scottdixon/subscriptions",
+        "organizations_url": "https://api.github.com/users/scottdixon/orgs",
+        "repos_url": "https://api.github.com/users/scottdixon/repos",
+        "events_url": "https://api.github.com/users/scottdixon/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/scottdixon/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "51bfe25c51fe1e149ecf6d1269d1dcf8f9b2eaee",
+          "url": "https://api.github.com/repos/appium/appium/commits/51bfe25c51fe1e149ecf6d1269d1dcf8f9b2eaee",
+          "html_url": "https://github.com/appium/appium/commit/51bfe25c51fe1e149ecf6d1269d1dcf8f9b2eaee"
+        }
+      ]
+    },
+    {
+      "sha": "19cb2d6f99061e4bc4dd8372e7abadfc78a0078c",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-16T21:07:12Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:53:54Z"
+        },
+        "message": "Dont fix caps (will be done in inner drivers)",
+        "tree": {
+          "sha": "e9f30f4c1066c0dc43de0fa154c1138e6d9ee9ff",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/e9f30f4c1066c0dc43de0fa154c1138e6d9ee9ff"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/19cb2d6f99061e4bc4dd8372e7abadfc78a0078c",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/19cb2d6f99061e4bc4dd8372e7abadfc78a0078c",
+      "html_url": "https://github.com/appium/appium/commit/19cb2d6f99061e4bc4dd8372e7abadfc78a0078c",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/19cb2d6f99061e4bc4dd8372e7abadfc78a0078c/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "001327b8948611bf3910692c878455c1a3e6f3f1",
+          "url": "https://api.github.com/repos/appium/appium/commits/001327b8948611bf3910692c878455c1a3e6f3f1",
+          "html_url": "https://github.com/appium/appium/commit/001327b8948611bf3910692c878455c1a3e6f3f1"
+        }
+      ]
+    },
+    {
+      "sha": "4034d16d2dee7fc4cdc18df9c6b102720e96cd75",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-18T16:44:26Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:54:06Z"
+        },
+        "message": "Update dependencies and fix node version",
+        "tree": {
+          "sha": "286961c518fb5f457e35d1d83bdbe6bab578fca4",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/286961c518fb5f457e35d1d83bdbe6bab578fca4"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/4034d16d2dee7fc4cdc18df9c6b102720e96cd75",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/4034d16d2dee7fc4cdc18df9c6b102720e96cd75",
+      "html_url": "https://github.com/appium/appium/commit/4034d16d2dee7fc4cdc18df9c6b102720e96cd75",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/4034d16d2dee7fc4cdc18df9c6b102720e96cd75/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19cb2d6f99061e4bc4dd8372e7abadfc78a0078c",
+          "url": "https://api.github.com/repos/appium/appium/commits/19cb2d6f99061e4bc4dd8372e7abadfc78a0078c",
+          "html_url": "https://github.com/appium/appium/commit/19cb2d6f99061e4bc4dd8372e7abadfc78a0078c"
+        }
+      ]
+    },
+    {
+      "sha": "02b4abe4650a9d42d490cfb5a78b1613b4a810b3",
+      "commit": {
+        "author": {
+          "name": "Srinivasan Sekar",
+          "email": "srinivasan.sekar1990@gmail.com",
+          "date": "2016-03-17T01:23:05Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:54:35Z"
+        },
+        "message": "Lo-dash library update to improve js performance\n\nRemoved migration library\n\nRemoved migration library\n\nupdated request-promise to support to lo-dash 4.0\n\nReverted request promise update till we upgrade bluebird\n\nDont fix caps (will be done in inner drivers)\n\nreverted other lib updates\n\nRemoved helpers as it is moved to base driver\n\nUpdate dependencies and fix node version\n\nResolved merge conflicts\n\nUpdated lodash after merge conflicts",
+        "tree": {
+          "sha": "4d6e0b183d4e7d7277cd926007b7c57a1b7a4900",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/4d6e0b183d4e7d7277cd926007b7c57a1b7a4900"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/02b4abe4650a9d42d490cfb5a78b1613b4a810b3",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/02b4abe4650a9d42d490cfb5a78b1613b4a810b3",
+      "html_url": "https://github.com/appium/appium/commit/02b4abe4650a9d42d490cfb5a78b1613b4a810b3",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/02b4abe4650a9d42d490cfb5a78b1613b4a810b3/comments",
+      "author": {
+        "login": "SrinivasanTarget",
+        "id": 8896549,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SrinivasanTarget",
+        "html_url": "https://github.com/SrinivasanTarget",
+        "followers_url": "https://api.github.com/users/SrinivasanTarget/followers",
+        "following_url": "https://api.github.com/users/SrinivasanTarget/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SrinivasanTarget/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SrinivasanTarget/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SrinivasanTarget/subscriptions",
+        "organizations_url": "https://api.github.com/users/SrinivasanTarget/orgs",
+        "repos_url": "https://api.github.com/users/SrinivasanTarget/repos",
+        "events_url": "https://api.github.com/users/SrinivasanTarget/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SrinivasanTarget/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4034d16d2dee7fc4cdc18df9c6b102720e96cd75",
+          "url": "https://api.github.com/repos/appium/appium/commits/4034d16d2dee7fc4cdc18df9c6b102720e96cd75",
+          "html_url": "https://github.com/appium/appium/commit/4034d16d2dee7fc4cdc18df9c6b102720e96cd75"
+        }
+      ]
+    },
+    {
+      "sha": "66184e132d3722077ba5a84c2d19382735e77c7c",
+      "commit": {
+        "author": {
+          "name": "Srinivasan Sekar",
+          "email": "srinivasan.sekar1990@gmail.com",
+          "date": "2016-03-16T23:56:11Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:54:45Z"
+        },
+        "message": "Winston updates for better logging\n\nCI Comment fixes\n\nUpdated name\n\ndependency update",
+        "tree": {
+          "sha": "560f610e2eb681b324bb42a21196de6c105b887e",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/560f610e2eb681b324bb42a21196de6c105b887e"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/66184e132d3722077ba5a84c2d19382735e77c7c",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/66184e132d3722077ba5a84c2d19382735e77c7c",
+      "html_url": "https://github.com/appium/appium/commit/66184e132d3722077ba5a84c2d19382735e77c7c",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/66184e132d3722077ba5a84c2d19382735e77c7c/comments",
+      "author": {
+        "login": "SrinivasanTarget",
+        "id": 8896549,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SrinivasanTarget",
+        "html_url": "https://github.com/SrinivasanTarget",
+        "followers_url": "https://api.github.com/users/SrinivasanTarget/followers",
+        "following_url": "https://api.github.com/users/SrinivasanTarget/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SrinivasanTarget/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SrinivasanTarget/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SrinivasanTarget/subscriptions",
+        "organizations_url": "https://api.github.com/users/SrinivasanTarget/orgs",
+        "repos_url": "https://api.github.com/users/SrinivasanTarget/repos",
+        "events_url": "https://api.github.com/users/SrinivasanTarget/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SrinivasanTarget/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "02b4abe4650a9d42d490cfb5a78b1613b4a810b3",
+          "url": "https://api.github.com/repos/appium/appium/commits/02b4abe4650a9d42d490cfb5a78b1613b4a810b3",
+          "html_url": "https://github.com/appium/appium/commit/02b4abe4650a9d42d490cfb5a78b1613b4a810b3"
+        }
+      ]
+    },
+    {
+      "sha": "e05f93eb28f7bbc6f56c3b35b20203fbeaa69310",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-21T21:55:27Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:54:54Z"
+        },
+        "message": "Reverse log levels",
+        "tree": {
+          "sha": "b6e4617074016e248ff2f33b1f6ed7a9b09a1ebc",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/b6e4617074016e248ff2f33b1f6ed7a9b09a1ebc"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/e05f93eb28f7bbc6f56c3b35b20203fbeaa69310",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/e05f93eb28f7bbc6f56c3b35b20203fbeaa69310",
+      "html_url": "https://github.com/appium/appium/commit/e05f93eb28f7bbc6f56c3b35b20203fbeaa69310",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/e05f93eb28f7bbc6f56c3b35b20203fbeaa69310/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "66184e132d3722077ba5a84c2d19382735e77c7c",
+          "url": "https://api.github.com/repos/appium/appium/commits/66184e132d3722077ba5a84c2d19382735e77c7c",
+          "html_url": "https://github.com/appium/appium/commit/66184e132d3722077ba5a84c2d19382735e77c7c"
+        }
+      ]
+    },
+    {
+      "sha": "4970643d96a4bbf75084500e339dc6fa3cd2af75",
+      "commit": {
+        "author": {
+          "name": "Akhil Lb",
+          "email": "akhil.lb1@gmail.com",
+          "date": "2016-03-22T11:16:58Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:55:04Z"
+        },
+        "message": "Renaming forgotten pairs to toPairs in lib/main.js\n\nRenaming forgotten pairs to toPairs\n\nRemoving unneccessary console.log in logDefaultCapabilitiesWarning",
+        "tree": {
+          "sha": "6ae9ff03196f3ff9bc378fb2fa27b864db97eb7f",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/6ae9ff03196f3ff9bc378fb2fa27b864db97eb7f"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/4970643d96a4bbf75084500e339dc6fa3cd2af75",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/4970643d96a4bbf75084500e339dc6fa3cd2af75",
+      "html_url": "https://github.com/appium/appium/commit/4970643d96a4bbf75084500e339dc6fa3cd2af75",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/4970643d96a4bbf75084500e339dc6fa3cd2af75/comments",
+      "author": {
+        "login": "akhillb",
+        "id": 5848935,
+        "avatar_url": "https://avatars.githubusercontent.com/u/5848935?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/akhillb",
+        "html_url": "https://github.com/akhillb",
+        "followers_url": "https://api.github.com/users/akhillb/followers",
+        "following_url": "https://api.github.com/users/akhillb/following{/other_user}",
+        "gists_url": "https://api.github.com/users/akhillb/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/akhillb/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/akhillb/subscriptions",
+        "organizations_url": "https://api.github.com/users/akhillb/orgs",
+        "repos_url": "https://api.github.com/users/akhillb/repos",
+        "events_url": "https://api.github.com/users/akhillb/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/akhillb/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e05f93eb28f7bbc6f56c3b35b20203fbeaa69310",
+          "url": "https://api.github.com/repos/appium/appium/commits/e05f93eb28f7bbc6f56c3b35b20203fbeaa69310",
+          "html_url": "https://github.com/appium/appium/commit/e05f93eb28f7bbc6f56c3b35b20203fbeaa69310"
+        }
+      ]
+    },
+    {
+      "sha": "c78847855b80d074824a71362b487cbe2e1e84e1",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-22T17:06:39Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:55:23Z"
+        },
+        "message": "Add tests for logging levels",
+        "tree": {
+          "sha": "34111504a03309dfc7e4cdac7eca1dc9c5912930",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/34111504a03309dfc7e4cdac7eca1dc9c5912930"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/c78847855b80d074824a71362b487cbe2e1e84e1",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/c78847855b80d074824a71362b487cbe2e1e84e1",
+      "html_url": "https://github.com/appium/appium/commit/c78847855b80d074824a71362b487cbe2e1e84e1",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/c78847855b80d074824a71362b487cbe2e1e84e1/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4970643d96a4bbf75084500e339dc6fa3cd2af75",
+          "url": "https://api.github.com/repos/appium/appium/commits/4970643d96a4bbf75084500e339dc6fa3cd2af75",
+          "html_url": "https://github.com/appium/appium/commit/4970643d96a4bbf75084500e339dc6fa3cd2af75"
+        }
+      ]
+    },
+    {
+      "sha": "2cadaa284e3d036dc8096c0607c8b3047dce3197",
+      "commit": {
+        "author": {
+          "name": "Srinivasan Sekar",
+          "email": "srinivasan.sekar1990@gmail.com",
+          "date": "2016-03-20T15:08:05Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:55:34Z"
+        },
+        "message": "Doc tweaks\n\nUpdated path for npm versions\n\nUpdated path for npm versions\n\nUpdated path for npm versions",
+        "tree": {
+          "sha": "56701e1e205131a2f827647db5569880ef90f3c9",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/56701e1e205131a2f827647db5569880ef90f3c9"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/2cadaa284e3d036dc8096c0607c8b3047dce3197",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/2cadaa284e3d036dc8096c0607c8b3047dce3197",
+      "html_url": "https://github.com/appium/appium/commit/2cadaa284e3d036dc8096c0607c8b3047dce3197",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/2cadaa284e3d036dc8096c0607c8b3047dce3197/comments",
+      "author": {
+        "login": "SrinivasanTarget",
+        "id": 8896549,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8896549?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SrinivasanTarget",
+        "html_url": "https://github.com/SrinivasanTarget",
+        "followers_url": "https://api.github.com/users/SrinivasanTarget/followers",
+        "following_url": "https://api.github.com/users/SrinivasanTarget/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SrinivasanTarget/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SrinivasanTarget/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SrinivasanTarget/subscriptions",
+        "organizations_url": "https://api.github.com/users/SrinivasanTarget/orgs",
+        "repos_url": "https://api.github.com/users/SrinivasanTarget/repos",
+        "events_url": "https://api.github.com/users/SrinivasanTarget/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SrinivasanTarget/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c78847855b80d074824a71362b487cbe2e1e84e1",
+          "url": "https://api.github.com/repos/appium/appium/commits/c78847855b80d074824a71362b487cbe2e1e84e1",
+          "html_url": "https://github.com/appium/appium/commit/c78847855b80d074824a71362b487cbe2e1e84e1"
+        }
+      ]
+    },
+    {
+      "sha": "0da1891ac96de906630e5d4de5b4ea71893a3990",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:51:01Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T14:55:43Z"
+        },
+        "message": "Add continuation-local-support to deps",
+        "tree": {
+          "sha": "d32218b75295a33f6387d65fea1eb515ebe93247",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/d32218b75295a33f6387d65fea1eb515ebe93247"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/0da1891ac96de906630e5d4de5b4ea71893a3990",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/0da1891ac96de906630e5d4de5b4ea71893a3990",
+      "html_url": "https://github.com/appium/appium/commit/0da1891ac96de906630e5d4de5b4ea71893a3990",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/0da1891ac96de906630e5d4de5b4ea71893a3990/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2cadaa284e3d036dc8096c0607c8b3047dce3197",
+          "url": "https://api.github.com/repos/appium/appium/commits/2cadaa284e3d036dc8096c0607c8b3047dce3197",
+          "html_url": "https://github.com/appium/appium/commit/2cadaa284e3d036dc8096c0607c8b3047dce3197"
+        }
+      ]
+    },
+    {
+      "sha": "b590d9b9d566f76188b2d9f5a8dae23464a05ceb",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T20:50:38Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-23T20:50:38Z"
+        },
+        "message": "Upgrade to v1.5.1",
+        "tree": {
+          "sha": "f224e6d6deedfeb500f91d83afaad1e15b0c3902",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/f224e6d6deedfeb500f91d83afaad1e15b0c3902"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/b590d9b9d566f76188b2d9f5a8dae23464a05ceb",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/b590d9b9d566f76188b2d9f5a8dae23464a05ceb",
+      "html_url": "https://github.com/appium/appium/commit/b590d9b9d566f76188b2d9f5a8dae23464a05ceb",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/b590d9b9d566f76188b2d9f5a8dae23464a05ceb/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0da1891ac96de906630e5d4de5b4ea71893a3990",
+          "url": "https://api.github.com/repos/appium/appium/commits/0da1891ac96de906630e5d4de5b4ea71893a3990",
+          "html_url": "https://github.com/appium/appium/commit/0da1891ac96de906630e5d4de5b4ea71893a3990"
+        }
+      ]
+    },
+    {
+      "sha": "691c2f66c00524f7f22453e5f20bb126f5bba268",
+      "commit": {
+        "author": {
+          "name": "Isaac A. Murchie",
+          "email": "murchieisaac@gmail.com",
+          "date": "2016-03-23T21:23:50Z"
+        },
+        "committer": {
+          "name": "Isaac A. Murchie",
+          "email": "murchieisaac@gmail.com",
+          "date": "2016-03-23T21:23:50Z"
+        },
+        "message": "Merge pull request #6328 from appium/isaac-1.5.1\n\nIsaac 1.5.1",
+        "tree": {
+          "sha": "f224e6d6deedfeb500f91d83afaad1e15b0c3902",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/f224e6d6deedfeb500f91d83afaad1e15b0c3902"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/691c2f66c00524f7f22453e5f20bb126f5bba268",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/691c2f66c00524f7f22453e5f20bb126f5bba268",
+      "html_url": "https://github.com/appium/appium/commit/691c2f66c00524f7f22453e5f20bb126f5bba268",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/691c2f66c00524f7f22453e5f20bb126f5bba268/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "93004e134878b75c03ff78a6b7041a1f846d0429",
+          "url": "https://api.github.com/repos/appium/appium/commits/93004e134878b75c03ff78a6b7041a1f846d0429",
+          "html_url": "https://github.com/appium/appium/commit/93004e134878b75c03ff78a6b7041a1f846d0429"
+        },
+        {
+          "sha": "b590d9b9d566f76188b2d9f5a8dae23464a05ceb",
+          "url": "https://api.github.com/repos/appium/appium/commits/b590d9b9d566f76188b2d9f5a8dae23464a05ceb",
+          "html_url": "https://github.com/appium/appium/commit/b590d9b9d566f76188b2d9f5a8dae23464a05ceb"
+        }
+      ]
+    },
+    {
+      "sha": "8150b4f3a64a9eb74d447552d3384aa192407eeb",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-25T18:16:07Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-03-25T18:16:07Z"
+        },
+        "message": "Final tweaks for 1.5.1",
+        "tree": {
+          "sha": "a2b68fc8718d6f1857531647ed5098f021d50d9d",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/a2b68fc8718d6f1857531647ed5098f021d50d9d"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/8150b4f3a64a9eb74d447552d3384aa192407eeb",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/8150b4f3a64a9eb74d447552d3384aa192407eeb",
+      "html_url": "https://github.com/appium/appium/commit/8150b4f3a64a9eb74d447552d3384aa192407eeb",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/8150b4f3a64a9eb74d447552d3384aa192407eeb/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "691c2f66c00524f7f22453e5f20bb126f5bba268",
+          "url": "https://api.github.com/repos/appium/appium/commits/691c2f66c00524f7f22453e5f20bb126f5bba268",
+          "html_url": "https://github.com/appium/appium/commit/691c2f66c00524f7f22453e5f20bb126f5bba268"
+        }
+      ]
+    },
+    {
+      "sha": "0b7efd1f8cde22c2e15a294f9b02a616979a2329",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-04-06T19:59:26Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-04-15T16:56:43Z"
+        },
+        "message": "Deprecate --command-timeout server arg",
+        "tree": {
+          "sha": "bdb7e8a2d57a889c774b82521e5c0f047038497f",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/bdb7e8a2d57a889c774b82521e5c0f047038497f"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/0b7efd1f8cde22c2e15a294f9b02a616979a2329",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/0b7efd1f8cde22c2e15a294f9b02a616979a2329",
+      "html_url": "https://github.com/appium/appium/commit/0b7efd1f8cde22c2e15a294f9b02a616979a2329",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/0b7efd1f8cde22c2e15a294f9b02a616979a2329/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8150b4f3a64a9eb74d447552d3384aa192407eeb",
+          "url": "https://api.github.com/repos/appium/appium/commits/8150b4f3a64a9eb74d447552d3384aa192407eeb",
+          "html_url": "https://github.com/appium/appium/commit/8150b4f3a64a9eb74d447552d3384aa192407eeb"
+        }
+      ]
+    },
+    {
+      "sha": "3b6815f8475634aeacc4f489dd9a2858df784704",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-04-15T15:33:27Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-04-15T16:57:01Z"
+        },
+        "message": "Update docs for windows install",
+        "tree": {
+          "sha": "a61d4d2174caa7dae229b7194ec2b0878663df7e",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/a61d4d2174caa7dae229b7194ec2b0878663df7e"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/3b6815f8475634aeacc4f489dd9a2858df784704",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/3b6815f8475634aeacc4f489dd9a2858df784704",
+      "html_url": "https://github.com/appium/appium/commit/3b6815f8475634aeacc4f489dd9a2858df784704",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/3b6815f8475634aeacc4f489dd9a2858df784704/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0b7efd1f8cde22c2e15a294f9b02a616979a2329",
+          "url": "https://api.github.com/repos/appium/appium/commits/0b7efd1f8cde22c2e15a294f9b02a616979a2329",
+          "html_url": "https://github.com/appium/appium/commit/0b7efd1f8cde22c2e15a294f9b02a616979a2329"
+        }
+      ]
+    },
+    {
+      "sha": "4b4856111d2a74437400016812d0ca3764f57137",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-04-15T17:16:54Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-04-20T16:19:41Z"
+        },
+        "message": "Update deps and bump version",
+        "tree": {
+          "sha": "c873dfd211f4ef125b116157f8b3009a6bb1ba44",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/c873dfd211f4ef125b116157f8b3009a6bb1ba44"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/4b4856111d2a74437400016812d0ca3764f57137",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/4b4856111d2a74437400016812d0ca3764f57137",
+      "html_url": "https://github.com/appium/appium/commit/4b4856111d2a74437400016812d0ca3764f57137",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/4b4856111d2a74437400016812d0ca3764f57137/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3b6815f8475634aeacc4f489dd9a2858df784704",
+          "url": "https://api.github.com/repos/appium/appium/commits/3b6815f8475634aeacc4f489dd9a2858df784704",
+          "html_url": "https://github.com/appium/appium/commit/3b6815f8475634aeacc4f489dd9a2858df784704"
+        }
+      ]
+    },
+    {
+      "sha": "8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "commit": {
+        "author": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-04-20T16:28:35Z"
+        },
+        "committer": {
+          "name": "Isaac Murchie",
+          "email": "isaac@saucelabs.com",
+          "date": "2016-04-20T17:45:33Z"
+        },
+        "message": "Add changelog and bump to 1.5.2",
+        "tree": {
+          "sha": "4df0ef30c19e0dd9d604f2172ee3609254314669",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/4df0ef30c19e0dd9d604f2172ee3609254314669"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "html_url": "https://github.com/appium/appium/commit/8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/comments",
+      "author": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "imurchie",
+        "id": 2614354,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614354?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/imurchie",
+        "html_url": "https://github.com/imurchie",
+        "followers_url": "https://api.github.com/users/imurchie/followers",
+        "following_url": "https://api.github.com/users/imurchie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/imurchie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/imurchie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/imurchie/subscriptions",
+        "organizations_url": "https://api.github.com/users/imurchie/orgs",
+        "repos_url": "https://api.github.com/users/imurchie/repos",
+        "events_url": "https://api.github.com/users/imurchie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/imurchie/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4b4856111d2a74437400016812d0ca3764f57137",
+          "url": "https://api.github.com/repos/appium/appium/commits/4b4856111d2a74437400016812d0ca3764f57137",
+          "html_url": "https://github.com/appium/appium/commit/4b4856111d2a74437400016812d0ca3764f57137"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "04caaabce7364a716690747420833d070da4cab0",
+      "filename": ".github/ISSUE_TEMPLATE.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "changes": 9,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/.github/ISSUE_TEMPLATE.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/.github/ISSUE_TEMPLATE.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/.github/ISSUE_TEMPLATE.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -19,3 +19,12 @@ Describe in more detail the problem you have been experiencing, if necessary.\n ## Link to Appium logs\n \n Create a [gist](https://gist.github.com) which is a paste of your _full_ Appium logs, and link them here. Do _not_ paste your full Appium logs here, as it will make this issue very long and hard to read! If you are reporting a bug, _always_ include Appium logs!\n+\n+\n+## Code To Reproduce Issue [ Good To Have ]\n+\n+Please remember that, with sample code; it's easier to reproduce bug and much faster to fix it.\n+\n+Please git clone https://github.com/appium/sample-code and use one of your favourite languages and sample apps to reproduce issue.\n+\n+In case a similar scenario is missing in sample-code, please submit a PR with one of the sample apps provided.\n\\ No newline at end of file"
+    },
+    {
+      "sha": "536742efa647fe0a73b8e670639456f2bf404f57",
+      "filename": ".gitignore",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/.gitignore",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/.gitignore",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/.gitignore?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -30,3 +30,4 @@ build/\n *DerivedData\n __pycache__\n old\n+.tern-project"
+    },
+    {
+      "sha": "bea75b2b5066c00342a1d7d11e800bea2b1d48a9",
+      "filename": ".gitmodules",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 55,
+      "changes": 55,
+      "blob_url": "https://github.com/appium/appium/blob/93004e134878b75c03ff78a6b7041a1f846d0429/.gitmodules",
+      "raw_url": "https://github.com/appium/appium/raw/93004e134878b75c03ff78a6b7041a1f846d0429/.gitmodules",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/.gitmodules?ref=93004e134878b75c03ff78a6b7041a1f846d0429",
+      "patch": "@@ -1,55 +0,0 @@\n-[submodule \"submodules/instruments-without-delay\"]\n-\tpath = submodules/instruments-without-delay\n-\turl = https://github.com/facebook/instruments-without-delay.git\n-[submodule \"submodules/ApiDemos\"]\n-\tpath = submodules/ApiDemos\n-\turl = https://github.com/appium/android-apidemos.git\n-[submodule \"submodules/appium.io\"]\n-\tpath = submodules/appium.io\n-\turl = https://github.com/appium/appium.io.git\n-[submodule \"submodules/selendroid\"]\n-\tpath = submodules/selendroid\n-\turl = https://github.com/selendroid/selendroid.git\n-[submodule \"submodules/io.appium.gappium.sampleapp\"]\n-\tpath = submodules/io.appium.gappium.sampleapp\n-\turl = https://github.com/appium/io.appium.gappium.sampleapp.git\n-[submodule \"submodules/unlock_apk\"]\n-\tpath = submodules/unlock_apk\n-\turl = https://github.com/appium/unlock_apk.git\n-[submodule \"submodules/libimobiledevice-macosx\"]\n-\tpath = submodules/libimobiledevice-macosx\n-\turl = https://github.com/benvium/libimobiledevice-macosx.git\n-[submodule \"submodules/ForceQuitUnresponsiveApps\"]\n-\tpath = submodules/ForceQuitUnresponsiveApps\n-\turl = https://github.com/appium/ForceQuitUnresponsiveApps.git\n-[submodule \"submodules/appium-atoms\"]\n-\tpath = submodules/appium-atoms\n-\turl = https://github.com/appium/appium-atoms.git\n-\tbranch = published\n-[submodule \"submodules/appium-instruments\"]\n-\tpath = submodules/appium-instruments\n-\turl = https://github.com/appium/appium-instruments.git\n-\tbranch = published\n-[submodule \"submodules/appium-uiauto\"]\n-\tpath = submodules/appium-uiauto\n-\turl = https://github.com/appium/appium-uiauto.git\n-\tbranch = published\n-[submodule \"submodules/appium-adb\"]\n-\tpath = submodules/appium-adb\n-\turl = https://github.com/appium/appium-adb.git\n-[submodule \"submodules/io.appium.android.ime\"]\n-\tpath = submodules/io.appium.android.ime\n-\turl = https://github.com/appium/io.appium.android.ime.git\n-[submodule \"submodules/io.appium.settings\"]\n-\tpath = submodules/io.appium.settings\n-\turl = https://github.com/appium/io.appium.settings.git\n-[submodule \"submodules/sample-code\"]\n-\tpath = submodules/sample-code\n-\turl = https://github.com/appium/sample-code\n-[submodule \"submodules/deviceconsole\"]\n-\tpath = submodules/deviceconsole\n-\turl = https://github.com/rpetrich/deviceconsole.git\n-[submodule \"submodules/appium-ci-gulper\"]\n-\tpath = submodules/appium-ci-gulper\n-\turl = https://github.com/appium/appium-ci-gulper.git\n-\tbranch = master"
+    },
+    {
+      "sha": "da13f6593a736a88e9a212eedb7abaa50d789dc5",
+      "filename": ".travis.yml",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "changes": 3,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/.travis.yml",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/.travis.yml",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/.travis.yml?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -1,6 +1,7 @@\n language: node_js\n+sudo: false\n node_js:\n-  - \"5\"\n+  - \"stable\"\n   - \"4\"\n   - \"0.12\"\n after_success:"
+    },
+    {
+      "sha": "b1e66fafcb74c2c29ecf47c7f2c8e4ab26a43660",
+      "filename": "CHANGELOG.md",
+      "status": "modified",
+      "additions": 61,
+      "deletions": 0,
+      "changes": 61,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/CHANGELOG.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/CHANGELOG.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/CHANGELOG.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -1,3 +1,62 @@\n+CHANGES IN VERSION 1.5.2 (from 1.5.1)\n+===================================\n+\n+*NOTE*: Appium 1.5.2 is a bug-fix release.\n+\n+#### General\n+- deprecated `--command-timeout`. Use `newCommandTimeout` desired capability instead\n+- ensure implicit wait can be set through `timeout` method\n+- add better logging for `EPIPE` errors\n+\n+#### iOS\n+- make sure `ipa` files are handled correctly for installing on real devices\n+- ensure that existing SafariLauncher on device is used instead of rebuilding and reinstalling\n+- fix issues with getting webview contexts on real devices\n+- add full timeout support through `timeout` method\n+- make sure Xpath searches respect implicit wait timeout\n+- make sure bare Instruments process arguments are accepted\n+\n+#### Android\n+- fix failure when `apk` file is too large\n+- re-implement setting geolocation so it does not use Telnet.\n+- add support for Chromium browser\n+- fix issues with `flick`\n+- fix bug where touch action `release` would throw an error\n+- fix bug in later Android SDK version where noticing a newly started avd would fail\n+- implement `autoWebviewTimeout`\n+\n+\n+\n+CHANGES IN VERSION 1.5.1 (from 1.5)\n+===================================\n+\n+*NOTE*: Appium 1.5.1 is a bug-fix release.\n+\n+#### General\n+- allow `platformName` to be any case\n+- Windows process handling is cleaned up\n+- Desired capabilities `language` and `locale` added\n+\n+#### iOS\n+- iOS 9.3 (Xcode 7.3) support\n+- Fix handling of return values from `executeScript` in Safari\n+- Don't stop if Instruments doesn't shut down in a timely manner\n+- Escape single quotes in all methods that set the value on an element\n+- Allow custom device names\n+- Make full use of process arguments to Instruments\n+- Pass `launchTimeout` to Instruments when checking devices\n+\n+#### Android\n+- Make use of `--bootstrap-port` server argument\n+- Fix `keystorePassword` capability to allow a string\n+- Fix handling of localization in Android 6\n+- Use Appium's unlock logic for Chrome sessions\n+- Make sure reset works\n+- Make unlock more reliable for later versions of Android\n+- Allow Xpath searching from the context of another element\n+- Make full use of process arguments to adb\n+- Better error messages when ChromeDriver fails to start\n+\n CHANGES IN VERSION 1.5 (from 1.4.16)\n ======================================\n \n@@ -22,9 +81,11 @@ tests.\n   amount of complexity to the startup flow and Appium shouldn't be responsible\n   for this kind of use case\n - Remove long-deprecated `name` locator strategy\n+- Remove long-deprecated `mobile: xxx` gesture commands, except scroll\n \n #### iOS\n - add Tapster support for some more touch methods\n+- fix moveTo: treat coordinates as relative, instead of absolute\n - iPhone 6 + 6S support\n - iOS 9.3 support\n "
+    },
+    {
+      "sha": "5b49385e5356441d5fd13db99f26bc5d4e022b2d",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "changes": 10,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/README.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/README.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/README.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -25,14 +25,14 @@ See the [platform support doc](/docs/en/appium-setup/platform-support.md) for mo\n \n 1. You don't have to recompile your app or modify it in any way, due\n    to use of standard automation APIs on all platforms.\n-2. You can write tests with your favorite dev tools using any [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol)-compatible\n+2. You can write tests with your favorite dev tools using any [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html)-compatible\n    language such as Java, [Objective-C](https://github.com/appium/selenium-objective-c),\n    JavaScript with Node.js (in [promise, callback](https://github.com/admc/wd) or [generator](https://github.com/jlipps/yiewd) flavors),\n    PHP, Python, [Ruby](https://github.com/appium/ruby_lib), C#, Clojure, or Perl\n    with the Selenium WebDriver API and language-specific client libraries.\n 3. You can use any testing framework.\n \n-Investing in the [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol) protocol means you are betting on a single, free and open protocol for testing that has become a defacto standard. Don't lock yourself into a proprietary stack.\n+Investing in the [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) protocol means you are betting on a single, free and open protocol for testing that has become a defacto standard. Don't lock yourself into a proprietary stack.\n \n If you use Apple's UIAutomation library without Appium you can only write tests\n using JavaScript and you can only run tests through the Instruments application.\n@@ -83,7 +83,7 @@ You also need to download the Appium client for your language so you can write t\n \n ### Quick Start\n \n-Kick up an Appium server, and then run a test written in your favorite [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol)-compatible language!\n+Kick up an Appium server, and then run a test written in your favorite [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html)-compatible language!\n You can run an Appium server using node.js or using the application, see below.\n \n #### Using Node.js\n@@ -102,7 +102,7 @@ $ appium\n \n The main guide for getting started writing and running tests is [the running tests](/docs/en/writing-running-appium/running-tests.md) doc, which includes explanations for iOS, Android, and Android older devices. If you're interested in testing on physical hardware, you might be interested in our [real devices guide](/docs/en/appium-setup/real-devices.md).\n \n-Essentially, we support a subset of the [Selenium WebDriver JSON Wire Protocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol), and extend it so that you can specify mobile-targeted [desired capabilities](/docs/en/writing-running-appium/caps.md) to run your test through Appium.\n+Essentially, we support a subset of the [Selenium WebDriver JSON Wire Protocol](https://w3c.github.io/webdriver/webdriver-spec.html), and extend it so that you can specify mobile-targeted [desired capabilities](/docs/en/writing-running-appium/caps.md) to run your test through Appium.\n \n You find elements by using a subset of WebDriver's element-finding strategies.\n See [finding elements](/docs/en/writing-running-appium/finding-elements.md) for detailed information. We also have several extensions to the JSON Wire Protocol for [automating mobile gestures](/docs/en/writing-running-appium/touch-actions.md) like tap, flick, and swipe.\n@@ -116,7 +116,7 @@ For the full list of Appium doc pages, visit [this directory](/docs/en/).\n ### How It Works\n \n Appium drives various native automation frameworks and provides an API based on\n-Selenium's [WebDriver JSON wire protocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol).\n+Selenium's [WebDriver JSON wire protocol](https://w3c.github.io/webdriver/webdriver-spec.html).\n \n Appium drives Apple's UIAutomation library for iOS support, which is based on\n [Dan Cuellar's](http://github.com/penguinho) work on iOS Auto."
+    },
+    {
+      "sha": "1313e4f5ae8c9028756b34e2a808ed2981d187fc",
+      "filename": "docs/cn/README.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "changes": 10,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/cn/README.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/cn/README.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/cn/README.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -23,14 +23,14 @@ Appium 是一个开源的，跨平台的自动化测试工具。\n \n 1. 因为 Appium 在所有平台上都使用了标准的自动化接口，\n 所以你不需要以重新编译或者修改你的 app。\n-2. 你可以用你喜欢的开发工具，使用任何 [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol) 兼容的语言来编写测试用例。比如\n+2. 你可以用你喜欢的开发工具，使用任何 [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) 兼容的语言来编写测试用例。比如\n Java， [Objective-C](https://github.com/appium/selenium-objective-c)，\n    JavaScript with Node.js (in both [callback](https://github.com/admc/wd) and [yield-based](https://github.com/jlipps/yiewd) flavours)，\n    PHP， Python， [Ruby](https://github.com/appium/ruby_lib)， C#， Clojure， 或者 Perl。\n    可以使用标准的Selenium WebDriver API和特定语言的客户端库。\n 3. 你可以使用任何测试框架。\n \n-投资  [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol) 意味着你可以押宝在一个已经成为标准的独立，自由和开放的协议。你不会被任何专利限制。\n+投资  [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) 意味着你可以押宝在一个已经成为标准的独立，自由和开放的协议。你不会被任何专利限制。\n \n \n 如果没有 Appium，你就只能用 Javascript 来写 Apple 的 UIAutomation 脚本，并且只能通过Instruments 应用来运行你的测试。同样的，在 Google 的UiAutomator体系下，你只能用 Java 写你的测试案例。Appium 最终开启了跨平台原生移动自动化的可能。\n@@ -69,7 +69,7 @@ Java， [Objective-C](https://github.com/appium/selenium-objective-c)，\n * [Firefox OS Simulator](https://developer.mozilla.org/en/docs/Tools/Firefox_OS_Simulator)\n \n ### 快速开始\n-启动 Appium server，并运行用你喜欢的 [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol) 兼容的语言编写的测试用例。\n+启动 Appium server，并运行用你喜欢的 [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) 兼容的语言编写的测试用例。\n 你可以用 node.js 或者下面的应用程序来运行 Appium\n \n #### 使用 Node.js\n@@ -92,7 +92,7 @@ Java， [Objective-C](https://github.com/appium/selenium-objective-c)，\n 我们支持 [Selenium WebDriver JSON Wire Protocol](https://github.com/appium/appium/wiki/JSON-Wire-Protocol:-Supported-Methods) 的一个子集，而且在此之上扩展了移动平台相关的特性。所以你可以\n 指定特定移动平台[desired capabilities](writing-running-appium/caps.cn.md) 来运行你的测试。\n \n-你可以通过 [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol) 元素定位策略的子集来定位元素。更多信息请参考 [finding elements](writing-running-appium/finding-elements.cn.md)\n+你可以通过 [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) 元素定位策略的子集来定位元素。更多信息请参考 [finding elements](writing-running-appium/finding-elements.cn.md)\n 为了支持移动手势[automating mobile gestures](writing-running-appium/touch-actions.cn.md)，比如\n  tap，flick 和 swipe，我们扩展了JSON Wire Protocolor。\n \n@@ -102,7 +102,7 @@ Java， [Objective-C](https://github.com/appium/selenium-objective-c)，\n \n ### 工作原理\n \n-Appium 可以驱动多种原生自动化框架，同时也提供基于 Selenium 的 [WebDriver JSON wire protocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol) api。\n+Appium 可以驱动多种原生自动化框架，同时也提供基于 Selenium 的 [WebDriver JSON wire protocol](https://w3c.github.io/webdriver/webdriver-spec.html) api。\n \n 基于[Dan Cuellar's](http://github.com/penguinho) 在 iOS 自动化上的成果，Appium 通过驱动 Apple 的 UIAutomation 库来提供 iOS 支持。\n "
+    },
+    {
+      "sha": "023caf0d6df25f1d05e343d0999a8cca45a028b9",
+      "filename": "docs/cn/about-appium/appium-clients.cn.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/cn/about-appium/appium-clients.cn.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/cn/about-appium/appium-clients.cn.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/cn/about-appium/appium-clients.cn.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -1,8 +1,8 @@\n ## 客户端类库列表及Appium服务端支持\n \n-这些类库封装了标准Selenium客户端类库，为用户提供所有常见的[JSON](https://code.google.com/p/selenium/wiki/JsonWireProtocol) 格式selenium命令以及额外的移动设备控制相关的命令，如多点**触控手势**和**屏幕朝向**。\n+这些类库封装了标准Selenium客户端类库，为用户提供所有常见的[JSON](https://w3c.github.io/webdriver/webdriver-spec.html) 格式selenium命令以及额外的移动设备控制相关的命令，如多点**触控手势**和**屏幕朝向**。\n \n-Appium客户端类库实现了[Mobile JSON Wire Protocol](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile)（一个标准协议的官方扩展草稿）和[W3C Webdriver spec](https://dvcs.w3.org/hg/webdriver/raw-file/default/webdriver-spec.html)（一个传输不可预知的自动化协议，该协议定义了MultiAction 接口）的元素。\n+Appium客户端类库实现了[Mobile JSON Wire Protocol](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md)（一个标准协议的官方扩展草稿）和[W3C Webdriver spec](https://dvcs.w3.org/hg/webdriver/raw-file/default/webdriver-spec.html)（一个传输不可预知的自动化协议，该协议定义了MultiAction 接口）的元素。\n \n Appium 服务端定义了官方协议的扩展，为Appium 用户提供了方便的接口来执行各种设备动作，例如在测试过程中安装/卸载app。这就是为什么我们需要Appium 特定的客户端，而不是通用的Selenium 客户端。当然，Appium 客户端类库只是增加了一些功能，而实际上这些功能就是简单的扩展了Selenium 客户端，所以他们仍然可以用来运行通用的selenium会话。\n "
+    },
+    {
+      "sha": "47142d224fc2eaffe8840f2442c33c4e5e58e709",
+      "filename": "docs/cn/about-appium/intro.cn.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/cn/about-appium/intro.cn.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/cn/about-appium/intro.cn.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/cn/about-appium/intro.cn.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -26,10 +26,10 @@ Appium 是一个自动化测试开源工具，支持 iOS 平台和 Android 平\n * Android 2.3+: Google's [Instrumentation](http://developer.android.com/reference/android/app/Instrumentation.html). (Instrumentation由单独的项目[Selendroid](http://selendroid.io)提供支持 )\n \n 为了满足第二点，我们把这些第三方框架封装成一套 API，[WebDriver](http://docs.seleniumhq.org/projects/webdriver/) API.WebDriver（也就是 \"Selenium WebDriver\"） 指定了客户端到服务端的协议。\n-(参见 [JSON Wire Protocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol))。使用这种客户端-服务端的架构，我们可以使用任何语言来编写客户端，向服务端发送恰当的 HTTP 请求。\n+(参见 [JSON Wire Protocol](https://w3c.github.io/webdriver/webdriver-spec.html))。使用这种客户端-服务端的架构，我们可以使用任何语言来编写客户端，向服务端发送恰当的 HTTP 请求。\n 目前已经实现了大多数流行语言版本的客户端，这意味着你可以使用任何测试套件或者测试框架。客户端库就是简单的HTTP 客户，可以以任何你喜欢的方式潜入你的代码。换句话说，Appium 和 WebDriver 客户端不是技术意义上的“测试框架”，而是“自动化库”。你可以在你的测试环境中随意使用这些自动化库！\n \n-事实上 WebDriver 已经成为 web 浏览器自动化的标准，也成了 W3C 的标准 —— [W3C Working Draft](https://dvcs.w3.org/hg/webdriver/raw-file/tip/webdriver-spec.html)。我们又何必为移动做一个完全不同的呢？所以我们扩充了[WebDriver 的协议](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile)，在原有的基础上添加移动自动化相关的 API 方法，这也满足了第三条理念。\n+事实上 WebDriver 已经成为 web 浏览器自动化的标准，也成了 W3C 的标准 —— [W3C Working Draft](https://dvcs.w3.org/hg/webdriver/raw-file/tip/webdriver-spec.html)。我们又何必为移动做一个完全不同的呢？所以我们扩充了[WebDriver 的协议](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md)，在原有的基础上添加移动自动化相关的 API 方法，这也满足了第三条理念。\n \n 第四条就不用说了，[Appium 是开源的](https://github.com/appium/appium)。\n "
+    },
+    {
+      "sha": "dde066dd2a76eecf9fd38a42f2579a94ba0107fd",
+      "filename": "docs/cn/writing-running-appium/finding-elements.cn.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/cn/writing-running-appium/finding-elements.cn.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/cn/writing-running-appium/finding-elements.cn.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/cn/writing-running-appium/finding-elements.cn.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -5,7 +5,7 @@ Appium支持webdriver定位策略的子集\n * 根据\"class\"定位(例如， UI组件类型)\n * 根据\"xpath\"定位 (例如，具有一定约束的路径抽象标示, 基于XPath方式)\n \n-另外， Appium 还支持部分 [Mobile JSON 连接协议](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile) 的定位策略\n+另外， Appium 还支持部分 [Mobile JSON 连接协议](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md) 的定位策略\n \n * `ios uiautomation`: 一个递归地、对应使用 [UIAutomation library](ios_predicate.cn.md) 搜索元素的字符串(iOS-only)\n * `android uiautomator`: 一个递归地、对应使用 [UiAutomator Api](uiautomator_uiselector.cn.md)搜索元素的字符串 (Android-only)"
+    },
+    {
+      "sha": "9f495039d2dfe8d945d84824b9ede7d2976896fc",
+      "filename": "docs/cn/writing-running-appium/network_connection.cn.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/cn/writing-running-appium/network_connection.cn.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/cn/writing-running-appium/network_connection.cn.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/cn/writing-running-appium/network_connection.cn.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -1,6 +1,6 @@\n ## 调整网络设置\n \n-Selenium 的 [Mobile JSON Wire Protocol Specification](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile) 支持一个获取和设置设备网络连接的 [API](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile#104) 。这个 API 通过位掩码（bitmask）工作，把所有可能的状态用一个整型数据表示：\n+Selenium 的 [Mobile JSON Wire Protocol Specification](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md) 支持一个获取和设置设备网络连接的 [API](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md#104) 。这个 API 通过位掩码（bitmask）工作，把所有可能的状态用一个整型数据表示：\n \n | 值 (别名)           | 数据连接 | Wifi 连接 | 飞行模式 |\n | ------------------ | ---- | ---- | ------------- |"
+    },
+    {
+      "sha": "34452e44edf7cd280abfd3443721532a0daab04c",
+      "filename": "docs/en/about-appium/appium-clients.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/about-appium/appium-clients.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/about-appium/appium-clients.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/about-appium/appium-clients.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -1,8 +1,8 @@\n ## List of client libraries with Appium server support\n \n-These libraries wrap standard Selenium client libraries to provide all the regular selenium commands dictated by the [JSON Wire protocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol), and add extra commands related to controlling mobile devices, such as **multi-touch gestures** and **screen orientation**.\n+These libraries wrap standard Selenium client libraries to provide all the regular selenium commands dictated by the [JSON Wire protocol](https://w3c.github.io/webdriver/webdriver-spec.html), and add extra commands related to controlling mobile devices, such as **multi-touch gestures** and **screen orientation**.\n \n-Appium client libraries implement the [Mobile JSON Wire Protocol](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile) (an official draft extension to the standard protocol), and elements of the [W3C Webdriver spec](https://dvcs.w3.org/hg/webdriver/raw-file/default/webdriver-spec.html) (a transport-agnostic automation spec; this is where the MultiAction API is defined).\n+Appium client libraries implement the [Mobile JSON Wire Protocol](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md) (an official draft extension to the standard protocol), and elements of the [W3C Webdriver spec](https://dvcs.w3.org/hg/webdriver/raw-file/default/webdriver-spec.html) (a transport-agnostic automation spec; this is where the MultiAction API is defined).\n \n The Appium server itself defines custom extensions to the official protocols, giving Appium users helpful access to various device behaviors (such as installing/uninstalling apps during the course of a test session). This is why we need Appium-specific clients, not just the 'vanilla' Selenium clients. Of course, Appium client libraries only **add** functionality (in fact, they simply extend the standard Selenium clients), so they can still be used to run regular Selenium sessions.\n "
+    },
+    {
+      "sha": "28b2122289304d46310b87d161f4578c218441e6",
+      "filename": "docs/en/about-appium/intro.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/about-appium/intro.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/about-appium/intro.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/about-appium/intro.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -38,7 +38,7 @@ third-party code or frameworks to your app. This means **you're testing the same\n We meet requirement #2 by wrapping the vendor-provided frameworks in one API,\n the [WebDriver](http://docs.seleniumhq.org/projects/webdriver/) API.\n WebDriver (aka \"Selenium WebDriver\") specifies a client-server protocol\n-(known as the [JSON Wire Protocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol)).\n+(known as the [JSON Wire Protocol](https://w3c.github.io/webdriver/webdriver-spec.html)).\n Given this client-server architecture, a client written in any language can\n be used to send the appropriate HTTP requests to the server. There are\n already [clients written in every popular programming language](http://appium.io/downloads). This also\n@@ -50,7 +50,7 @@ manage your test environment any way you like!\n \n We meet requirement #3 in the same way: WebDriver has become the de facto\n standard for automating web browsers, and is a [W3C Working Draft](https://dvcs.w3.org/hg/webdriver/raw-file/tip/webdriver-spec.html).\n-Why do something totally different for mobile? Instead we have [extended the protocol](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile)\n+Why do something totally different for mobile? Instead we have [extended the protocol](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md)\n with extra API methods useful for mobile automation.\n \n It should be obvious that requirement #4 is a given -- you're reading this"
+    },
+    {
+      "sha": "d9f8ad970690fb7ef890133b8f58324c1067396d",
+      "filename": "docs/en/advanced-concepts/hybrid.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/advanced-concepts/hybrid.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/advanced-concepts/hybrid.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/advanced-concepts/hybrid.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -12,9 +12,9 @@ WebDriver protocol for everything.\n Here are the steps required to talk to a web view in your Appium test:\n \n 1.  Navigate to a portion of your app where a web view is active\n-1.  Call [GET session/:sessionId/contexts](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile)\n+1.  Call [GET session/:sessionId/contexts](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md)\n 1.  This returns a list of contexts we can access, like 'NATIVE_APP' or 'WEBVIEW_1'\n-1.  Call [POST session/:sessionId/context](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile)\n+1.  Call [POST session/:sessionId/context](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md)\n     with the id of the context you want to access\n 1.  (This puts your Appium session into a mode where all commands are\n     interpreted as being intended for automating the web view,"
+    },
+    {
+      "sha": "f86219d37f548e4fe8664e54c2fb54246dc915aa",
+      "filename": "docs/en/advanced-concepts/iwd_xcode7.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/advanced-concepts/iwd_xcode7.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/advanced-concepts/iwd_xcode7.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/advanced-concepts/iwd_xcode7.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -5,11 +5,11 @@ the command line (appium does this under the hood for xcode < 7). See [iwd](http\n \n For enabling iwd for xcode >= 7,\n - Checkout [appium-instruments](https://github.com/appium/appium-instruments)\n-- Run `xcode_iwd.sh` present in `<appium-instruments>/bin/`\n+- Run `xcode-iwd.sh` present in `<appium-instruments>/bin/`\n \n ```\n-sh <appium-instruments>/bin/xcode_iwd.sh <path to xcode> <path to appium-instruments>\n+sh <appium-instruments>/bin/xcode-iwd.sh <path to xcode> <path to appium-instruments>\n ```\n-eg. `sh ./bin/xcode_iwd.sh /Applications/Xcode.app /Users/xyz/appium-instruments/`\n+eg. `sh ./bin/xcode-iwd.sh /Applications/Xcode.app /Users/xyz/appium-instruments/`\n \n Note: iwd with xcode7 will only work for iOS >= 9.0, you can switch to older xcode for iOS < 9.0"
+    },
+    {
+      "sha": "3be2abf2dde967e1a89ee8159055ddd9c25f59ed",
+      "filename": "docs/en/appium-setup/running-on-windows.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "changes": 4,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/appium-setup/running-on-windows.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/appium-setup/running-on-windows.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/appium-setup/running-on-windows.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -15,12 +15,14 @@ To get started:\n \n 1. Install [node.js](http://nodejs.org/download/) (v.0.12 or greater). Use the\n    installer from nodejs.org.\n+1. Install `appium-doctor` in order to check your system: `npm install appium-doctor -g`.\n+   Then run by typing `appium-doctor`.\n 1. Install the [Android SDK](http://developer.android.com/sdk/index.html).\n    You will need to run the 'android' tool (included in the SDK, in the `tools` folder) and make sure\n    you have an API Level 17 or greater API installed. Set `ANDROID_HOME` to be\n    your Android SDK path and add the `tools` and `platform-tools` folders to your\n    PATH variable.\n-1. Install the Java JDK and set `JAVA_HOME` to your JDK folder.\n+1. Install the Java JDK and set `JAVA_HOME` to your JDK's `bin` folder.\n 1. Install [Apache Ant](http://ant.apache.org/bindownload.cgi) or use the one\n    that comes with the Android Windows SDK in the eclipse\\plugins folder. Be\n    sure to add the folder containing Ant to your PATH variable."
+    },
+    {
+      "sha": "c1a3c3106218b4aaea03b86e61efae541410edb4",
+      "filename": "docs/en/contributing-to-appium/appium-from-source.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "changes": 7,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/contributing-to-appium/appium-from-source.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/contributing-to-appium/appium-from-source.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/contributing-to-appium/appium-from-source.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -23,6 +23,8 @@ cd appium\n npm install\n gulp transpile # requires gulp, see below\n sudo node_modules/.bin/authorize-ios.js # for ios only\n+# alternatively\n+sudo $(npm bin)/authorize-ios\n node .\n ```\n \n@@ -81,7 +83,10 @@ have to modify your `/etc/authorization` file in one of two ways:\n \n     ```center\n     sudo node_modules/.bin/authorize-ios.js\n-    ```\n+    \n+    # alternatively\n+\tsudo $(npm bin)/authorize-ios\n+\t```\n \n At this point, run:\n "
+    },
+    {
+      "sha": "4e0dac2210675b38726c575182b3da6421f6c9a4",
+      "filename": "docs/en/writing-running-appium/appium-bindings.md",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 10,
+      "changes": 24,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/writing-running-appium/appium-bindings.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/writing-running-appium/appium-bindings.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/writing-running-appium/appium-bindings.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -825,7 +825,7 @@ swipe start_x: 75, start_y: 500, end_x: 75, end_y: 0, duration: 0.8\n \n ```python\n # python\n-driver.swipe(start=75, starty=500, endx=75, endy=0, duration=800)\n+driver.swipe(start_x=75, start_y=500, end_x=75, end_y=0, duration=800)\n ```\n \n ```java\n@@ -987,27 +987,28 @@ Scroll to an element.\n \n ```ruby\n # ruby\n-element = find_element :name, 'Element Name'\n-execute_script \"mobile: scrollTo\", :element => element.ref\n+element = find_element :name, \"Element Name\"\n+execute_script \"mobile: scroll\", direction: \"down\", element: element.ref\n ```\n \n ```python\n # python\n-driver.execute_script(\"mobile: scrollTo\", {\"element\": element.id})\n+driver.execute_script(\"mobile: scroll\", {\"direction\": \"down\", element: element.id})\n ```\n \n ```java\n // java\n-WebElement element = driver.findElement(By.name(\"Element Name\"));\n-HashMap<String, String> arguments = new HashMap<String, String>();\n-arguments.put(\"element\", element.getId());\n-(JavascriptExecutor)driver.executeScript(\"mobile: scrollTo\", arguments);\n+JavascriptExecutor js = (JavascriptExecutor) driver;\n+HashMap<String, String> scrollObject = new HashMap<String, String>();\n+scrollObject.put(\"direction\", \"down\");\n+scrollObject.put(\"element\", ((RemoteWebElement) element).getId());\n+js.executeScript(\"mobile: scroll\", scrollObject);\n ```\n \n ```javascript\n // javascript\n return driver.elementByName().then(function (el) {\n-  return driver.execute('mobile: scrollTo', {element: el.value});\n+  driver.execute(\"mobile: scroll\", [{direction: \"down\", element: el.value}]);\n });\n ```\n \n@@ -1019,7 +1020,10 @@ $this->scroll($els[count($els) - 1], $els[0]);\n \n ```csharp\n // c#\n-todo: csharp\n+Dictionary<string, string> scrollObject = new Dictionary<string, string>();\n+scrollObject.Add(\"direction\", \"down\");\n+scrollObject.Add(\"element\", <element_id>);\n+((IJavaScriptExecutor)driver).ExecuteScript(\"mobile: scroll\", scrollObject));\n ```\n \n ### Pull file"
+    },
+    {
+      "sha": "87d2ced3ba59347bc8c42f9b29a03f90f4ca7fd9",
+      "filename": "docs/en/writing-running-appium/finding-elements.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/writing-running-appium/finding-elements.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/writing-running-appium/finding-elements.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/writing-running-appium/finding-elements.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -6,7 +6,7 @@ Appium supports a subset of the WebDriver locator strategies:\n * find by \"xpath\" (i.e., an abstract representation of a path to an element,\n with certain constraints)\n \n-Appium additionally supports some of the [Mobile JSON Wire Protocol](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile) locator strategies\n+Appium additionally supports some of the [Mobile JSON Wire Protocol](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md) locator strategies\n \n * `-ios uiautomation`: a string corresponding to a recursive element search\n using the [UIAutomation library](ios_predicate.md) (iOS-only)"
+    },
+    {
+      "sha": "0d08d762e421b1b0f661998cd76b7f213233b99f",
+      "filename": "docs/en/writing-running-appium/mobile-web.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/writing-running-appium/mobile-web.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/writing-running-appium/mobile-web.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/writing-running-appium/mobile-web.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -176,7 +176,7 @@ class ContextTests extends PHPUnit_Extensions_AppiumTestCase\n Pre-requisites:\n \n *  Make sure Chrome (an app with the package `com.android.chrome`) is installed on your device or emulator. Getting Chrome for the x86 version of the emulator is not currently possible without building Chromium, so you may want to run an ARM emulator and then copy a Chrome APK from a real device to get Chrome on an emulator.\n-*  If downloaded from [NPM](https://www.npmjs.org/package/appium), or running from the [.app](https://github.com/appium/appium-dot-app), nothing needs to be done. If running from source, `npm install` will download ChromeDriver and put it in `node_modules/appium-android-driver/node_modules/appium-chromedriver/chromedriver`. A particular version can be specified by passing the `--chromedriver_version` config property (e.g., `npm install appium --chromedriver_version=\"2.16\"`), otherwise the most recent one will be retrieved.\n+*  If downloaded from [NPM](https://www.npmjs.org/package/appium), or running from the [.app](https://github.com/appium/appium-dot-app), nothing needs to be done. If running from source, `npm install` will download ChromeDriver and put it in `node_modules/appium-chromedriver/chromedriver/<OS name>/` for users having npm v3+ and for npm v2 it will be in `node_modules/appium-android-driver/node_modules/appium-chromedriver/chromedriver/<OS name>/`. A particular version can be specified by passing the `--chromedriver_version` config property (e.g., `npm install appium --chromedriver_version=\"2.16\"`), otherwise the most recent one will be retrieved.\n \n Then, use desired capabilities like these to run your test in Chrome:\n "
+    },
+    {
+      "sha": "72e4b758ee66f1db947e02b1de9d8929ea482c15",
+      "filename": "docs/en/writing-running-appium/network_connection.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/writing-running-appium/network_connection.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/writing-running-appium/network_connection.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/writing-running-appium/network_connection.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -1,6 +1,6 @@\n ## Adjusting Network Connection\n \n-The Selenium [Mobile JSON Wire Protocol Specification](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile) supports an [API](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile#104) for getting and setting the network connection for a device. The API works through a bitmask, assigning an integer to each possible state:\n+The Selenium [Mobile JSON Wire Protocol Specification](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md) supports an [API](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md#104) for getting and setting the network connection for a device. The API works through a bitmask, assigning an integer to each possible state:\n \n | Value (Alias)      | Data | Wifi | Airplane Mode |\n | ------------------ | ---- | ---- | ------------- |"
+    },
+    {
+      "sha": "3cf2804b0cb96fafe746c638001999982c11e6dd",
+      "filename": "docs/en/writing-running-appium/touch-actions.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "changes": 10,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/writing-running-appium/touch-actions.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/en/writing-running-appium/touch-actions.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/en/writing-running-appium/touch-actions.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -44,10 +44,18 @@ to another position, and removing their finger from the screen.\n Appium performs the events in sequence. You can add a `wait` event to control\n the timing of the gesture.\n \n+`moveTo` coordinates are *relative* to the current position. For example, dragging from\n+100,100 to 200,200 can be achieved by:\n+```\n+.press(100,100) // Start at 100,00\n+.moveTo(100,100) // Increase X & Y by 100 each, ending up at 200,200\n+\n+```\n+\n The appium client libraries have different ways of implementing this, for example:\n you can pass in coordinates or an element to a `moveTo` event. Passing both\n coordinates _and_ an element will treat the coordinates as relative to the\n-elements position, rather than absolute.\n+element's position, rather than relative to the current position.\n \n Calling the `perform` event sends the entire sequence of events to appium,\n and the touch gesture is run on your device."
+    },
+    {
+      "sha": "574ca0a669a5a89bbcd53612b4269a78f40cb94f",
+      "filename": "docs/old/cn/README.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "changes": 10,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/old/cn/README.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/old/cn/README.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/old/cn/README.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -13,14 +13,14 @@\n ## 为什么选择appium ?\n \n 1. 你不需要以任何方式重新编译或者修改你的app,就可以在所有的平台上使用标准的自动化APIs\n-2. 你可以用你喜欢的开发工具使用任何 [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol) 兼容的语言来编写测试用例.比如\n+2. 你可以用你喜欢的开发工具使用任何 [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) 兼容的语言来编写测试用例.比如\n Java, [Objective-C](https://github.com/appium/selenium-objective-c),\n    JavaScript with Node.js (in both [callback](https://github.com/admc/wd) and [yield-based](https://github.com/jlipps/yiewd) flavours),\n    PHP, Python, [Ruby](https://github.com/appium/ruby_lib), C#, Clojure, 或者 Perl\n    可以使用标准的Selenium WebDriver API和特定语言的客户端库.\n 3. 你可以使用任何测试框架.\n \n-依托  [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol) 意味着你可以押宝在一个已经成为事实上标准的独立,自由和开放的协议.而不会被限制在任何的专利中\n+依托  [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) 意味着你可以押宝在一个已经成为事实上标准的独立,自由和开放的协议.而不会被限制在任何的专利中\n \n \n 如果在没有使用Appium的情况,你使用了Apple的UIAutomation库就只能通过Javascript,并且只能通过Instruments application插桩应用来运行你的测试.\n@@ -54,7 +54,7 @@ Appium最终开启了跨平台原生移动自动化的可能.\n * [Firefox OS Simulator](https://developer.mozilla.org/en/docs/Tools/Firefox_OS_Simulator)\n \n ## 快速开始\n-启动Appium server,并运行用你喜欢的 [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol) 兼容的语言编写的测试用例.\n+启动Appium server,并运行用你喜欢的 [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) 兼容的语言编写的测试用例.\n 你可以用node.js或者下面的应用程序来运行Appium\n \n ### 使用Node.js\n@@ -72,7 +72,7 @@ Appium最终开启了跨平台原生移动自动化的可能.\n 我们支持 [Selenium WebDriver JSON Wire Protocol](https://github.com/appium/appium/wiki/JSON-Wire-Protocol:-Supported-Methods) 的一个子集\n 首先还需要指定特定移动平台相关的 [desired capabilities](caps.cn.md) 来通过appium运行你的测试\n \n-你可以通过 [WebDriver](https://code.google.com/p/selenium/wiki/JsonWireProtocol) 的元素定位策略的一个子集来定位元素\n+你可以通过 [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) 的元素定位策略的一个子集来定位元素\n 更多信息请参考 [finding elements](finding-elements.cn.md)\n \n \n@@ -86,7 +86,7 @@ Appium最终开启了跨平台原生移动自动化的可能.\n \n ## 工作原理\n \n-Appium通过多种原生自动化框架来提供基于Selenium的 [WebDriver JSON wire protocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol) api\n+Appium通过多种原生自动化框架来提供基于Selenium的 [WebDriver JSON wire protocol](https://w3c.github.io/webdriver/webdriver-spec.html) api\n \n Appium驱动Apple的UIAutomation库提供IOS支持. UIAutomation基于[Dan Cuellar's](http://github.com/penguinho)\n "
+    },
+    {
+      "sha": "1fccdc7ca5352967260401d2d71a9d919db52b9c",
+      "filename": "docs/old/cn/intro.cn.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/old/cn/intro.cn.md",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/docs/old/cn/intro.cn.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/docs/old/cn/intro.cn.md?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -33,15 +33,15 @@ Appium 是一个自动化测试开源工具，支持 iOS 平台和 Android 平\n \n 为了满足第二点，我们把这些第三方框架封装成一套 API， [WebDriver](http://docs.seleniumhq.org/projects/webdriver/) API.\n WebDriver （也就是 \"Selenium WebDriver\"） 指定了客户端到服务端的协议。\n-(参见 [JSON Wire Protocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol))。\n+(参见 [JSON Wire Protocol](https://w3c.github.io/webdriver/webdriver-spec.html))。\n 使用这种客户端-服务端的架构，我们可以使用任何语言来编写客户端，向服务端发送恰当的 HTTP 请求。\n 而且目前已经有大多数流行语言版本的客户端实现了。这也意味着你可以使用任何测试套件或者测试框架。客户端库就是简单的\n HTTP 客户，可以以任何你喜欢的方式潜入你的代码。换句话说，Appium 和 WebDriver 客户端不是技术意义上的“测试框架”，\n 而是“自动化库”。你可以在你的测试环境中随意使用这些自动化库！\n \n 事实上 WebDriver 已经成为 web 浏览器自动化的标准，也成了 W3C 的标准 —— [W3C Working Draft](https://dvcs.w3.org/hg/webdriver/raw-file/tip/webdriver-spec.html)。\n 我们又何必为移动做一个完全不同的呢？\n-所以我们扩充了[WebDriver 的协议](https://code.google.com/p/selenium/source/browse/spec-draft.md?repo=mobile)，\n+所以我们扩充了[WebDriver 的协议](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md)，\n 在原有的基础上添加移动自动化相关的 API 方法，这也也满足了第三条理念。\n \n 第四条就不用说了，[Appium 是开源的](https://github.com/appium/appium)。"
+    },
+    {
+      "sha": "33001699198527d2582097a03dbfb49abb446c18",
+      "filename": "lib/appium.js",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 5,
+      "changes": 9,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/appium.js",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/appium.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/lib/appium.js?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -1,7 +1,6 @@\n import _ from 'lodash';\n import log from './logger';\n import { getAppiumConfig } from './config';\n-import { fixCaps } from './helpers';\n import { BaseDriver } from 'appium-base-driver';\n import { FakeDriver } from 'appium-fake-driver';\n import { AndroidDriver } from 'appium-android-driver';\n@@ -26,7 +25,7 @@ class AppiumDriver extends BaseDriver {\n   }\n \n   sessionExists (sessionId) {\n-    return _.contains(_.keys(this.sessions), sessionId) &&\n+    return _.includes(_.keys(this.sessions), sessionId) &&\n            this.sessions[sessionId].sessionId !== null;\n   }\n \n@@ -81,7 +80,7 @@ class AppiumDriver extends BaseDriver {\n \n   async getSessions () {\n     let sessions = [];\n-    for (let [id, driver] of _.pairs(this.sessions)) {\n+    for (let [id, driver] of _.toPairs(this.sessions)) {\n       sessions.push({id: id, capabilities: driver.caps});\n     }\n     return sessions;\n@@ -94,7 +93,7 @@ class AppiumDriver extends BaseDriver {\n     log.info(`Creating new ${InnerDriver.name} session`);\n     log.info('Capabilities:');\n     util.inspect(caps);\n-    for (let [cap, value] of _.pairs(caps)) {\n+    for (let [cap, value] of _.toPairs(caps)) {\n       log.info(`  ${cap}: ${util.inspect(value)}`);\n     }\n     try {\n@@ -103,7 +102,7 @@ class AppiumDriver extends BaseDriver {\n       throw new errors.SessionNotCreatedError(e.message);\n     }\n     let d = new InnerDriver(this.args);\n-    let [innerSessionId, dCaps] = await d.createSession(fixCaps(caps), reqCaps, curSessions);\n+    let [innerSessionId, dCaps] = await d.createSession(caps, reqCaps, curSessions);\n     this.sessions[innerSessionId] = d;\n \n     // Remove the session on unexpected shutdown, so that we are in a position"
+    },
+    {
+      "sha": "51c3e8c44b2899d88d1f337d5461fcd2c944fa12",
+      "filename": "lib/config.js",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/config.js",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/config.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/lib/config.js?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -126,7 +126,7 @@ function validateServerArgs (parser, args) {\n \n   const nonDefaultArgs = getNonDefaultArgs(parser, args);\n \n-  for (let [arg, validator] of _.pairs(validations)) {\n+  for (let [arg, validator] of _.toPairs(validations)) {\n     if (_.has(nonDefaultArgs, arg)) {\n       if (!validator(args[arg], arg)) {\n         throw new Error(`Invalid argument for param ${arg}: ${args[arg]}`);"
+    },
+    {
+      "sha": "6909d5403569dab927e78afa23ca6d84f8d7877c",
+      "filename": "lib/grid-register.js",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "changes": 6,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/grid-register.js",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/grid-register.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/lib/grid-register.js?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -109,9 +109,13 @@ async function isAlreadyRegistered (jsonObject) {\n       throw new Error(`Request failed`);\n     }\n     let responseData = JSON.parse(response.body);\n+    if (responseData.success !== true) {\n+      // if register fail, print the debug msg\n+      logger.debug(`Grid registration error: ${responseData.msg}`);\n+    }\n     return responseData.success;\n   } catch (err) {\n-    logger.debug(\"Hub down or not responding: ${err.message}\");\n+    logger.debug(`Hub down or not responding: ${err.message}`);\n   }\n }\n "
+    },
+    {
+      "sha": "9015cf4b59717e9563b64bebb2337e5f4de5b27f",
+      "filename": "lib/helpers.js",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 22,
+      "changes": 22,
+      "blob_url": "https://github.com/appium/appium/blob/93004e134878b75c03ff78a6b7041a1f846d0429/lib/helpers.js",
+      "raw_url": "https://github.com/appium/appium/raw/93004e134878b75c03ff78a6b7041a1f846d0429/lib/helpers.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/lib/helpers.js?ref=93004e134878b75c03ff78a6b7041a1f846d0429",
+      "patch": "@@ -1,22 +0,0 @@\n-import _ from 'lodash';\n-import log from './logger';\n-\n-\n-function fixCaps (originalCaps) {\n-  let caps = _.clone(originalCaps);\n-  // boolean capabilities can be passed in as strings 'false' and 'true'\n-  // which we want to translate into boolean values\n-  for (let [cap, value] of _.pairs(caps)) {\n-    if (_.isString(value)) {\n-      value = value.toLowerCase();\n-      if (value === 'true' || value === 'false') {\n-        log.debug(`Capability '${cap}' changed from string to boolean. This may cause unexpected behavior`);\n-        caps[cap] = (value === 'true');\n-      }\n-    }\n-  }\n-  return caps;\n-}\n-\n-\n-export { fixCaps };"
+    },
+    {
+      "sha": "d49ba1cae93d289ed6d85a3e807a9c0e2323768d",
+      "filename": "lib/logsink.js",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 10,
+      "changes": 30,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/logsink.js",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/logsink.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/lib/logsink.js?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -3,6 +3,7 @@ import { patchLogger } from 'appium-logger';\n import winston  from 'winston';\n import { fs } from 'appium-support';\n import 'date-utils';\n+import _ from 'lodash';\n \n \n // set up distributed logging before everything else\n@@ -12,10 +13,10 @@ global._global_npmlog = npmlog;\n // npmlog is used only for emitting, we use winston for output\n npmlog.level = \"silent\";\n const levels = {\n-  debug: 1,\n-  info: 2,\n-  warn: 3,\n-  error: 4,\n+  debug: 4,\n+  info: 3,\n+  warn: 2,\n+  error: 1,\n };\n \n const colors = {\n@@ -99,7 +100,7 @@ function _createFileTransport (args, logLvl) {\n   return transport;\n }\n \n-function _createWebhookTransport (args, logLvl) {\n+function _createHttpTransport (args, logLvl) {\n   let host = null,\n       port = null;\n \n@@ -109,8 +110,8 @@ function _createWebhookTransport (args, logLvl) {\n     port = parseInt(hostAndPort[1], 10);\n   }\n \n-  let transport = new (winston.transports.Webhook)({\n-    name: \"webhook\",\n+  let transport = new (winston.transports.Http)({\n+    name: \"http\",\n     host: host || '127.0.0.1',\n     port: port || 9003,\n     path: '/',\n@@ -157,9 +158,9 @@ async function _createTransports (args) {\n \n   if (args.webhook) {\n     try {\n-      transports.push(_createWebhookTransport(args, fileLogLevel));\n+      transports.push(_createHttpTransport(args, fileLogLevel));\n     } catch (e) {\n-      console.log(`Tried to attach logging to webhook at ${args.webhook} but ` +\n+      console.log(`Tried to attach logging to Http at ${args.webhook} but ` +\n                   `an error occurred: ${e.message}`);\n     }\n   }\n@@ -204,6 +205,15 @@ async function init (args) {\n   }\n }\n \n+function clear () {\n+  if (logger) {\n+    for (let transport of _.keys(logger.transports)) {\n+      logger.remove(transport);\n+    }\n+  }\n+  npmlog.removeAllListeners('log');\n+}\n+\n \n-export { init };\n+export { init, clear };\n export default init;"
+    },
+    {
+      "sha": "d96dd5f0683545427c5f84248c9a526bf476c871",
+      "filename": "lib/main.js",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/main.js",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/main.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/lib/main.js?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -38,14 +38,14 @@ async function preflightChecks (parser, args) {\n \n function logDeprecationWarning (deprecatedArgs) {\n   logger.warn('Deprecated server args:');\n-  for (let [arg, realArg] of _.pairs(deprecatedArgs)) {\n+  for (let [arg, realArg] of _.toPairs(deprecatedArgs)) {\n     logger.warn(`  ${arg.red} => ${realArg}`);\n   }\n }\n \n function logNonDefaultArgsWarning (args) {\n   logger.info('Non-default server args:');\n-  for (let [arg, value] of _.pairs(args)) {\n+  for (let [arg, value] of _.toPairs(args)) {\n     logger.info(`  ${arg}: ${util.inspect(value)}`);\n   }\n }\n@@ -54,7 +54,7 @@ function logDefaultCapabilitiesWarning (caps) {\n   logger.info('Default capabilities, which will be added to each request ' +\n               'unless overridden by desired capabilities:');\n   util.inspect(caps);\n-  for (let [cap, value] of _.pairs(caps)) {\n+  for (let [cap, value] of _.toPairs(caps)) {\n     logger.info(`  ${cap}: ${util.inspect(value)}`);\n   }\n }"
+    },
+    {
+      "sha": "ff75b7069f965c2d8b0794658ca9962ec05929ff",
+      "filename": "lib/parser.js",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 10,
+      "changes": 20,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/parser.js",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/lib/parser.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/lib/parser.js?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -259,16 +259,6 @@ const args = [\n     help: 'Bypass Appium\\'s checks to ensure we can read/write necessary files',\n   }],\n \n-  [['--command-timeout'], {\n-    defaultValue: 60,\n-    dest: 'defaultCommandTimeout',\n-    type: 'int',\n-    required: false,\n-    help: 'The default command timeout for the server to use for all ' +\n-          'sessions (in seconds and should be less than 2147483). ' +\n-          'Will still be overridden by newCommandTimeout cap',\n-  }],\n-\n   [['--strict-caps'], {\n     defaultValue: false,\n     dest: 'enforceStrictCaps',\n@@ -356,6 +346,16 @@ const args = [\n ];\n \n const deprecatedArgs = [\n+  [['--command-timeout'], {\n+    defaultValue: 60,\n+    dest: 'defaultCommandTimeout',\n+    type: 'int',\n+    required: false,\n+    help: '[DEPRECATED] No effect. This used to be the default command ' +\n+          'timeout for the server to use for all sessions (in seconds and ' +\n+          'should be less than 2147483). Use newCommandTimeout cap instead'\n+  }],\n+\n   [['-k', '--keep-artifacts'], {\n     defaultValue: false,\n     dest: 'keepArtifacts',"
+    },
+    {
+      "sha": "2d0f4a767692a764082f8319d4f167a65ad25ebf",
+      "filename": "npm-shrinkwrap.json",
+      "status": "modified",
+      "additions": 5486,
+      "deletions": 1838,
+      "changes": 7324,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/npm-shrinkwrap.json",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/npm-shrinkwrap.json",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/npm-shrinkwrap.json?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327"
+    },
+    {
+      "sha": "eb501703c408269a2044207ce4bc33ad05b29c55",
+      "filename": "package.json",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 27,
+      "changes": 56,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/package.json",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/package.json",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/package.json?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -11,7 +11,7 @@\n     \"firefoxos\",\n     \"testing\"\n   ],\n-  \"version\": \"1.5.0\",\n+  \"version\": \"1.5.2\",\n   \"author\": \"https://github.com/appium\",\n   \"license\": \"Apache-2.0\",\n   \"repository\": {\n@@ -21,9 +21,10 @@\n   \"bugs\": {\n     \"url\": \"https://github.com/appium/appium/issues\"\n   },\n-  \"engines\": [\n-    \"node\"\n-  ],\n+  \"engines\": {\n+    \"node\": \">=0.12\",\n+    \"iojs\": \">=1.0.0\"\n+  },\n   \"main\": \"./build/lib/main.js\",\n   \"bin\": {\n     \"appium\": \"./build/lib/main.js\",\n@@ -34,43 +35,44 @@\n     \"doc\": \"./docs\"\n   },\n   \"dependencies\": {\n-    \"appium-android-driver\": \"^1.6.11\",\n-    \"appium-base-driver\": \"^1.3.0\",\n-    \"appium-express\": \"^1.2.0\",\n+    \"appium-android-driver\": \"^1.10.1\",\n+    \"appium-base-driver\": \"^1.5.0\",\n+    \"appium-express\": \"^1.2.2\",\n     \"appium-fake-driver\": \"^0.1.9\",\n-    \"appium-ios-driver\": \"^1.8.7\",\n+    \"appium-ios-driver\": \"^1.11.4\",\n     \"appium-logger\": \"^2.1.0\",\n-    \"appium-selendroid-driver\": \"^1.2.2\",\n-    \"appium-support\": \"^2.0.9\",\n-    \"argparse\": \"^1.0.2\",\n+    \"appium-selendroid-driver\": \"^1.3.3\",\n+    \"appium-support\": \"^2.2.1\",\n+    \"argparse\": \"^1.0.7\",\n     \"asyncbox\": \"^2.3.1\",\n     \"authorize-ios\": \"^1.0.4\",\n     \"babel-runtime\": \"=5.8.24\",\n-    \"bluebird\": \"^2.9.25\",\n-    \"date-utils\": \"^1.2.18\",\n-    \"lodash\": \"^3.9.1\",\n-    \"mobile-json-wire-protocol\": \"^1.3.2\",\n-    \"npmlog\": \"^2.0.1\",\n+    \"bluebird\": \"^2.10.2\",\n+    \"continuation-local-storage\": \"^3.1.7\",\n+    \"date-utils\": \"^1.2.21\",\n+    \"lodash\": \"^4.11.1\",\n+    \"mobile-json-wire-protocol\": \"^1.3.3\",\n+    \"npmlog\": \"^2.0.3\",\n     \"request-promise\": \"^1.0.2\",\n-    \"source-map-support\": \"^0.3.2\",\n-    \"teen_process\": \"^1.5.1\",\n-    \"winston\": \"^1.0.0\"\n+    \"source-map-support\": \"^0.4.0\",\n+    \"teen_process\": \"^1.6.0\",\n+    \"winston\": \"^2.2.0\"\n   },\n   \"scripts\": {\n     \"prepublish\": \"gulp prepublish\",\n     \"test\": \"gulp once\",\n     \"watch\": \"gulp\"\n   },\n   \"devDependencies\": {\n-    \"appium-gulp-plugins\": \"^1.3.12\",\n-    \"chai\": \"^3.2.0\",\n-    \"chai-as-promised\": \"^5.0.0\",\n-    \"gulp\": \"^3.8.11\",\n-    \"mocha\": \"^2.2.5\",\n-    \"sinon\": \"^1.14.1\",\n-    \"wd\": \"~0.3.11\"\n+    \"appium-gulp-plugins\": \"^1.4.5\",\n+    \"chai\": \"^3.5.0\",\n+    \"chai-as-promised\": \"^5.3.0\",\n+    \"gulp\": \"^3.9.1\",\n+    \"mocha\": \"^2.4.5\",\n+    \"sinon\": \"^1.17.3\",\n+    \"wd\": \"~0.4.0\"\n   },\n   \"optionalDependencies\": {\n-    \"fsevents\": \"^1.0.6\"\n+    \"fsevents\": \"^1.0.8\"\n   }\n }"
+    },
+    {
+      "sha": "9866d642a3f078fbe05c8410f0dc6a97413e0986",
+      "filename": "test/config-specs.js",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/test/config-specs.js",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/test/config-specs.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/test/config-specs.js?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -55,7 +55,7 @@ describe('Config', () => {\n       // but also to have access to process methods\n       // so copy them over to a writable object\n       let tempProcess = {};\n-      for (let [prop, value] of _.pairs(process)) {\n+      for (let [prop, value] of _.toPairs(process)) {\n         tempProcess[prop] = value;\n       }\n       process = tempProcess;"
+    },
+    {
+      "sha": "e345130e0d28b300f351e080f50b6f50fc53eddf",
+      "filename": "test/driver-specs.js",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "changes": 9,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/test/driver-specs.js",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/test/driver-specs.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/test/driver-specs.js?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -71,15 +71,6 @@ describe('AppiumDriver', () => {\n         await appium.createSession(BASE_CAPS);\n         mockFakeDriver.verify();\n       });\n-      it('should call inner driver\\'s createSession with desired capabilities with string booleans transformed to booleans', async () => {\n-        let sentCaps = _.extend({autoAcceptAlerts: 'false', autoDismissAlerts: 'true'}, BASE_CAPS);\n-        let expectedCaps = _.extend({autoAcceptAlerts: false, autoDismissAlerts: true}, BASE_CAPS);\n-        mockFakeDriver.expects(\"createSession\")\n-          .once().withExactArgs(expectedCaps, undefined, [])\n-          .returns([1, expectedCaps]);\n-        await appium.createSession(sentCaps);\n-        mockFakeDriver.verify();\n-      });\n     });\n     describe('deleteSession', () => {\n       let appium"
+    },
+    {
+      "sha": "3d8fdca94134c89580960c5f23d096113f6c90c9",
+      "filename": "test/logger-specs.js",
+      "status": "modified",
+      "additions": 65,
+      "deletions": 7,
+      "changes": 72,
+      "blob_url": "https://github.com/appium/appium/blob/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/test/logger-specs.js",
+      "raw_url": "https://github.com/appium/appium/raw/8102f84ea8701f7a15d37bc0d3d6cc27535d7327/test/logger-specs.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/test/logger-specs.js?ref=8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+      "patch": "@@ -1,14 +1,72 @@\n // transpile:mocha\n \n-import { init as logsinkInit } from '../lib/logsink';\n-import logger from '../lib/logger';\n+import { init as logsinkInit, clear as logsinkClear } from '../lib/logsink';\n+import sinon from 'sinon';\n+import { getLogger } from 'appium-logger';\n+\n+\n+// temporarily turn on logging to stdio, so we can catch and query\n+let forceLogs = process.env._FORCE_LOGS;\n+process.env._FORCE_LOGS = 1;\n+let logger = getLogger('Appium');\n \n describe('Logger', () => {\n-  before(() => {\n-    logsinkInit({});\n+  let stderrSpy;\n+  let stdoutSpy;\n+  beforeEach(() => {\n+    stderrSpy = sinon.spy(process.stderr, 'write');\n+    stdoutSpy = sinon.spy(process.stdout, 'write');\n+    logsinkClear();\n+  });\n+  afterEach(() => {\n+    stderrSpy.restore();\n+    stdoutSpy.restore();\n+  });\n+  after(() => {\n+    process.env._FORCE_LOGS = forceLogs;\n+  });\n+\n+  const errorMsg = 'some error';\n+  const warnMsg = 'some warning';\n+  const debugMsg = 'some debug';\n+\n+  function doLogging () {\n+    logger.error(errorMsg);\n+    logger.warn(warnMsg);\n+    logger.debug(debugMsg);\n+  }\n+\n+  it('should send error, info and debug when loglevel is debug', async () => {\n+    await logsinkInit({loglevel: 'debug'});\n+\n+    doLogging();\n+\n+    stderrSpy.callCount.should.equal(1);\n+    stderrSpy.args[0][0].should.include(errorMsg);\n+\n+    stdoutSpy.callCount.should.equal(2);\n+    stdoutSpy.args[0][0].should.include(warnMsg);\n+    stdoutSpy.args[1][0].should.include(debugMsg);\n   });\n-  it('should work', () => {\n-    logger.warn('something');\n-    logger.debug('something');\n+  it('should send error and info when loglevel is info', async () => {\n+    await logsinkInit({loglevel: 'info'});\n+\n+    doLogging();\n+\n+    stderrSpy.callCount.should.equal(1);\n+    stderrSpy.args[0][0].should.include(errorMsg);\n+\n+    stdoutSpy.callCount.should.equal(1);\n+    stdoutSpy.args[0][0].should.include(warnMsg);\n+  });\n+  it('should send error when loglevel is error', async () => {\n+    await logsinkInit({loglevel: 'error'});\n+\n+    doLogging();\n+\n+    stderrSpy.callCount.should.equal(1);\n+    stderrSpy.args[0][0].should.include(errorMsg);\n+\n+    stdoutSpy.callCount.should.equal(0);\n   });\n });"
+    }
+  ]
+}

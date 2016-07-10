@@ -1,0 +1,1100 @@
+[
+  {
+    "ref": "refs/tags/ci-sauce-1.0_update",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.0_update",
+    "object": {
+      "sha": "e458bb07b76af49e5da15713f565f62de3fe23bf",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/e458bb07b76af49e5da15713f565f62de3fe23bf"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.0_update_2",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.0_update_2",
+    "object": {
+      "sha": "c5bae0cebece2ca01d4a5b20cdee454ca992deeb",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/c5bae0cebece2ca01d4a5b20cdee454ca992deeb"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.0_update_3",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.0_update_3",
+    "object": {
+      "sha": "7782bd84ede3d00662a47cc6a5e09328556d58de",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/7782bd84ede3d00662a47cc6a5e09328556d58de"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.0",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.0",
+    "object": {
+      "sha": "104707f90596f58d8d5519c1c0e6be5671cca91d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/104707f90596f58d8d5519c1c0e6be5671cca91d"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.1",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.1",
+    "object": {
+      "sha": "ffc101bb5ef935382e1a083c42d9cbdc21e1b53d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/ffc101bb5ef935382e1a083c42d9cbdc21e1b53d"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.2",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.2",
+    "object": {
+      "sha": "9dcd37e4de6082c59a77f4c679558e499a2a2235",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/9dcd37e4de6082c59a77f4c679558e499a2a2235"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.3",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.3",
+    "object": {
+      "sha": "86d06c4323468b296204e155f6c275358f716e8a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/86d06c4323468b296204e155f6c275358f716e8a"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.3_1",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.3_1",
+    "object": {
+      "sha": "a3fd92ba5ce8d7ad7c997f47c8bc27cd14eea86e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/a3fd92ba5ce8d7ad7c997f47c8bc27cd14eea86e"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.4",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.4",
+    "object": {
+      "sha": "6c30740e8a0d2aa9216f40f1ea9b401035e323e2",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/6c30740e8a0d2aa9216f40f1ea9b401035e323e2"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.5",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.5",
+    "object": {
+      "sha": "605c8872c336d5fe8c12db390d9f596b336257bc",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/605c8872c336d5fe8c12db390d9f596b336257bc"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.6",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.6",
+    "object": {
+      "sha": "909ec7ffbe5e0c403a675a9b34f3321c40b2f63e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/909ec7ffbe5e0c403a675a9b34f3321c40b2f63e"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.7",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.7",
+    "object": {
+      "sha": "8c7846e2c075a85984adbb68f5aacaaee0502832",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/8c7846e2c075a85984adbb68f5aacaaee0502832"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.8",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.8",
+    "object": {
+      "sha": "3ff332c190a69c6b36c342ee3da119524d6f436a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/3ff332c190a69c6b36c342ee3da119524d6f436a"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.9_1",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.9_1",
+    "object": {
+      "sha": "35d7c48526384cf854d8125aea1e917e166055d6",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/35d7c48526384cf854d8125aea1e917e166055d6"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.10",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.10",
+    "object": {
+      "sha": "f2fb4131de5991caca114f14d1a06e2610691d8c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/f2fb4131de5991caca114f14d1a06e2610691d8c"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.11",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.11",
+    "object": {
+      "sha": "9b88cd35630a9f6542c633224c4cb7d93d63ffac",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/9b88cd35630a9f6542c633224c4cb7d93d63ffac"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.12",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.12",
+    "object": {
+      "sha": "9de4065d4abd6a734f175065a6743d724aabb882",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/9de4065d4abd6a734f175065a6743d724aabb882"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.13",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.13",
+    "object": {
+      "sha": "75623bd129417103c407aec2dc9c4a4a1c822c24",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/75623bd129417103c407aec2dc9c4a4a1c822c24"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.14",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.14",
+    "object": {
+      "sha": "e8be816c0cc7f7b0134948be46c1f3f3ef80d36c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/e8be816c0cc7f7b0134948be46c1f3f3ef80d36c"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.15",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.15",
+    "object": {
+      "sha": "d737a394b0f34fcb274aeff1ce1a0be890c196ea",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/d737a394b0f34fcb274aeff1ce1a0be890c196ea"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.16",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.16",
+    "object": {
+      "sha": "3b6f424719c707981e469d7811a21534fa44f586",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/3b6f424719c707981e469d7811a21534fa44f586"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.17",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.17",
+    "object": {
+      "sha": "97d294563688988a7e79ac97302b6ff022a19fb6",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/97d294563688988a7e79ac97302b6ff022a19fb6"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.18",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.18",
+    "object": {
+      "sha": "7404527f4d08c18ecbc44f7d1f3b38c1609978e0",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/7404527f4d08c18ecbc44f7d1f3b38c1609978e0"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.19_bamboo_patch",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.19_bamboo_patch",
+    "object": {
+      "sha": "b820334ee577feb740175517f1dc55c1bad0ff46",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/b820334ee577feb740175517f1dc55c1bad0ff46"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.19",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.19",
+    "object": {
+      "sha": "ec9344b54bd5c1200f3fbf6319a3345483c281b3",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/ec9344b54bd5c1200f3fbf6319a3345483c281b3"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.20",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.20",
+    "object": {
+      "sha": "dacdad3258964df23354599c361093fa9d269cd6",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/dacdad3258964df23354599c361093fa9d269cd6"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.21",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.21",
+    "object": {
+      "sha": "77da7da0e8231269a190022bc576bf33bb005e3a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/77da7da0e8231269a190022bc576bf33bb005e3a"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.22",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.22",
+    "object": {
+      "sha": "c4fdcaf40b668c17fdf15c014b1ee449b45c8a42",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/c4fdcaf40b668c17fdf15c014b1ee449b45c8a42"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.23",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.23",
+    "object": {
+      "sha": "7f58e5f587ae06db7e5b1897cb71b1ed599c6f46",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/7f58e5f587ae06db7e5b1897cb71b1ed599c6f46"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.24",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.24",
+    "object": {
+      "sha": "c2f2a1e13ca0c58cac37db7ef6c5d09b897a0981",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/c2f2a1e13ca0c58cac37db7ef6c5d09b897a0981"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.25",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.25",
+    "object": {
+      "sha": "045eaede895abb405a824569af88bddcdc86140f",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/045eaede895abb405a824569af88bddcdc86140f"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.26",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.26",
+    "object": {
+      "sha": "55d097f419d16dc78e9b1928d2a79330d27fea6b",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/55d097f419d16dc78e9b1928d2a79330d27fea6b"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.27",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.27",
+    "object": {
+      "sha": "9928a6e1ab98f5a7f45745044cfd60e2d4ef3a9d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/9928a6e1ab98f5a7f45745044cfd60e2d4ef3a9d"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.28",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.28",
+    "object": {
+      "sha": "0380f138ff271325d1077f8e86b0536360c679f5",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/0380f138ff271325d1077f8e86b0536360c679f5"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.29",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.29",
+    "object": {
+      "sha": "429a73aaedf71e8db0978880e9b8226790ad6049",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/429a73aaedf71e8db0978880e9b8226790ad6049"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.30",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.30",
+    "object": {
+      "sha": "e95d09429850514514c9223d18eea75465cb2fc5",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/e95d09429850514514c9223d18eea75465cb2fc5"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.31",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.31",
+    "object": {
+      "sha": "8b8200e10a74e90f3094b0511b3ab9506d28138d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/8b8200e10a74e90f3094b0511b3ab9506d28138d"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.32",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.32",
+    "object": {
+      "sha": "e1416a4a781047c9fcbd668b8384f22121c4cf72",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/e1416a4a781047c9fcbd668b8384f22121c4cf72"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.33",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.33",
+    "object": {
+      "sha": "4c3bfc8d29f447d0f701b25ea78827435024d2dd",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/4c3bfc8d29f447d0f701b25ea78827435024d2dd"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.34",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.34",
+    "object": {
+      "sha": "96d172aa043ab15ed3b922e41efd067b49d4ebc6",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/96d172aa043ab15ed3b922e41efd067b49d4ebc6"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.35",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.35",
+    "object": {
+      "sha": "214fe81d23c09ceab07d5de8be1a96bc9e4b59ec",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/214fe81d23c09ceab07d5de8be1a96bc9e4b59ec"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.36",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.36",
+    "object": {
+      "sha": "afae564c57dffd342c093b2b5fcc07a1c4a78e8e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/afae564c57dffd342c093b2b5fcc07a1c4a78e8e"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.37",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.37",
+    "object": {
+      "sha": "6aeed6e04fa2d7af47254072e7fc5f7772d51a43",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/6aeed6e04fa2d7af47254072e7fc5f7772d51a43"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.38",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.38",
+    "object": {
+      "sha": "2dfbec0bcd27494c299e6023924de7e0c1e92569",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/2dfbec0bcd27494c299e6023924de7e0c1e92569"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.39",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.39",
+    "object": {
+      "sha": "291dbf82fb271c8c16415b28a1979cf8035b6b99",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/291dbf82fb271c8c16415b28a1979cf8035b6b99"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.40",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.40",
+    "object": {
+      "sha": "cc8171681c891fb43f8b49f1895a30537d06cf5c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/cc8171681c891fb43f8b49f1895a30537d06cf5c"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.41",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.41",
+    "object": {
+      "sha": "d496db5c72310167029e5569328b9ce502f45c0e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/d496db5c72310167029e5569328b9ce502f45c0e"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.42",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.42",
+    "object": {
+      "sha": "7221b4858a1dd0210e8cd31c1c6fc8e816592abe",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/7221b4858a1dd0210e8cd31c1c6fc8e816592abe"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.43",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.43",
+    "object": {
+      "sha": "4736dd416a58fc68942804dc7bff476e413b382a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/4736dd416a58fc68942804dc7bff476e413b382a"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.44",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.44",
+    "object": {
+      "sha": "b4fdecd7509006bcc0058aef1ca027da59f604f0",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/b4fdecd7509006bcc0058aef1ca027da59f604f0"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.45",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.45",
+    "object": {
+      "sha": "f963c64959c7c6fe437832e0a557369c1efa3a3d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/f963c64959c7c6fe437832e0a557369c1efa3a3d"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.46",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.46",
+    "object": {
+      "sha": "6602d78e93a9e1840084525966efb19176bd27e8",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/6602d78e93a9e1840084525966efb19176bd27e8"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.47",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.47",
+    "object": {
+      "sha": "0bc917dc8a9ac9a83b6138cead9189061cfc56ba",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/0bc917dc8a9ac9a83b6138cead9189061cfc56ba"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.48",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.48",
+    "object": {
+      "sha": "f1888977860f8ca1b9d4584613e1497ece6f82b3",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/f1888977860f8ca1b9d4584613e1497ece6f82b3"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.49",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.49",
+    "object": {
+      "sha": "7c607c683cd9615c9129a20ddd823e638f3bd6d4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/7c607c683cd9615c9129a20ddd823e638f3bd6d4"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.50",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.50",
+    "object": {
+      "sha": "dbda5055068476c78a00e0cade8ebab03643b7e8",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/dbda5055068476c78a00e0cade8ebab03643b7e8"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.51",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.51",
+    "object": {
+      "sha": "e7dd0cf880270d4c02a8c66e88ed183f6d15005e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/e7dd0cf880270d4c02a8c66e88ed183f6d15005e"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.52",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.52",
+    "object": {
+      "sha": "9fd20b84e94ebabe8f087f4b53763e40e16d72bd",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/9fd20b84e94ebabe8f087f4b53763e40e16d72bd"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.53",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.53",
+    "object": {
+      "sha": "6307fc9375461e40880fa9e3616c878e2e63b5e1",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/6307fc9375461e40880fa9e3616c878e2e63b5e1"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.54",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.54",
+    "object": {
+      "sha": "0f3b38f9cbdfc3d926a677fdf287f75eac54f16a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/0f3b38f9cbdfc3d926a677fdf287f75eac54f16a"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.55",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.55",
+    "object": {
+      "sha": "903a5c2618d18703ee27580649dd4f99e237fdb7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/903a5c2618d18703ee27580649dd4f99e237fdb7"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.56",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.56",
+    "object": {
+      "sha": "531445e92eea669e70e24aab43c96d12baaac7a2",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/531445e92eea669e70e24aab43c96d12baaac7a2"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.57",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.57",
+    "object": {
+      "sha": "4dc7de2b3b7f72eae2202f08cdce0e4757d5b478",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/4dc7de2b3b7f72eae2202f08cdce0e4757d5b478"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.58",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.58",
+    "object": {
+      "sha": "aee33525da7bf26a40a8d6e13566bd23f6d71e1e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/aee33525da7bf26a40a8d6e13566bd23f6d71e1e"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.59",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.59",
+    "object": {
+      "sha": "06cdc20d22cf861b24be5dae0d5a6136594b0707",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/06cdc20d22cf861b24be5dae0d5a6136594b0707"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.60",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.60",
+    "object": {
+      "sha": "a3030f199318e217a48d8051b2353cd92595eab1",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/a3030f199318e217a48d8051b2353cd92595eab1"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.61",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.61",
+    "object": {
+      "sha": "5a861bf413f655430ec377cb2f34218bd2f9b1a4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/5a861bf413f655430ec377cb2f34218bd2f9b1a4"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.62",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.62",
+    "object": {
+      "sha": "2cac440517a38556a3bbc44fa9e6249c2f49fd1e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/2cac440517a38556a3bbc44fa9e6249c2f49fd1e"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.63",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.63",
+    "object": {
+      "sha": "71676532ca1485c879bdcf69ff55c2747fd89862",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/71676532ca1485c879bdcf69ff55c2747fd89862"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.64",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.64",
+    "object": {
+      "sha": "fc679894a7debb21c25c887061a65a3c2eba4b64",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/fc679894a7debb21c25c887061a65a3c2eba4b64"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.65",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.65",
+    "object": {
+      "sha": "cb2a2f4f40326a5cbd949cffe895c82699c31d8a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/cb2a2f4f40326a5cbd949cffe895c82699c31d8a"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.66",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.66",
+    "object": {
+      "sha": "df523ca9b7005843ec27e4685d014f5c04339e3e",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/df523ca9b7005843ec27e4685d014f5c04339e3e"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.67",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.67",
+    "object": {
+      "sha": "d5ffb298d43fdc01b476ab1d5083c2e14c08a3c7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/d5ffb298d43fdc01b476ab1d5083c2e14c08a3c7"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.68",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.68",
+    "object": {
+      "sha": "a9d726c3db18acd553203fe853376f85cc2001e9",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/a9d726c3db18acd553203fe853376f85cc2001e9"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.69",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.69",
+    "object": {
+      "sha": "a04c2ff1c552aa0996f62190e197efab3f5a443f",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/a04c2ff1c552aa0996f62190e197efab3f5a443f"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.70",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.70",
+    "object": {
+      "sha": "21c404bb116bf0cc3beed9c88de8dc091ba10477",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/21c404bb116bf0cc3beed9c88de8dc091ba10477"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.71",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.71",
+    "object": {
+      "sha": "3e089dfd1130fab65b1a57016bb67aac4d43bf8d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/3e089dfd1130fab65b1a57016bb67aac4d43bf8d"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.72",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.72",
+    "object": {
+      "sha": "685e20d1cab394aac0a70c68f212267c65752322",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/685e20d1cab394aac0a70c68f212267c65752322"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.73",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.73",
+    "object": {
+      "sha": "e82f588062c3942da769c3a5e5001b8cc236757d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/e82f588062c3942da769c3a5e5001b8cc236757d"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.74",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.74",
+    "object": {
+      "sha": "837de252c9552faee8a0906729296b19cfec7eee",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/837de252c9552faee8a0906729296b19cfec7eee"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.75",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.75",
+    "object": {
+      "sha": "e84648c55a8dc73372dda49a666de15b0da5f15f",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/e84648c55a8dc73372dda49a666de15b0da5f15f"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.76",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.76",
+    "object": {
+      "sha": "993e4e3d958af849460d4fc15fac9e7b53bc69a7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/993e4e3d958af849460d4fc15fac9e7b53bc69a7"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.77",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.77",
+    "object": {
+      "sha": "987a19acd2ee083242b3db7653e85e272fce026d",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/987a19acd2ee083242b3db7653e85e272fce026d"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.78",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.78",
+    "object": {
+      "sha": "f1b987b7b24d737fc5faaf745a07fe3d2d02fc0b",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/f1b987b7b24d737fc5faaf745a07fe3d2d02fc0b"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.79",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.79",
+    "object": {
+      "sha": "762bbc18271b16cf7825779de1b46c4eb72cdcb5",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/762bbc18271b16cf7825779de1b46c4eb72cdcb5"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.80",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.80",
+    "object": {
+      "sha": "10fa415a596937be6aef1d281ea431590ac30c9f",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/10fa415a596937be6aef1d281ea431590ac30c9f"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.81",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.81",
+    "object": {
+      "sha": "8c7c3f0cced7bd5c4bb9e43b9552995c42c61484",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/8c7c3f0cced7bd5c4bb9e43b9552995c42c61484"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.82",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.82",
+    "object": {
+      "sha": "43be7cefcf7f2f1f23d5332e0d8d60d5ed2ec0bc",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/43be7cefcf7f2f1f23d5332e0d8d60d5ed2ec0bc"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.83",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.83",
+    "object": {
+      "sha": "c90a6f72036e932f8d2190865df80a97043ce032",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/c90a6f72036e932f8d2190865df80a97043ce032"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.84",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.84",
+    "object": {
+      "sha": "aa1cf5adae8f719fb336467f121adb1126ffdbf2",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/aa1cf5adae8f719fb336467f121adb1126ffdbf2"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.85",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.85",
+    "object": {
+      "sha": "42a78a97f139ac876bda6dedd04ceabe0b554402",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/42a78a97f139ac876bda6dedd04ceabe0b554402"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.86",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.86",
+    "object": {
+      "sha": "ce16440c69e642e4adda2e4f22f5581746a46e89",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/ce16440c69e642e4adda2e4f22f5581746a46e89"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.87",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.87",
+    "object": {
+      "sha": "0493b1a3d1550b3f58c571f7f1a6897ea70704bb",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/0493b1a3d1550b3f58c571f7f1a6897ea70704bb"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.88",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.88",
+    "object": {
+      "sha": "4c971fda7177810cddd283f9f05f0a22572b9229",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/4c971fda7177810cddd283f9f05f0a22572b9229"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.89",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.89",
+    "object": {
+      "sha": "18fcc5750e8a8b19cb6455d558c46f9ef33c68ba",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/18fcc5750e8a8b19cb6455d558c46f9ef33c68ba"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.90",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.90",
+    "object": {
+      "sha": "76927eb6a68612ecb8e7a3e227d2935328565ac6",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/76927eb6a68612ecb8e7a3e227d2935328565ac6"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.91",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.91",
+    "object": {
+      "sha": "2db8ac7837daf3fbb909ae3a35a465b3aa1d2663",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/2db8ac7837daf3fbb909ae3a35a465b3aa1d2663"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.92",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.92",
+    "object": {
+      "sha": "e2afa3ac208183fbdaeea958671122247feb28bd",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/e2afa3ac208183fbdaeea958671122247feb28bd"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.93",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.93",
+    "object": {
+      "sha": "3d14373bc0b1e0ab851c55110dab439426e88528",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/3d14373bc0b1e0ab851c55110dab439426e88528"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.94",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.94",
+    "object": {
+      "sha": "72940bd780cb69bef609b9e38855780ed3f4d84b",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/72940bd780cb69bef609b9e38855780ed3f4d84b"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.95",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.95",
+    "object": {
+      "sha": "5502302a35f81bf9d22b2993dfb08b3b9f73d4b2",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/5502302a35f81bf9d22b2993dfb08b3b9f73d4b2"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.96",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.96",
+    "object": {
+      "sha": "6d68dfd69e45761a238e588140176c8ed722da28",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/6d68dfd69e45761a238e588140176c8ed722da28"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.97",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.97",
+    "object": {
+      "sha": "6a4a46c071d9d9ebec3f8f1d9a703e8d61c47e3c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/6a4a46c071d9d9ebec3f8f1d9a703e8d61c47e3c"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.98",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.98",
+    "object": {
+      "sha": "43cff29308f2b978adfc20663a6179cd2eb7fd17",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/43cff29308f2b978adfc20663a6179cd2eb7fd17"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.99",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.99",
+    "object": {
+      "sha": "cf3c0c8cea519f632d2988e479f455b981f59356",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/cf3c0c8cea519f632d2988e479f455b981f59356"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.100",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.100",
+    "object": {
+      "sha": "00ecf2d087f030f9c652a2e4c9ba5125800d04ae",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/00ecf2d087f030f9c652a2e4c9ba5125800d04ae"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.101",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.101",
+    "object": {
+      "sha": "c845e7e69ffb97ea9e4a95b754979bc41285c6bb",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/c845e7e69ffb97ea9e4a95b754979bc41285c6bb"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.102",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.102",
+    "object": {
+      "sha": "aab2513232b2d40bf4cab6d5cbab101bfba114f6",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/aab2513232b2d40bf4cab6d5cbab101bfba114f6"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.103",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.103",
+    "object": {
+      "sha": "435b9fffbc917600e5339bb57ce3e8f87fa057ce",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/435b9fffbc917600e5339bb57ce3e8f87fa057ce"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.104",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.104",
+    "object": {
+      "sha": "08e02425547e2334614aeb61c56ab29b80767314",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/08e02425547e2334614aeb61c56ab29b80767314"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.105",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.105",
+    "object": {
+      "sha": "afac778a538e9555f15fba57da1a6f0a7310fdc3",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/afac778a538e9555f15fba57da1a6f0a7310fdc3"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.106",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.106",
+    "object": {
+      "sha": "cfffa35ce2dfab9e3f0fb739df71d729d74965ee",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/cfffa35ce2dfab9e3f0fb739df71d729d74965ee"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.107",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.107",
+    "object": {
+      "sha": "a1120c1b4992bba06e8c7558f7f3e214697aa5a7",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/a1120c1b4992bba06e8c7558f7f3e214697aa5a7"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.108",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.108",
+    "object": {
+      "sha": "1983ed3d6fea62ee3c545a7ab601ca52ce5214c9",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/1983ed3d6fea62ee3c545a7ab601ca52ce5214c9"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.109",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.109",
+    "object": {
+      "sha": "2fa9cf20f0236e9428ca869f14e465c8c5c5288f",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/2fa9cf20f0236e9428ca869f14e465c8c5c5288f"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.110",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.110",
+    "object": {
+      "sha": "afad3af94d68e39056b50b8d15e5ecef627c57b4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/afad3af94d68e39056b50b8d15e5ecef627c57b4"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.111",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.111",
+    "object": {
+      "sha": "d34ec5db4fe8e1520af672862cf20b2ce830911a",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/d34ec5db4fe8e1520af672862cf20b2ce830911a"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.112",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.112",
+    "object": {
+      "sha": "4be2a4ada6aba2fd20488f64cd59326cf4fbfb40",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/4be2a4ada6aba2fd20488f64cd59326cf4fbfb40"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.113",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.113",
+    "object": {
+      "sha": "e4b6354feade84f40da39a2db4c18c908c3b75c4",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/e4b6354feade84f40da39a2db4c18c908c3b75c4"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.114",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.114",
+    "object": {
+      "sha": "bae1b678917375fcd201a3f26633e4d93fee5561",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/bae1b678917375fcd201a3f26633e4d93fee5561"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.115",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.115",
+    "object": {
+      "sha": "81fe4acc5c8c464759f4bc5e42d99a29efa9722c",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/81fe4acc5c8c464759f4bc5e42d99a29efa9722c"
+    }
+  },
+  {
+    "ref": "refs/tags/ci-sauce-1.116",
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/refs/tags/ci-sauce-1.116",
+    "object": {
+      "sha": "3d717dd59ef142680b6ff93dc87c35a32ce444a8",
+      "type": "tag",
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/tags/3d717dd59ef142680b6ff93dc87c35a32ce444a8"
+    }
+  }
+]

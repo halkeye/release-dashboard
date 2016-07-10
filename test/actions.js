@@ -8,44 +8,36 @@ import expect from 'expect';
 import nock from 'nock';
 import {
 	nockReleaseDashboardConfigTreesMaster,
-	nockReleaseDashboardConfigBlob
-} from './fixtures/nock_fixtures.js';
+	nockReleaseDashboardConfigBlob,
+  nockReposAppiumGitRefsTags,
+  nockReposJenkinsGitRefsTags,
+  nockReposCiSauceGitRefsTags
+} from './nock_fixtures.js';
 
 import { omit } from 'lodash';
 
 
-var appendLogToFile = function(content) {
-	require('fs').appendFile('record.txt', content);
-}
-
-nock.recorder.rec({ logging: appendLogToFile });
+//nock.recorder.rec({ logging: function(content) { require('fs').appendFile('record.txt', content); } });
 
 const middlewares = [ thunk ]
 const mockStore = configureMockStore(middlewares)
 
 describe('actions', function() {
-	afterEach(function() {
-		nock.cleanAll()
-	})
+	afterEach(function() { nock.cleanAll() })
 
   describe('fetchConfig', function() {
     before(function() {
 			nockReleaseDashboardConfigTreesMaster();
 			nockReleaseDashboardConfigBlob();
+      nockReposAppiumGitRefsTags();
+      nockReposJenkinsGitRefsTags();
+      nockReposCiSauceGitRefsTags();
 
       this.store = mockStore({ config: { token: null } });
       return this.store.dispatch(actions.fetchConfig('halkeye/release-dashboard-config'))
     });
     it('Dispatch events for each recieved project', function() {
 			const expectedActions = [
-				{
-          "projects": [
-            { "annotatedTagFormat": "^v[0-9.]+$", "deployTargetInterval": 14, "repo": "appium/appium" },
-            { "annotatedTagFormat": "^sauce-ondemand-[0-9.]+$", "deployTargetInterval": false, "repo": "saucelabs/jenkins-sauce-ondemand-plugin" },
-            { "annotatedTagFormat": "^ci-sauce-[0-9.]+$", "deployTargetInterval": false, "repo": "saucelabs/ci-sauce" }
-          ],
-          "type": "RECEIVED_CONFIG"
-        },
         {
           "project": { "annotatedTagFormat": "^v[0-9.]+$", "deployTargetInterval": 14, "repo": "appium/appium" },
           "type": "RECEIVE_PROJECT"
@@ -60,6 +52,43 @@ describe('actions', function() {
         }
       ];
 			expect(this.store.getActions().map(obj => omit(obj, ['lastUpdated']))).toEqual(expectedActions)
+    });
+  })
+  describe('receiveProject', function() {
+    before(function() {
+      nockReposAppiumGitRefsTags();
+
+      this.store = mockStore({ config: { token: null } });
+      return this.store.dispatch(actions.receiveProject({ "repo": "appium/appium", "annotatedTagFormat": "^v[0-9.]+$", "deployTargetInterval": 14 }))
+    });
+    it('Dispatch events for each recieved project', function() {
+			const expectedActions = [
+        {
+          "project": {
+            "annotatedTagFormat": "^v[0-9.]+$",
+            "deployTargetInterval": 14,
+            "repo": "appium/appium",
+            "tags": [
+              {
+                "commitUrl": "https://api.github.com/repos/appium/appium/git/tags/0c39422cb3fd243db00a2f0225be7452a2627cd8",
+                "name": "v1.5.2",
+                "tagger": { "date": "2016-04-20T17:46:57Z", "email": "isaac@saucelabs.com", "name": "Isaac Murchie" }
+              },
+              {
+                "commitUrl": "https://api.github.com/repos/appium/appium/git/commits/dc865428e6a78ed6b8153132d6e50b9afc8c4570",
+                "name": "v1.5.1",
+                "tagger": { "date": "2016-03-29T18:49:04Z", "email": "murchieisaac@gmail.com", "name": "Isaac A. Murchie" }
+              }
+            ]
+          },
+          "type": "RECEIVE_PROJECT"
+        },
+        require('./fixtures/commits.json')
+      ];
+      const recievedActions = this.store.getActions().map(obj => omit(obj, ['lastUpdated']));
+      for (var i = 0; i < Math.max(expectedActions.length, recievedActions.length); i++) {
+        expect(recievedActions[i]).toEqual(expectedActions[i])
+      }
     });
   })
 });

@@ -1,0 +1,16 @@
+{
+  "sha": "0c39422cb3fd243db00a2f0225be7452a2627cd8",
+  "url": "https://api.github.com/repos/appium/appium/git/tags/0c39422cb3fd243db00a2f0225be7452a2627cd8",
+  "tagger": {
+    "name": "Isaac Murchie",
+    "email": "isaac@saucelabs.com",
+    "date": "2016-04-20T17:46:57Z"
+  },
+  "object": {
+    "sha": "8102f84ea8701f7a15d37bc0d3d6cc27535d7327",
+    "type": "commit",
+    "url": "https://api.github.com/repos/appium/appium/git/commits/8102f84ea8701f7a15d37bc0d3d6cc27535d7327"
+  },
+  "tag": "v1.5.2",
+  "message": "v1.5.2\n"
+}

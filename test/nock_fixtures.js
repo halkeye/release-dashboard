@@ -1,5 +1,5 @@
 import nock from 'nock';
-
+import fs from 'fs';
 
 export function nockReleaseDashboardConfigTreesMaster() {
   nock('https://api.github.com:443', {"encodedQueryParams":true})
@@ -56,4 +56,43 @@ export function nockReleaseDashboardConfigBlob() {
     'x-served-by': '139317cebd6caf9cd03889139437f00b',
     'content-encoding': 'gzip',
     'x-github-request-id': 'CE746242:3981:7BAEA21:5781C4E7' });
+}
+
+
+function _nockGithubUrl(url) {
+  nock('https://api.github.com:443')
+    .get(`/repos/${url}`)
+    .reply(
+      200,
+      fs.readFileSync(__dirname + `/fixtures/${url.replace(/\//g, '_')}.json`).toString(),
+      {
+        server: 'GitHub.com',
+        date: 'Sun, 10 Jul 2016 03:45:43 GMT',
+        'content-type': 'application/json; charset=utf-8',
+        connection: 'close',
+        status: '200 OK'
+      }
+    );
+}
+
+export function nockReposAppiumGitRefsTags() {
+  _nockGithubUrl('appium/appium/git/refs/tags');
+  _nockGithubUrl('appium/appium/git/tags/0c39422cb3fd243db00a2f0225be7452a2627cd8');
+  _nockGithubUrl('appium/appium/git/tags/dc865428e6a78ed6b8153132d6e50b9afc8c4570');
+  _nockGithubUrl('appium/appium/git/commits/dc865428e6a78ed6b8153132d6e50b9afc8c4570');
+  _nockGithubUrl('appium/appium/compare/v1.5.1...v1.5.2');
+}
+
+export function nockReposJenkinsGitRefsTags() {
+  _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags');
+  _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/git/tags/54ebdac3f04c59cc31c84f91e3124dda9cecc452');
+  _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/git/tags/ccbe562f535a9208601884a29da0ec0378a97b56');
+  _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/compare/sauce-ondemand-1.151...sauce-ondemand-1.152');
+}
+
+export function nockReposCiSauceGitRefsTags() {
+  _nockGithubUrl('saucelabs/ci-sauce/git/refs/tags');
+  _nockGithubUrl('saucelabs/ci-sauce/git/tags/3d717dd59ef142680b6ff93dc87c35a32ce444a8');
+  _nockGithubUrl('saucelabs/ci-sauce/git/tags/81fe4acc5c8c464759f4bc5e42d99a29efa9722c');
+  _nockGithubUrl('saucelabs/ci-sauce/compare/ci-sauce-1.115...ci-sauce-1.116');
 }
