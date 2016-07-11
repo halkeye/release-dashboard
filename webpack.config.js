@@ -45,7 +45,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      NODE_ENV: process.env.NODE_ENV || 'development'
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
     }),
     //new webpack.ContextReplacementPlugin(/moment[\\\/]lang$/, /^\.\/(en)$/),
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),

@@ -67,28 +67,29 @@ describe('actions', function() {
           "project": {
             "annotatedTagFormat": "^v[0-9.]+$",
             "deployTargetInterval": 14,
-            "repo": "appium/appium",
-            "tags": [
-              {
-                "commitUrl": "https://api.github.com/repos/appium/appium/git/tags/0c39422cb3fd243db00a2f0225be7452a2627cd8",
-                "name": "v1.5.2",
-                "tagger": { "date": "2016-04-20T17:46:57Z", "email": "isaac@saucelabs.com", "name": "Isaac Murchie" }
-              },
-              {
-                "commitUrl": "https://api.github.com/repos/appium/appium/git/commits/dc865428e6a78ed6b8153132d6e50b9afc8c4570",
-                "name": "v1.5.1",
-                "tagger": { "date": "2016-03-29T18:49:04Z", "email": "murchieisaac@gmail.com", "name": "Isaac A. Murchie" }
-              }
-            ]
+            "repo": "appium/appium"
           },
           "type": "RECEIVE_PROJECT"
-        },
-        require('./fixtures/commits.json')
+        }
       ];
       const recievedActions = this.store.getActions().map(obj => omit(obj, ['lastUpdated']));
-      for (var i = 0; i < Math.max(expectedActions.length, recievedActions.length); i++) {
-        expect(recievedActions[i]).toEqual(expectedActions[i])
-      }
+      expect(recievedActions).toEqual(expectedActions);
     });
   })
 });
+/*
+"tags": [
+  {
+    "commitUrl": "https://api.github.com/repos/appium/appium/git/tags/0c39422cb3fd243db00a2f0225be7452a2627cd8",
+    "name": "v1.5.2",
+    "tagger": { "date": "2016-04-20T17:46:57Z", "email": "isaac@saucelabs.com", "name": "Isaac Murchie" }
+  },
+  {
+    "commitUrl": "https://api.github.com/repos/appium/appium/git/commits/dc865428e6a78ed6b8153132d6e50b9afc8c4570",
+    "name": "v1.5.1",
+    "tagger": { "date": "2016-03-29T18:49:04Z", "email": "murchieisaac@gmail.com", "name": "Isaac A. Murchie" }
+  }
+]
+*/
+
+//        require('./fixtures/commits.json')

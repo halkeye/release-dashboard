@@ -6,12 +6,10 @@ import Project from './Project.js';
 
 export default class Projects extends React.Component {
   static propTypes = {
-    projects: React.PropTypes.array.isRequired,
-    commits: React.PropTypes.object
+    projects: React.PropTypes.array.isRequired
   };
 
   render() {
-    const commits = this.props.commits || {};
     return (
       <div>
         <GithubCorner href="https://github.com/halkeye/release-dashboard" />
@@ -20,7 +18,6 @@ export default class Projects extends React.Component {
             return <Project
               key={project.repo}
               project={project}
-              commits={commits[project.repo]}
             />;
           })
         }</div>

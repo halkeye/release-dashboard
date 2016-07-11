@@ -23,15 +23,14 @@ function projectStaleness(lastUpDate, target = 1) {
 
 export default class Project extends React.Component {
   static propTypes = {
-    project: React.PropTypes.object.isRequired,
-    commits: React.PropTypes.array
+    project: React.PropTypes.object.isRequired
   };
   render() {
     const project = this.props.project;
     const useTarget = !!this.props.project.deployTargetInterval;
     const cardStyle = {};
 
-    const commits = this.props.commits;
+    const commits = project.commits;
 
     // if the config has a deployIntervalTarget, retrieve; default is deploying
     // once per day
@@ -45,11 +44,11 @@ export default class Project extends React.Component {
       <div className="card" style={cardStyle}>
         <div className="header">
           <div className="info">
-            <TagHeader tag={project.tags[0]} project={project} />
+            <TagHeader tag={project.tags[project.tags.length-1]} project={project} />
           </div>
         </div>
         <div className="body">
-          <h2>{project.tags.slice(0,2).reverse().map(tag=>tag.name).join('...')}</h2>
+          <h2>{project.tags.slice(0,2).map(tag=>tag.name).join('...')}</h2>
           { commits && commits.map((commit) => <Commit key={commit.sha} commit={commit} />) }
           { !commits && <Progress type={'circle'} color={'black'} /> }
         </div>

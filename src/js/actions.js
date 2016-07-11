@@ -4,10 +4,11 @@ import atob from 'atob';
 
 const alphaSortTags = (a, b) => naturalSort(a.name, b.name);
 
-export const RECEIVED_CONFIG = 'RECEIVED_CONFIG'
-export const RECEIVED_COMMIT = 'RECEIVED_COMMIT'
-export const RECEIVED_ERROR  = 'RECEIVED_ERROR'
 export const RECEIVE_PROJECT = 'RECEIVE_PROJECT'
+export const RECEIVE_COMMIT  = 'RECEIVE_COMMIT'
+export const RECEIVE_ERROR   = 'RECEIVE_ERROR'
+export const RECEIVE_TAGS_FOR_PROJECT = 'RECEIVE_TAGS_FOR_PROJECT'
+export const RECEIVE_COMMITS_FOR_PROJECT = 'RECEIVE_COMMITS_FOR_PROJECT';
 export const INIT = 'INIT'
 
 
@@ -35,14 +36,13 @@ export function init(token) {
 }
 
 export function receiveError(method, err) {
-  console.log('receiveError', arguments);
+  console.log('receiveError', arguments); // eslint-disable-line
   return {
-    type: RECEIVED_ERROR,
+    type: RECEIVE_ERROR,
     method,
-    err
+    error: err
   };
 }
-
 
 export function fetchConfig(repo) {
   return (dispatch, getState) => {
@@ -56,15 +56,6 @@ export function fetchConfig(repo) {
   };
 }
 
-function receivedCommits(project, commits) {
-  return {
-    type: RECEIVED_COMMIT,
-    project: project.repo,
-    commits: commits,
-    lastUpdated: Date.now()
-  };
-}
-
 export function receivedConfig(projects) {
   return (dispatch) => {
     return projects.map(project => {
@@ -74,32 +65,53 @@ export function receivedConfig(projects) {
 }
 
 export function receiveProject(project) {
-  return (dispatch, getState) => {
-    const token = getState().config.token;
+  return (dispatch) => {
     dispatch({
       type: RECEIVE_PROJECT,
       project: project,
       lastUpdated: Date.now()
     });
-    return getCommits(token, project)
-      .then(commits => dispatch(receivedCommits(project, commits)))
-      .catch(err => dispatch(receiveError('receiveProject', err)))
+    dispatch(fetchTagsForProject(project));
   };
 }
 
-function getCommits(token, project) {
-  return tagsForProject(token, project).then(tags => {
-    project.tags = tags;
-    if (tags.length > 1) {
-      return compareSha(token, project, tags[0].name, tags[1].name)
-        .then(commits => commits.reverse())
-    } else {
-      return getCommit(token, project, tags[0])
-        .then(commit => [commit]);
-    }
-  });
+export function fetchTagsForProject(project) {
+  return (dispatch, getState) => {
+    const token = getState().config.token;
+    return tagsForProject(token, project).then(tags => {
+      dispatch(recieveTagsForProject(project, tags));
+    })
+  }
 }
 
+function recieveTagsForProject(project, tags) {
+  return (dispatch, getState) => {
+    const token = getState().config.token;
+    dispatch({
+      type: RECEIVE_TAGS_FOR_PROJECT,
+      project: project,
+      tags: tags,
+      lastUpdated: Date.now()
+    });
+
+    let promise = null;
+    if (tags.length > 1) {
+      promise = githubFetch(`https://api.github.com/repos/${project.repo}/compare/${tags[0].name}...${tags[1].name}`, token)
+        .then(json => { return json.commits.map(commit => processCommit(commit)) })
+        .then(commits => commits.reverse())
+    } else {
+      promise = getCommit(token, project, tags[0])
+        .then(commit => [commit]);
+    }
+    return promise.then(commits => {
+      dispatch({
+        type: RECEIVE_COMMITS_FOR_PROJECT,
+        project, commits,
+        lastUpdated: Date.now()
+      });
+    });
+  }
+}
 
 function getTagInfo(token, project, tag) {
   return githubFetch(tag.commitUrl, token)
@@ -125,7 +137,7 @@ function tagsForProject(token, project) {
           commitUrl: tag.object.url
         }; }))
         .then(tags => tags.sort(alphaSortTags))
-        .then(tags => tags.slice(-2).reverse())
+        .then(tags => tags.slice(-2))
         .then(tags => {
           let promises = tags.map(tag => getTagInfo(token, project, tag));
           return Promise.all(promises)
@@ -161,29 +173,3 @@ function processCommit(commit) {
     }
   };
 }
-
-function compareSha(token, project, sha1, sha2) {
-  return githubFetch(`https://api.github.com/repos/${project.repo}/compare/${sha2}...${sha1}`, token)
-    .then(json => { return json.commits.map(commit => processCommit(commit)) })
-}
-
-/*
-function shouldFetchPosts(state, subreddit) {
-  const posts = state.postsBySubreddit[subreddit]
-  if (!posts) {
-    return true
-  } else if (posts.isFetching) {
-    return false
-  } else {
-    return posts.didInvalidate
-  }
-}
-
-export function fetchPostsIfNeeded(subreddit) {
-  return (dispatch, getState) => {
-    if (shouldFetchPosts(getState(), subreddit)) {
-      return dispatch(fetchPosts(subreddit))
-    }
-  }
-}
-*/
