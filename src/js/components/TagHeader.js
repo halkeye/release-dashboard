@@ -15,7 +15,7 @@ export default class TagHeader extends React.Component {
       return <div className="repo">{repoName}</div>
     }
     const tag = this.props.tag;
-    const avatarUrl = `http://www.gravatar.com/avatar/${md5(tag.tagger.email)}`;
+    const avatarUrl = `//www.gravatar.com/avatar/${md5(tag.tagger.email)}`;
     return (
       <div>
         <UserAvatar size='60' name={tag.tagger.name} src={avatarUrl} className="avatar" />
