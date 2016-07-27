@@ -23,6 +23,10 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
 
+  .compareLink {
+    float: right;
+  }
+  
   .header {
     padding: 14px;
     color: rgba(0, 0, 0, 0.870588);
