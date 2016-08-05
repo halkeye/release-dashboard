@@ -39,7 +39,12 @@ if ((process.env.NODE_ENV || 'development') === 'development') {
 }
 
 app.get('/', function (req, res) {
+  // Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)
+  if (req.headers['user-agent'].startsWith("Slackbot-LinkExpanding")) {
+    return res.render('slackbox.html.ejs');
+  }
   const token = req.cookies['gh-token'] || process.env.GITHUB_TOKEN;
+
   if (!token) { return res.redirect('/connect/github'); }
   res.render('index.html.ejs', {
     token: token,
