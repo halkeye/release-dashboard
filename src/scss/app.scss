@@ -18,11 +18,15 @@ body {
   margin: 1.0em;
   flex: none;
   border-radius: 10px;
-  box-Shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
 
+  .compareLink {
+    float: right;
+  }
+  
   .header {
     padding: 14px;
     color: rgba(0, 0, 0, 0.870588);

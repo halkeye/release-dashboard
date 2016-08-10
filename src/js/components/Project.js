@@ -40,6 +40,9 @@ export default class Project extends React.Component {
       cardStyle.backgroundColor = numberToColorHsl(staleness);
     }
 
+    const githubImgUrl = require('../../img/GitHub-Mark-32px.png');
+    const githubCompareLink = `https://github.com/${project.repo}/compare/${project.tags.slice(0,2).map(tag=>tag.name).join('...')}`;
+
     return (
       <div className="card" style={cardStyle}>
         <div className="header">
@@ -48,7 +51,10 @@ export default class Project extends React.Component {
           </div>
         </div>
         <div className="body">
-          <h2>{project.tags.slice(0,2).map(tag=>tag.name).join('...')}</h2>
+          <h2>
+            {project.tags.slice(0,2).map(tag=>tag.name).join('...')}
+            <a className="compareLink" href={githubCompareLink}><img src={githubImgUrl} alt="compare on github" /></a>
+          </h2>
           { commits && commits.map((commit) => <Commit key={commit.sha} project={project} commit={commit} />) }
           { !commits && <Progress type={'circle'} color={'black'} /> }
         </div>
