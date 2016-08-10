@@ -10,6 +10,7 @@
     "build": "./bin/build.sh",
     "heroku-postbuild": "./bin/build.sh",
     "start": "node index.js",
+    "dev": "node index.js",
     "test": "mocha --compilers js:babel-register --recursive",
     "test:watch": "npm test -- --watch"
   },
