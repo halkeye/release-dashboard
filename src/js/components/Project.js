@@ -49,7 +49,7 @@ export default class Project extends React.Component {
         </div>
         <div className="body">
           <h2>{project.tags.slice(0,2).map(tag=>tag.name).join('...')}</h2>
-          { commits && commits.map((commit) => <Commit key={commit.sha} commit={commit} />) }
+          { commits && commits.map((commit) => <Commit key={commit.sha} project={project} commit={commit} />) }
           { !commits && <Progress type={'circle'} color={'black'} /> }
         </div>
       </div>
