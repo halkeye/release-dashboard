@@ -1,4 +1,6 @@
 # release-dashboard
+[![Build Status](https://travis-ci.org/halkeye/release-dashboard.svg?branch=master)](https://travis-ci.org/halkeye/release-dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4d3d9c3eb62f4950920db02dc8efb49d)](https://www.codacy.com/app/halkeye/release-dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=halkeye/release-dashboard&amp;utm_campaign=Badge_Grade)
 
 A simple web app to show the latest tag (release) of various git repos.
 
