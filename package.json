@@ -64,7 +64,7 @@
     "mocha": "^3.0.2",
     "moment": "^2.13.0",
     "node-sass": "^3.7.0",
-    "postcss-loader": "^0.11.0",
+    "postcss-loader": "^0.13.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "react-github-corner": "^0.3.0",
