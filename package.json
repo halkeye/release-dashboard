@@ -25,7 +25,7 @@
     "essence-card": "^1.0.7",
     "essence-progress": "^1.0.9",
     "express": "^4.13.4",
-    "express-session": "^1.13.0",
+    "express-session": "^1.14.1",
     "grant-express": "^3.6.1",
     "javascript-natural-sort": "^0.7.1",
     "md5": "^2.1.0",
