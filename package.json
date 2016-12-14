@@ -31,7 +31,7 @@
     "md5": "^2.1.0",
     "morgan": "^1.7.0",
     "nock": "^9.0.0",
-    "react-redux": "^4.4.5",
+    "react-redux": "^5.0.0",
     "react-smart-time-ago": "^1.0.5",
     "react-user-avatar": "^1.8.0",
     "redux": "^3.5.2",
