@@ -13,32 +13,32 @@ module.exports = {
       {
         test: /\.jsx?$/,
         loaders: [
-          'babel'
+          'babel-loader'
         ],
         exclude: /node_modules|bower_components/
       },
       {
         test: /\.css$/,
         loaders: [
-          'style',
-          'css',
-          'postcss'
+          'style-loader',
+          'css-loader',
+          'postcss-loader'
         ]
       },
       {
         test: /\.scss$/,
         loaders: [
-          'style',
-          'css',
-          'sass'
+          'style-loader',
+          'css-loader',
+          'sass-loader'
         ]
       },
       {
         test: /\.less$/,
         loaders: [
-          'style',
-          'css',
-          'less'
+          'style-loader',
+          'css-loader',
+          'less-loader'
         ]
       },
       {
