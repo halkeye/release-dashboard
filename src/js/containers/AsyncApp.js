@@ -1,19 +1,35 @@
-import React, { Component, PropTypes } from 'react'
-import { connect } from 'react-redux'
-import { init, fetchConfig } from '../actions'
+import React, { Component, PropTypes } from 'react';
+import { connect } from 'react-redux';
+import { init, fetchConfig } from '../actions';
 import Projects from '../components/Projects.js';
 
-class AsyncApp extends Component {
+import 'react-tabs/style/react-tabs.scss';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-  componentDidMount() {
-    const { dispatch, token, config_repo } = this.props
-    dispatch(init(token))
-    dispatch(fetchConfig(config_repo))
+class AsyncApp extends Component {
+  componentDidMount () {
+    const { dispatch, token, config_repo } = this.props;
+    dispatch(init(token));
+    dispatch(fetchConfig(config_repo));
   }
 
-  render() {
-    const { projects } = this.props
-    return <Projects projects={projects} />;
+  render () {
+    console.log('render');
+    const { projects } = this.props;
+    return (
+      <Tabs>
+        <TabList>
+          <Tab>Changelog</Tab>
+          <Tab>Timeline</Tab>
+        </TabList>
+        <TabPanel>
+          <Projects projects={projects} />;
+        </TabPanel>
+        <TabPanel>
+          Timeline
+        </TabPanel>
+      </Tabs>
+    );
   }
 }
 
@@ -24,10 +40,10 @@ AsyncApp.propTypes = {
   projects: PropTypes.array.isRequired,
   errors: PropTypes.array.isRequired,
   dispatch: PropTypes.func.isRequired
+};
+
+function mapStateToProps (state) {
+  return state;
 }
 
-function mapStateToProps(state) {
-  return state
-}
-
-export default connect(mapStateToProps)(AsyncApp)
+export default connect(mapStateToProps)(AsyncApp);

@@ -16,7 +16,7 @@ export default class Project extends React.Component {
   static propTypes = {
     project: React.PropTypes.object.isRequired
   };
-  render() {
+  render () {
     const project = this.props.project;
     const useTarget = !!this.props.project.deployTargetInterval;
     const cardStyle = {};
@@ -32,18 +32,18 @@ export default class Project extends React.Component {
     }
 
     const githubImgUrl = require('../../img/GitHub-Mark-32px.png');
-    const githubCompareLink = `https://github.com/${project.repo}/compare/${project.tags.slice(0,2).map(tag=>tag.name).join('...')}`;
+    const githubCompareLink = `https://github.com/${project.repo}/compare/${project.tags.slice(0, 2).map(tag => tag.name).join('...')}`;
 
     return (
       <div className="card" style={cardStyle}>
         <div className="header">
           <div className="info">
-            <TagHeader tag={project.tags[project.tags.length-1]} project={project} />
+            <TagHeader tag={project.tags[project.tags.length - 1]} project={project} />
           </div>
         </div>
         <div className="body">
           <h2>
-            {project.tags.slice(0,2).map(tag=>tag.name).join('...')}
+            {project.tags.slice(0, 2).map(tag => tag.name).join('...')}
             <a className="compareLink" href={githubCompareLink}><img src={githubImgUrl} alt="compare on github" /></a>
           </h2>
           { commits && commits.map((commit) => <Commit key={commit.sha} project={project} commit={commit} />) }
@@ -53,4 +53,3 @@ export default class Project extends React.Component {
     );
   }
 }
-

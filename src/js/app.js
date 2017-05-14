@@ -1,14 +1,17 @@
 'use strict';
+import * as OfflinePluginRuntime from 'offline-plugin/runtime';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 import WebFont from 'webfontloader';
-WebFont.load({ google: { families: [ 'Roboto:400,700:latin', 'Roboto+Mono:400,700:latin' ] } });
 import '../scss/app.scss';
 
 import Root from './containers/Root.js';
 
-const elm = document.getElementById('content')
+WebFont.load({ google: { families: [ 'Roboto:400,700:latin', 'Roboto+Mono:400,700:latin' ] } });
+OfflinePluginRuntime.install();
+
+const elm = document.getElementById('content');
 const attrs = {};
 for (let i = 0; i < elm.attributes.length; i++) {
   let attr = elm.attributes[i];

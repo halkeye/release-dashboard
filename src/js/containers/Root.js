@@ -1,16 +1,16 @@
-import React, { Component } from 'react'
-import { Provider } from 'react-redux'
-import configureStore from '../configureStore'
-import AsyncApp from './AsyncApp'
+import React, { Component } from 'react';
+import { Provider } from 'react-redux';
+import configureStore from '../configureStore';
+import AsyncApp from './AsyncApp';
 
-const store = configureStore()
+const store = configureStore();
 
 export default class Root extends Component {
-  render() {
+  render () {
     return (
       <Provider store={store}>
         <AsyncApp {...this.props} />
       </Provider>
-    )
+    );
   }
 }

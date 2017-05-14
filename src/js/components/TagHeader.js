@@ -9,10 +9,10 @@ export default class TagHeader extends React.Component {
     project: React.PropTypes.object,
     tag: React.PropTypes.object
   };
-  render() {
+  render () {
     const repoName = this.props.project.repo.split('/')[1];
     if (!this.props.tag) {
-      return <div className="repo">{repoName}</div>
+      return <div className="repo">{repoName}</div>;
     }
     const tag = this.props.tag;
     const avatarUrl = `//www.gravatar.com/avatar/${md5(tag.tagger.email)}`;
@@ -27,4 +27,3 @@ export default class TagHeader extends React.Component {
     );
   }
 }
-

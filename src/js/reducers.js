@@ -1,17 +1,17 @@
-import { combineReducers } from 'redux'
+import { combineReducers } from 'redux';
 import {
   INIT,
   RECEIVE_ERROR,
   RECEIVE_PROJECT,
   RECEIVE_TAGS_FOR_PROJECT,
   RECEIVE_COMMITS_FOR_PROJECT
-} from './actions'
+} from './actions';
 
-function projects(state = [], action) {
+function projects (state = [], action) {
   switch (action.type) {
     case RECEIVE_PROJECT:
       return state.filter(project => project.repo != action.project.repo).concat(
-        Object.assign({tags:[]}, action.project)
+        Object.assign({tags: []}, action.project)
       );
     case RECEIVE_TAGS_FOR_PROJECT:
       return state.map(project => {
@@ -28,25 +28,25 @@ function projects(state = [], action) {
         return project;
       });
     default:
-      return state
+      return state;
   }
 }
 
-function config(state = {}, action) {
+function config (state = {}, action) {
   switch (action.type) {
     case INIT:
-      return { token: action.token }
+      return { token: action.token };
     default:
-      return state
+      return state;
   }
 }
 
-function errors(state = [], action) {
+function errors (state = [], action) {
   switch (action.type) {
     case RECEIVE_ERROR:
-      return state.concat([action.error])
+      return state.concat([action.error]);
     default:
-      return state
+      return state;
   }
 }
 
@@ -54,6 +54,6 @@ const rootReducer = combineReducers({
   config,
   errors,
   projects
-})
+});
 
-export default rootReducer
+export default rootReducer;

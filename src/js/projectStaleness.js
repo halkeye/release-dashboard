@@ -1,5 +1,5 @@
 
-export default function projectStaleness(lastUpDate, target = 1) {
+export default function projectStaleness (lastUpDate, target = 1) {
   let daysAgo = (Date.now() - lastUpDate.getTime()) / 1000 / 60 / 60 / 24;
   // magic coefficient that shapes the staleness curve
   // experimentally determined!!!
@@ -9,4 +9,3 @@ export default function projectStaleness(lastUpDate, target = 1) {
                   ((stalenessCoeff * Math.sqrt(daysAgo)) + 1);
   return staleness;
 }
-

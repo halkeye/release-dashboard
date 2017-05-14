@@ -1,4 +1,4 @@
-/*eslint-env node, mocha */
+/* eslint-env node, mocha */
 
 import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
@@ -16,66 +16,65 @@ import {
 
 import { omit } from 'lodash';
 
+// nock.recorder.rec({ logging: function(content) { require('fs').appendFile('record.txt', content); } });
 
-//nock.recorder.rec({ logging: function(content) { require('fs').appendFile('record.txt', content); } });
+const middlewares = [ thunk ];
+const mockStore = configureMockStore(middlewares);
 
-const middlewares = [ thunk ]
-const mockStore = configureMockStore(middlewares)
+describe('actions', function () {
+  afterEach(function () { nock.cleanAll(); });
 
-describe('actions', function() {
-	afterEach(function() { nock.cleanAll() })
-
-  describe('fetchConfig', function() {
-    before(function() {
-			nockReleaseDashboardConfigTreesMaster();
-			nockReleaseDashboardConfigBlob();
+  describe('fetchConfig', function () {
+    before(function () {
+      nockReleaseDashboardConfigTreesMaster();
+      nockReleaseDashboardConfigBlob();
       nockReposAppiumGitRefsTags();
       nockReposJenkinsGitRefsTags();
       nockReposCiSauceGitRefsTags();
 
       this.store = mockStore({ config: { token: null } });
-      return this.store.dispatch(actions.fetchConfig('halkeye/release-dashboard-config'))
+      return this.store.dispatch(actions.fetchConfig('halkeye/release-dashboard-config'));
     });
-    it('Dispatch events for each recieved project', function() {
-			const expectedActions = [
+    it('Dispatch events for each recieved project', function () {
+      const expectedActions = [
         {
-          "project": { "annotatedTagFormat": "^v[0-9.]+$", "deployTargetInterval": 14, "repo": "appium/appium" },
-          "type": "RECEIVE_PROJECT"
+          'project': { 'annotatedTagFormat': '^v[0-9.]+$', 'deployTargetInterval': 14, 'repo': 'appium/appium' },
+          'type': 'RECEIVE_PROJECT'
         },
         {
-          "project": { "annotatedTagFormat": "^sauce-ondemand-[0-9.]+$", "deployTargetInterval": false, "repo": "saucelabs/jenkins-sauce-ondemand-plugin" },
-          "type": "RECEIVE_PROJECT"
+          'project': { 'annotatedTagFormat': '^sauce-ondemand-[0-9.]+$', 'deployTargetInterval': false, 'repo': 'saucelabs/jenkins-sauce-ondemand-plugin' },
+          'type': 'RECEIVE_PROJECT'
         },
         {
-          "project": { "annotatedTagFormat": "^ci-sauce-[0-9.]+$", "deployTargetInterval": false, "repo": "saucelabs/ci-sauce" },
-          "type": "RECEIVE_PROJECT"
+          'project': { 'annotatedTagFormat': '^ci-sauce-[0-9.]+$', 'deployTargetInterval': false, 'repo': 'saucelabs/ci-sauce' },
+          'type': 'RECEIVE_PROJECT'
         }
       ];
-			expect(this.store.getActions().map(obj => omit(obj, ['lastUpdated']))).toEqual(expectedActions)
+      expect(this.store.getActions().map(obj => omit(obj, ['lastUpdated']))).toEqual(expectedActions);
     });
-  })
-  describe('receiveProject', function() {
-    before(function() {
+  });
+  describe('receiveProject', function () {
+    before(function () {
       nockReposAppiumGitRefsTags();
 
       this.store = mockStore({ config: { token: null } });
-      return this.store.dispatch(actions.receiveProject({ "repo": "appium/appium", "annotatedTagFormat": "^v[0-9.]+$", "deployTargetInterval": 14 }))
+      return this.store.dispatch(actions.receiveProject({ 'repo': 'appium/appium', 'annotatedTagFormat': '^v[0-9.]+$', 'deployTargetInterval': 14 }));
     });
-    it('Dispatch events for each recieved project', function() {
-			const expectedActions = [
+    it('Dispatch events for each recieved project', function () {
+      const expectedActions = [
         {
-          "project": {
-            "annotatedTagFormat": "^v[0-9.]+$",
-            "deployTargetInterval": 14,
-            "repo": "appium/appium"
+          'project': {
+            'annotatedTagFormat': '^v[0-9.]+$',
+            'deployTargetInterval': 14,
+            'repo': 'appium/appium'
           },
-          "type": "RECEIVE_PROJECT"
+          'type': 'RECEIVE_PROJECT'
         }
       ];
       const recievedActions = this.store.getActions().map(obj => omit(obj, ['lastUpdated']));
       expect(recievedActions).toEqual(expectedActions);
     });
-  })
+  });
 });
 /*
 "tags": [

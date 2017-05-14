@@ -29,18 +29,19 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(grant);
 if ((process.env.NODE_ENV || 'development') === 'development') {
-  const config = require('./webpack.config.js');
+  const config = require('./webpack.config.js')();
   const compiler = require('webpack')(config);
   const webpackDevMiddleware = require('webpack-dev-middleware');
   app.use(webpackDevMiddleware(compiler, {
     publicPath: config.output.publicPath,
     stats: { colors: true }
   }));
+  app.use(require('webpack-hot-middleware')(compiler));
 }
 
 app.get('/', function (req, res) {
   // Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)
-  if (req.headers['user-agent'].startsWith("Slackbot-LinkExpanding")) {
+  if (req.headers['user-agent'].startsWith('Slackbot-LinkExpanding')) {
     return res.render('slackbox.html.ejs');
   }
   const token = req.cookies['gh-token'] || process.env.GITHUB_TOKEN;
@@ -49,7 +50,7 @@ app.get('/', function (req, res) {
   res.render('index.html.ejs', {
     token: token,
     config_repo: process.env.CONFIG_REPO
-  } );
+  });
 });
 
 app.get('/doneAuth', function (req, res) {
