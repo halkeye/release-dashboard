@@ -1,7 +1,9 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { init, fetchConfig } from '../actions';
+import GithubCorner from 'react-github-corner';
 import Projects from '../components/Projects.js';
+import TimelineView from '../components/TimelineView.js';
 
 import 'react-tabs/style/react-tabs.scss';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -14,21 +16,23 @@ class AsyncApp extends Component {
   }
 
   render () {
-    console.log('render');
     const { projects } = this.props;
     return (
-      <Tabs>
-        <TabList>
-          <Tab>Changelog</Tab>
-          <Tab>Timeline</Tab>
-        </TabList>
-        <TabPanel>
-          <Projects projects={projects} />;
-        </TabPanel>
-        <TabPanel>
-          Timeline
-        </TabPanel>
-      </Tabs>
+      <div>
+        <GithubCorner href="https://github.com/halkeye/release-dashboard" />
+        <Tabs>
+          <TabList>
+            <Tab>Changelog</Tab>
+            <Tab>Timeline</Tab>
+          </TabList>
+          <TabPanel>
+            <Projects projects={projects} />
+          </TabPanel>
+          <TabPanel>
+            <TimelineView projects={projects} />
+          </TabPanel>
+        </Tabs>
+      </div>
     );
   }
 }
