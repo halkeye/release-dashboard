@@ -133,6 +133,7 @@ function tagsForProject (token, project) {
         .then(tags => tags.filter(tag => re.test(tag.ref.substr('refs/tags/'.length))))
         .then(tags => tags.map(tag => {
           return {
+            sha: tag.object.sha,
             name: tag.ref.substr('refs/tags/'.length),
             commitUrl: tag.object.url
           };
@@ -144,7 +145,7 @@ function tagsForProject (token, project) {
           return Promise.all(promises);
         });
   }
-  return Promise.reject(`Not sure how to handle ${project}`);
+  return Promise.reject(new Error(`Not sure how to handle ${project}`));
 }
 
 function getCommit (token, project, sha) {

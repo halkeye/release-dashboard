@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {flatten} from 'lodash';
 
 import moment from 'moment';
@@ -6,7 +7,7 @@ import {Timeline, TimelineEvent} from 'react-event-timeline';
 
 export default class Projects extends React.Component {
   static propTypes = {
-    projects: React.PropTypes.array.isRequired
+    projects: PropTypes.array.isRequired
   };
 
   render () {
@@ -33,7 +34,7 @@ export default class Projects extends React.Component {
       <Timeline>
       {entries.map(tag => {
         return (
-          <TimelineEvent title={`${tag.repo} released ${tag.name} by ${tag.tagger.name}`}
+          <TimelineEvent key={tag.sha} title={`${tag.repo} released ${tag.name} by ${tag.tagger.name}`}
               icon={tag.icon ? <i className={`fa fa-${tag.icon} fa-fw`} /> : <span style={avatarStyle}>{tag.repo[0].toUpperCase()}</span>}
               createdAt={tag.date.format('dddd, MMMM Do YYYY, h:mm:ss a')}
             >

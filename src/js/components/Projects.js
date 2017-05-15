@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Project from './Project.js';
 
 export default class Projects extends React.Component {
   static propTypes = {
-    projects: React.PropTypes.array.isRequired
+    projects: PropTypes.array.isRequired
   };
 
   render () {

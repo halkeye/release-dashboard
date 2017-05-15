@@ -15,6 +15,6 @@ const elm = document.getElementById('content');
 const attrs = {};
 for (let i = 0; i < elm.attributes.length; i++) {
   let attr = elm.attributes[i];
-  if (attr.name != 'id') { attrs[attr.name] = attr.value; }
+  if (attr.name !== 'id') { attrs[attr.name] = attr.value; }
 }
 ReactDOM.render(<Root {...attrs} />, elm);

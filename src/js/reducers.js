@@ -10,7 +10,7 @@ import {
 function projects (state = [], action) {
   switch (action.type) {
     case RECEIVE_PROJECT:
-      return state.filter(project => project.repo != action.project.repo).concat(
+      return state.filter(project => project.repo !== action.project.repo).concat(
         Object.assign({tags: []}, action.project)
       );
     case RECEIVE_TAGS_FOR_PROJECT:

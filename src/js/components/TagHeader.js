@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import md5 from 'md5';
 
 import UserAvatar from 'react-user-avatar';
@@ -6,8 +7,8 @@ import SmartTimeAgo from 'react-smart-time-ago';
 
 export default class TagHeader extends React.Component {
   static propTypes = {
-    project: React.PropTypes.object,
-    tag: React.PropTypes.object
+    project: PropTypes.object,
+    tag: PropTypes.object
   };
   render () {
     const repoName = this.props.project.repo.split('/')[1];

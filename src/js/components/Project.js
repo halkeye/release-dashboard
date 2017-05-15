@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /* Libraries */
 import { numberToColorHsl } from '../color';
@@ -14,7 +15,7 @@ import projectStaleness from '../projectStaleness.js';
 
 export default class Project extends React.Component {
   static propTypes = {
-    project: React.PropTypes.object.isRequired
+    project: PropTypes.object.isRequired
   };
   render () {
     const project = this.props.project;

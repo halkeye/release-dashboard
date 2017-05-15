@@ -7,8 +7,8 @@ import * as actions from '../src/js/actions.js';
 import expect from 'expect';
 import nock from 'nock';
 import {
-	nockReleaseDashboardConfigTreesMaster,
-	nockReleaseDashboardConfigBlob,
+  nockReleaseDashboardConfigTreesMaster,
+  nockReleaseDashboardConfigBlob,
   nockReposAppiumGitRefsTags,
   nockReposJenkinsGitRefsTags,
   nockReposCiSauceGitRefsTags

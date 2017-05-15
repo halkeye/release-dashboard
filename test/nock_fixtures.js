@@ -63,7 +63,7 @@ function _nockGithubUrl (url) {
     .get(`/repos/${url}`)
     .reply(
       200,
-      fs.readFileSync(__dirname + `/fixtures/${url.replace(/\//g, '_')}.json`).toString(),
+      fs.readFileSync(`${__dirname}/fixtures/${url.replace(/\//g, '_')}.json`).toString(),
     {
       server: 'GitHub.com',
       date: 'Sun, 10 Jul 2016 03:45:43 GMT',

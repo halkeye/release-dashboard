@@ -31,7 +31,7 @@ module.exports = function (env) {
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     new webpack.ProvidePlugin({
       'fetch': 'imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch'
-    }),
+    })
   ];
 
   if (isProd) {

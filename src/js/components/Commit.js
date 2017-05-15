@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class Commit extends React.Component {
   static propTypes = {
-    project: React.PropTypes.object.isRequired,
-    commit: React.PropTypes.object.isRequired
+    project: PropTypes.object.isRequired,
+    commit: PropTypes.object.isRequired
   };
   render () {
     const commitUrl = `https://github.com/${this.props.project.repo}/commit/${this.props.commit.sha}`;
