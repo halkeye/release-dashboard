@@ -70,7 +70,8 @@ module.exports = function (env) {
     entry: entry,
     output: {
       path: distPath,
-      filename: !isProd ? '[name].bundle.js' : '[name].[chunkhash].bundle.js'
+      // filename: !isProd ? '[name].bundle.js' : '[name].[chunkhash].bundle.js'
+      filename: '[name].bundle.js'
     },
     module: {
       rules: [
