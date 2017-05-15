@@ -6,7 +6,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
 
 const sourcePath = path.join(__dirname, './src');
-const distPath = path.join(__dirname, './dist');
+const distPath = path.join(__dirname, './public');
 
 module.exports = function (env) {
   const nodeEnv = env && env.prod ? 'production' : 'development';
