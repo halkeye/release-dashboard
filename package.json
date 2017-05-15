@@ -34,7 +34,6 @@
     "morgan": "^1.7.0",
     "nock": "^9.0.11",
     "offline-plugin": "^4.7.0",
-    "react-avatar": "^2.3.0",
     "react-event-timeline": "^1.2.3",
     "react-redux": "^4.4.5",
     "react-smart-time-ago": "^1.0.5",

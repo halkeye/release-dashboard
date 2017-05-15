@@ -3,7 +3,6 @@ import {flatten} from 'lodash';
 
 import moment from 'moment';
 import {Timeline, TimelineEvent} from 'react-event-timeline';
-import Avatar from 'react-avatar';
 
 export default class Projects extends React.Component {
   static propTypes = {
@@ -11,6 +10,13 @@ export default class Projects extends React.Component {
   };
 
   render () {
+    const avatarStyle = {
+      position: 'absolute',
+      top: '-3px',
+      paddingLeft: '1px',
+      fontSize: '20px',
+      fontWeight: 'bold'
+    };
     const entries = flatten(this.props.projects.map(project => {
       return project.tags.map(tag => {
         return {
@@ -28,7 +34,7 @@ export default class Projects extends React.Component {
       {entries.map(tag => {
         return (
           <TimelineEvent title={`${tag.repo} released ${tag.name} by ${tag.tagger.name}`}
-              icon={<i className={`fa fa-${tag.icon} fa-fw`} />}
+              icon={tag.icon ? <i className={`fa fa-${tag.icon} fa-fw`} /> : <span style={avatarStyle}>{tag.repo[0].toUpperCase()}</span>}
               createdAt={tag.date.format('dddd, MMMM Do YYYY, h:mm:ss a')}
             >
             BLAH BALH
