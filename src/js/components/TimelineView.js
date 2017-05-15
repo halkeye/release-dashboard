@@ -16,7 +16,8 @@ export default class Projects extends React.Component {
         return {
           ...tag,
           date: moment(tag.tagger.date),
-          repo: project.repo
+          repo: project.repo,
+          icon: project.icon
         };
       });
     })).sort((a, b) => {
@@ -27,8 +28,8 @@ export default class Projects extends React.Component {
       {entries.map(tag => {
         return (
           <TimelineEvent title={`${tag.repo} released ${tag.name} by ${tag.tagger.name}`}
-              icon={<Avatar name={tag.repo} size={32} round={true} />}
-              createdAt={tag.date.format("dddd, MMMM Do YYYY, h:mm:ss a")}
+              icon={<i className={`fa fa-${tag.icon} fa-fw`} />}
+              createdAt={tag.date.format('dddd, MMMM Do YYYY, h:mm:ss a')}
             >
             BLAH BALH
           </TimelineEvent>
