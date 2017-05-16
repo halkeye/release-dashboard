@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {flatten} from 'lodash';
 
-import ReactTime from 'react-time';
 import {Timeline, TimelineEvent} from 'react-event-timeline';
+import Time from './Time.js';
 
 export default class Projects extends React.Component {
   static propTypes = {
@@ -36,7 +36,7 @@ export default class Projects extends React.Component {
         return (
           <TimelineEvent key={tag.sha} title={`${tag.repo} released ${tag.name} by ${tag.tagger.name}`}
               icon={tag.icon ? <i className={`fa fa-${tag.icon} fa-fw`} /> : <span style={avatarStyle}>{tag.repo[0].toUpperCase()}</span>}
-              createdAt={<div><ReactTime value={tag.date} format="dddd, MMMM Do YYYY, h:mm:ss a"/> (<ReactTime value={tag.date} relative />)</div>}
+              createdAt={<Time date={tag.date} />}
             >
             BLAH BALH
           </TimelineEvent>
