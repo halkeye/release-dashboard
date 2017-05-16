@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { numberToColorHsl } from '../color';
 
 /* External Components */
-import Progress from 'essence-progress';
+import MDSpinner from 'react-md-spinner';
 
 /* Internal Components */
 import TagHeader from './TagHeader.js';
@@ -48,7 +48,7 @@ export default class Project extends React.Component {
             <a className="compareLink" href={githubCompareLink}><img src={githubImgUrl} alt="compare on github" /></a>
           </h2>
           { commits && commits.map((commit) => <Commit key={commit.sha} project={project} commit={commit} />) }
-          { !commits && <Progress type={'circle'} color={'black'} /> }
+          { !commits && <MDSpinner /> }
         </div>
       </div>
     );
