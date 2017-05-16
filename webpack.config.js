@@ -12,7 +12,7 @@ module.exports = function (env) {
   const nodeEnv = env && env.prod ? 'production' : 'development';
   const isProd = nodeEnv === 'production';
   const entry = {
-    js: ['webpack-hot-middleware/client', 'js/app.js']
+    js: (isProd ? [] : ['webpack-hot-middleware/client']).concat(['js/app.js'])
   };
 
   const plugins = [
