@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {flatten} from 'lodash';
 
-import moment from 'moment';
+import ReactTime from 'react-time';
 import {Timeline, TimelineEvent} from 'react-event-timeline';
 
 export default class Projects extends React.Component {
@@ -22,13 +22,13 @@ export default class Projects extends React.Component {
       return project.tags.map(tag => {
         return {
           ...tag,
-          date: moment(tag.tagger.date),
+          date: new Date(tag.tagger.date),
           repo: project.repo,
           icon: project.icon
         };
       });
     })).sort((a, b) => {
-      return b.date - a.date;
+      return b.date.getTime() - a.date.getTime();
     });
     return (
       <Timeline>
@@ -36,7 +36,7 @@ export default class Projects extends React.Component {
         return (
           <TimelineEvent key={tag.sha} title={`${tag.repo} released ${tag.name} by ${tag.tagger.name}`}
               icon={tag.icon ? <i className={`fa fa-${tag.icon} fa-fw`} /> : <span style={avatarStyle}>{tag.repo[0].toUpperCase()}</span>}
-              createdAt={tag.date.format('dddd, MMMM Do YYYY, h:mm:ss a')}
+              createdAt={<div><ReactTime value={tag.date} format="dddd, MMMM Do YYYY, h:mm:ss a"/> (<ReactTime value={tag.date} relative />)</div>}
             >
             BLAH BALH
           </TimelineEvent>
