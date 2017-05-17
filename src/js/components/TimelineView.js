@@ -37,8 +37,8 @@ export default class Projects extends React.Component {
       <Timeline>
       {entries.map(tag => {
         return (
-          <TimelineEvent key={tag.sha} title={`${tag.repo} released ${tag.name} by ${tag.tagger.name}`}
-              icon={tag.icon ? <i className={`fa fa-${tag.icon} fa-fw`} /> : <span style={avatarStyle}>{tag.repo[0].toUpperCase()}</span>}
+          <TimelineEvent key={tag.sha} title={`${tag.project.repo} released ${tag.name} by ${tag.tagger.name}`}
+              icon={tag.icon ? <i className={`fa fa-${tag.icon} fa-fw`} /> : <span style={avatarStyle}>{tag.project.repo[0].toUpperCase()}</span>}
               createdAt={<Time date={tag.date} />}
             >
             { tag.commits && tag.commits.map((commit) => <Commit key={commit.sha} project={tag.project} commit={commit} />) }
