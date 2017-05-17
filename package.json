@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "6.1.0"
+    "node": "7.9"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",

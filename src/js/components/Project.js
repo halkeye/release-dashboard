@@ -22,7 +22,7 @@ export default class Project extends React.Component {
     const useTarget = !!this.props.project.deployTargetInterval;
     const cardStyle = {};
 
-    const commits = project.commits;
+    const commits = (project.tags[0] || {}).commits;
 
     // if the config has a deployIntervalTarget, retrieve; default is deploying
     // once per day

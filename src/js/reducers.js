@@ -4,7 +4,8 @@ import {
   RECEIVE_ERROR,
   RECEIVE_PROJECT,
   RECEIVE_TAGS_FOR_PROJECT,
-  RECEIVE_COMMITS_FOR_PROJECT
+  RECEIVE_COMMITS_FOR_PROJECT,
+  RECEIVE_COMMITS_FOR_TAG
 } from './actions';
 
 function projects (state = [], action) {
@@ -24,6 +25,24 @@ function projects (state = [], action) {
       return state.map(project => {
         if (project.repo === action.project.repo) {
           return Object.assign({}, project, { commits: action.commits });
+        }
+        return project;
+      });
+    case RECEIVE_COMMITS_FOR_TAG:
+      return state.map(project => {
+        if (project.repo === action.project.repo) {
+          return {
+            ...project,
+            tags: project.tags.map(tag => {
+              if (tag.sha === action.tag.sha) {
+                return {
+                  ...tag,
+                  commits: action.commits
+                };
+              }
+              return tag;
+            })
+          };
         }
         return project;
       });

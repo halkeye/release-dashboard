@@ -9,6 +9,7 @@ export const RECEIVE_COMMIT = 'RECEIVE_COMMIT';
 export const RECEIVE_ERROR = 'RECEIVE_ERROR';
 export const RECEIVE_TAGS_FOR_PROJECT = 'RECEIVE_TAGS_FOR_PROJECT';
 export const RECEIVE_COMMITS_FOR_PROJECT = 'RECEIVE_COMMITS_FOR_PROJECT';
+export const RECEIVE_COMMITS_FOR_TAG = 'RECEIVE_COMMITS_FOR_TAG';
 export const INIT = 'INIT';
 
 function githubFetch (url, token) {
@@ -93,22 +94,19 @@ function recieveTagsForProject (project, tags) {
       lastUpdated: Date.now()
     });
 
-    let promise = null;
-    if (tags.length > 1) {
-      promise = githubFetch(`https://api.github.com/repos/${project.repo}/compare/${tags[0].name}...${tags[1].name}`, token)
+    return tags.reverse().map((tag, idx) => {
+      // can't get a diff for the last one
+      if (!tags[idx + 1]) { return Promise.resolve(); }
+      return githubFetch(`https://api.github.com/repos/${project.repo}/compare/${tags[idx + 1].name}...${tag.name}`, token)
         .then(json => { return json.commits.map(commit => processCommit(commit)); })
-        .then(commits => commits.reverse());
-    } else {
-      promise = getCommit(token, project, tags[0])
-        .then(commit => [commit]);
-    }
-    return promise.then(commits => {
-      dispatch({
-        type: RECEIVE_COMMITS_FOR_PROJECT,
-        project,
-        commits,
-        lastUpdated: Date.now()
-      });
+        .then(commits => commits.reverse())
+        .then(commits => dispatch({
+          type: RECEIVE_COMMITS_FOR_TAG,
+          commits: commits,
+          project: project,
+          tag: tag,
+          lastUpdated: Date.now()
+        }));
     });
   };
 }
@@ -139,11 +137,8 @@ function tagsForProject (token, project) {
           };
         }))
         .then(tags => tags.sort(alphaSortTags))
-        .then(tags => tags.slice(-2))
-        .then(tags => {
-          let promises = tags.map(tag => getTagInfo(token, project, tag));
-          return Promise.all(promises);
-        });
+        .then(tags => tags.slice(-5))
+        .then(tags => Promise.all(tags.map(tag => getTagInfo(token, project, tag))));
   }
   return Promise.reject(new Error(`Not sure how to handle ${project}`));
 }
