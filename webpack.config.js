@@ -28,6 +28,7 @@ module.exports = function (env) {
       filename: '[name].[contenthash].css',
       allChunks: true
     }),
+    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     new webpack.ProvidePlugin({
       'fetch': 'imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch'
     })

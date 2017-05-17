@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import md5 from 'md5';
 
 import UserAvatar from 'react-user-avatar';
-import ReactTime from 'react-time';
+import Time from './Time.js';
 
 export default class TagHeader extends React.Component {
   static propTypes = {
@@ -21,7 +21,7 @@ export default class TagHeader extends React.Component {
       <div>
         <UserAvatar size='60' name={tag.tagger.name} src={avatarUrl} className="avatar" />
         <div className="repo">{repoName}</div>
-        <span className="ago"><ReactTime value={new Date(tag.tagger.date)} relative/></span>
+        <span className="ago"><Time date={new Date(tag.tagger.date)} /></span>
         <span> by </span>
         <span className="author">{tag.tagger.name}</span>
       </div>

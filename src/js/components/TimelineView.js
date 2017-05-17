@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {flatten} from 'lodash';
 
-import ReactTime from 'react-time';
 import {Timeline, TimelineEvent} from 'react-event-timeline';
+import Time from './Time.js';
 
 import Commit from './Commit.js';
 import MDSpinner from 'react-md-spinner';
@@ -37,9 +37,9 @@ export default class Projects extends React.Component {
       <Timeline>
       {entries.map(tag => {
         return (
-          <TimelineEvent key={tag.sha} title={`${tag.project.repo} released ${tag.name} by ${tag.tagger.name}`}
-              icon={tag.icon ? <i className={`fa fa-${tag.icon} fa-fw`} /> : <span style={avatarStyle}>{tag.project.repo[0].toUpperCase()}</span>}
-              createdAt={<div><ReactTime value={tag.date} format="dddd, MMMM Do YYYY, h:mm:ss a"/> (<ReactTime value={tag.date} relative />)</div>}
+          <TimelineEvent key={tag.sha} title={`${tag.repo} released ${tag.name} by ${tag.tagger.name}`}
+              icon={tag.icon ? <i className={`fa fa-${tag.icon} fa-fw`} /> : <span style={avatarStyle}>{tag.repo[0].toUpperCase()}</span>}
+              createdAt={<Time date={tag.date} />}
             >
             { tag.commits && tag.commits.map((commit) => <Commit key={commit.sha} project={tag.project} commit={commit} />) }
             { !tag.commits && <MDSpinner /> }
