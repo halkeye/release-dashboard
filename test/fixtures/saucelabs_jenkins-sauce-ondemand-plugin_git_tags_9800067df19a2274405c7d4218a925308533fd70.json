@@ -1,0 +1,16 @@
+{
+  "sha": "9800067df19a2274405c7d4218a925308533fd70",
+  "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/tags/9800067df19a2274405c7d4218a925308533fd70",
+  "tagger": {
+    "name": "Gavin Mogan",
+    "email": "gavin@saucelabs.com",
+    "date": "2016-01-22T00:39:21Z"
+  },
+  "object": {
+    "sha": "3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+    "type": "commit",
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809"
+  },
+  "tag": "sauce-ondemand-1.148",
+  "message": "[maven-release-plugin]  copy for tag sauce-ondemand-1.148\n"
+}

@@ -1,0 +1,912 @@
+{
+  "url": "https://api.github.com/repos/saucelabs/ci-sauce/compare/ci-sauce-1.113...ci-sauce-1.114",
+  "html_url": "https://github.com/saucelabs/ci-sauce/compare/ci-sauce-1.113...ci-sauce-1.114",
+  "permalink_url": "https://github.com/saucelabs/ci-sauce/compare/saucelabs:ae7fed7...saucelabs:f28424d",
+  "diff_url": "https://github.com/saucelabs/ci-sauce/compare/ci-sauce-1.113...ci-sauce-1.114.diff",
+  "patch_url": "https://github.com/saucelabs/ci-sauce/compare/ci-sauce-1.113...ci-sauce-1.114.patch",
+  "base_commit": {
+    "sha": "ae7fed743f8d48103459182e9cf877a114737705",
+    "commit": {
+      "author": {
+        "name": "Gavin Mogan",
+        "email": "gavin@saucelabs.com",
+        "date": "2016-03-23T20:08:41Z"
+      },
+      "committer": {
+        "name": "Gavin Mogan",
+        "email": "gavin@saucelabs.com",
+        "date": "2016-03-23T20:08:41Z"
+      },
+      "message": "[maven-release-plugin] prepare release ci-sauce-1.113",
+      "tree": {
+        "sha": "e284bb44ae5e41049b6cc1b313323d78c6748d1d",
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/e284bb44ae5e41049b6cc1b313323d78c6748d1d"
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/ae7fed743f8d48103459182e9cf877a114737705",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/ae7fed743f8d48103459182e9cf877a114737705",
+    "html_url": "https://github.com/saucelabs/ci-sauce/commit/ae7fed743f8d48103459182e9cf877a114737705",
+    "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/ae7fed743f8d48103459182e9cf877a114737705/comments",
+    "author": {
+      "login": "halkeye",
+      "id": 110087,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/halkeye",
+      "html_url": "https://github.com/halkeye",
+      "followers_url": "https://api.github.com/users/halkeye/followers",
+      "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+      "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+      "organizations_url": "https://api.github.com/users/halkeye/orgs",
+      "repos_url": "https://api.github.com/users/halkeye/repos",
+      "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/halkeye/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "halkeye",
+      "id": 110087,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/halkeye",
+      "html_url": "https://github.com/halkeye",
+      "followers_url": "https://api.github.com/users/halkeye/followers",
+      "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+      "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+      "organizations_url": "https://api.github.com/users/halkeye/orgs",
+      "repos_url": "https://api.github.com/users/halkeye/repos",
+      "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/halkeye/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "18df0bdd265f3631ada67f72eeda74156f2b5457",
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/18df0bdd265f3631ada67f72eeda74156f2b5457",
+        "html_url": "https://github.com/saucelabs/ci-sauce/commit/18df0bdd265f3631ada67f72eeda74156f2b5457"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "ae7fed743f8d48103459182e9cf877a114737705",
+    "commit": {
+      "author": {
+        "name": "Gavin Mogan",
+        "email": "gavin@saucelabs.com",
+        "date": "2016-03-23T20:08:41Z"
+      },
+      "committer": {
+        "name": "Gavin Mogan",
+        "email": "gavin@saucelabs.com",
+        "date": "2016-03-23T20:08:41Z"
+      },
+      "message": "[maven-release-plugin] prepare release ci-sauce-1.113",
+      "tree": {
+        "sha": "e284bb44ae5e41049b6cc1b313323d78c6748d1d",
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/e284bb44ae5e41049b6cc1b313323d78c6748d1d"
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/ae7fed743f8d48103459182e9cf877a114737705",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/ae7fed743f8d48103459182e9cf877a114737705",
+    "html_url": "https://github.com/saucelabs/ci-sauce/commit/ae7fed743f8d48103459182e9cf877a114737705",
+    "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/ae7fed743f8d48103459182e9cf877a114737705/comments",
+    "author": {
+      "login": "halkeye",
+      "id": 110087,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/halkeye",
+      "html_url": "https://github.com/halkeye",
+      "followers_url": "https://api.github.com/users/halkeye/followers",
+      "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+      "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+      "organizations_url": "https://api.github.com/users/halkeye/orgs",
+      "repos_url": "https://api.github.com/users/halkeye/repos",
+      "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/halkeye/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "halkeye",
+      "id": 110087,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/halkeye",
+      "html_url": "https://github.com/halkeye",
+      "followers_url": "https://api.github.com/users/halkeye/followers",
+      "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+      "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+      "organizations_url": "https://api.github.com/users/halkeye/orgs",
+      "repos_url": "https://api.github.com/users/halkeye/repos",
+      "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/halkeye/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "18df0bdd265f3631ada67f72eeda74156f2b5457",
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/18df0bdd265f3631ada67f72eeda74156f2b5457",
+        "html_url": "https://github.com/saucelabs/ci-sauce/commit/18df0bdd265f3631ada67f72eeda74156f2b5457"
+      }
+    ]
+  },
+  "status": "ahead",
+  "ahead_by": 9,
+  "behind_by": 0,
+  "total_commits": 9,
+  "commits": [
+    {
+      "sha": "1b620b27a281e167cb7e3bb37750a5bc2293221f",
+      "commit": {
+        "author": {
+          "name": "Gavin Mogan",
+          "email": "gavin@saucelabs.com",
+          "date": "2016-03-23T20:08:45Z"
+        },
+        "committer": {
+          "name": "Gavin Mogan",
+          "email": "gavin@saucelabs.com",
+          "date": "2016-03-23T20:08:45Z"
+        },
+        "message": "[maven-release-plugin] prepare for next development iteration",
+        "tree": {
+          "sha": "3a7d0c9aa5a5b09f1ad4f5993aab2f4bfa1d99bd",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/3a7d0c9aa5a5b09f1ad4f5993aab2f4bfa1d99bd"
+        },
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/1b620b27a281e167cb7e3bb37750a5bc2293221f",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/1b620b27a281e167cb7e3bb37750a5bc2293221f",
+      "html_url": "https://github.com/saucelabs/ci-sauce/commit/1b620b27a281e167cb7e3bb37750a5bc2293221f",
+      "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/1b620b27a281e167cb7e3bb37750a5bc2293221f/comments",
+      "author": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ae7fed743f8d48103459182e9cf877a114737705",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/ae7fed743f8d48103459182e9cf877a114737705",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/ae7fed743f8d48103459182e9cf877a114737705"
+        }
+      ]
+    },
+    {
+      "sha": "0d457d0874a2c4a790651ea3245bc20314636c0a",
+      "commit": {
+        "author": {
+          "name": "moizjv",
+          "email": "moizjv@gmail.com",
+          "date": "2016-05-19T23:54:57Z"
+        },
+        "committer": {
+          "name": "moizjv",
+          "email": "moizjv@gmail.com",
+          "date": "2016-05-19T23:54:57Z"
+        },
+        "message": "Sauce connect 4.3.15",
+        "tree": {
+          "sha": "4d67151f19c45984f886e48cb09dc439aa1f923f",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/4d67151f19c45984f886e48cb09dc439aa1f923f"
+        },
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/0d457d0874a2c4a790651ea3245bc20314636c0a",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/0d457d0874a2c4a790651ea3245bc20314636c0a",
+      "html_url": "https://github.com/saucelabs/ci-sauce/commit/0d457d0874a2c4a790651ea3245bc20314636c0a",
+      "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/0d457d0874a2c4a790651ea3245bc20314636c0a/comments",
+      "author": {
+        "login": "moizjv",
+        "id": 1308607,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/moizjv",
+        "html_url": "https://github.com/moizjv",
+        "followers_url": "https://api.github.com/users/moizjv/followers",
+        "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+        "organizations_url": "https://api.github.com/users/moizjv/orgs",
+        "repos_url": "https://api.github.com/users/moizjv/repos",
+        "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/moizjv/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "moizjv",
+        "id": 1308607,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/moizjv",
+        "html_url": "https://github.com/moizjv",
+        "followers_url": "https://api.github.com/users/moizjv/followers",
+        "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+        "organizations_url": "https://api.github.com/users/moizjv/orgs",
+        "repos_url": "https://api.github.com/users/moizjv/repos",
+        "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/moizjv/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1b620b27a281e167cb7e3bb37750a5bc2293221f",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/1b620b27a281e167cb7e3bb37750a5bc2293221f",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/1b620b27a281e167cb7e3bb37750a5bc2293221f"
+        }
+      ]
+    },
+    {
+      "sha": "ed5cd8de7d6b19ab56fa5dc0d21afc2724141c9c",
+      "commit": {
+        "author": {
+          "name": "moizjv",
+          "email": "moizjv@gmail.com",
+          "date": "2016-05-20T00:06:50Z"
+        },
+        "committer": {
+          "name": "moizjv",
+          "email": "moizjv@gmail.com",
+          "date": "2016-05-20T00:06:50Z"
+        },
+        "message": "[maven-release-plugin] Prepare release ci-sauce-114",
+        "tree": {
+          "sha": "af2c69b104d985be68f460e7b750b76b74ee97d9",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/af2c69b104d985be68f460e7b750b76b74ee97d9"
+        },
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/ed5cd8de7d6b19ab56fa5dc0d21afc2724141c9c",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/ed5cd8de7d6b19ab56fa5dc0d21afc2724141c9c",
+      "html_url": "https://github.com/saucelabs/ci-sauce/commit/ed5cd8de7d6b19ab56fa5dc0d21afc2724141c9c",
+      "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/ed5cd8de7d6b19ab56fa5dc0d21afc2724141c9c/comments",
+      "author": {
+        "login": "moizjv",
+        "id": 1308607,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/moizjv",
+        "html_url": "https://github.com/moizjv",
+        "followers_url": "https://api.github.com/users/moizjv/followers",
+        "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+        "organizations_url": "https://api.github.com/users/moizjv/orgs",
+        "repos_url": "https://api.github.com/users/moizjv/repos",
+        "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/moizjv/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "moizjv",
+        "id": 1308607,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/moizjv",
+        "html_url": "https://github.com/moizjv",
+        "followers_url": "https://api.github.com/users/moizjv/followers",
+        "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+        "organizations_url": "https://api.github.com/users/moizjv/orgs",
+        "repos_url": "https://api.github.com/users/moizjv/repos",
+        "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/moizjv/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0d457d0874a2c4a790651ea3245bc20314636c0a",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/0d457d0874a2c4a790651ea3245bc20314636c0a",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/0d457d0874a2c4a790651ea3245bc20314636c0a"
+        }
+      ]
+    },
+    {
+      "sha": "7cd5ca606e778c51ac7a36b50219de487db88921",
+      "commit": {
+        "author": {
+          "name": "Gavin Mogan",
+          "email": "github@gavinmogan.com",
+          "date": "2016-05-20T00:16:22Z"
+        },
+        "committer": {
+          "name": "Gavin Mogan",
+          "email": "github@gavinmogan.com",
+          "date": "2016-05-20T00:16:22Z"
+        },
+        "message": "Merge pull request #18 from saucelabs/sauce-connect\n\nUpdating sauce-connect and preparing for release",
+        "tree": {
+          "sha": "af2c69b104d985be68f460e7b750b76b74ee97d9",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/af2c69b104d985be68f460e7b750b76b74ee97d9"
+        },
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/7cd5ca606e778c51ac7a36b50219de487db88921",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/7cd5ca606e778c51ac7a36b50219de487db88921",
+      "html_url": "https://github.com/saucelabs/ci-sauce/commit/7cd5ca606e778c51ac7a36b50219de487db88921",
+      "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/7cd5ca606e778c51ac7a36b50219de487db88921/comments",
+      "author": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1b620b27a281e167cb7e3bb37750a5bc2293221f",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/1b620b27a281e167cb7e3bb37750a5bc2293221f",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/1b620b27a281e167cb7e3bb37750a5bc2293221f"
+        },
+        {
+          "sha": "ed5cd8de7d6b19ab56fa5dc0d21afc2724141c9c",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/ed5cd8de7d6b19ab56fa5dc0d21afc2724141c9c",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/ed5cd8de7d6b19ab56fa5dc0d21afc2724141c9c"
+        }
+      ]
+    },
+    {
+      "sha": "8b68493e076f1abc62a773895ab12f32d2986800",
+      "commit": {
+        "author": {
+          "name": "Gavin Mogan",
+          "email": "github@gavinmogan.com",
+          "date": "2016-05-20T00:19:05Z"
+        },
+        "committer": {
+          "name": "Gavin Mogan",
+          "email": "github@gavinmogan.com",
+          "date": "2016-05-20T00:19:05Z"
+        },
+        "message": "Revert \"Updating sauce-connect and preparing for release\"",
+        "tree": {
+          "sha": "3a7d0c9aa5a5b09f1ad4f5993aab2f4bfa1d99bd",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/3a7d0c9aa5a5b09f1ad4f5993aab2f4bfa1d99bd"
+        },
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/8b68493e076f1abc62a773895ab12f32d2986800",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/8b68493e076f1abc62a773895ab12f32d2986800",
+      "html_url": "https://github.com/saucelabs/ci-sauce/commit/8b68493e076f1abc62a773895ab12f32d2986800",
+      "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/8b68493e076f1abc62a773895ab12f32d2986800/comments",
+      "author": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7cd5ca606e778c51ac7a36b50219de487db88921",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/7cd5ca606e778c51ac7a36b50219de487db88921",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/7cd5ca606e778c51ac7a36b50219de487db88921"
+        }
+      ]
+    },
+    {
+      "sha": "f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0",
+      "commit": {
+        "author": {
+          "name": "Gavin Mogan",
+          "email": "github@gavinmogan.com",
+          "date": "2016-05-20T00:19:15Z"
+        },
+        "committer": {
+          "name": "Gavin Mogan",
+          "email": "github@gavinmogan.com",
+          "date": "2016-05-20T00:19:15Z"
+        },
+        "message": "Merge pull request #19 from saucelabs/revert-18-sauce-connect\n\nRevert \"Updating sauce-connect and preparing for release\"",
+        "tree": {
+          "sha": "3a7d0c9aa5a5b09f1ad4f5993aab2f4bfa1d99bd",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/3a7d0c9aa5a5b09f1ad4f5993aab2f4bfa1d99bd"
+        },
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0",
+      "html_url": "https://github.com/saucelabs/ci-sauce/commit/f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0",
+      "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0/comments",
+      "author": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7cd5ca606e778c51ac7a36b50219de487db88921",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/7cd5ca606e778c51ac7a36b50219de487db88921",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/7cd5ca606e778c51ac7a36b50219de487db88921"
+        },
+        {
+          "sha": "8b68493e076f1abc62a773895ab12f32d2986800",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/8b68493e076f1abc62a773895ab12f32d2986800",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/8b68493e076f1abc62a773895ab12f32d2986800"
+        }
+      ]
+    },
+    {
+      "sha": "3f3650bba19512c692e8c62a4a0910e4aa715878",
+      "commit": {
+        "author": {
+          "name": "moizjv",
+          "email": "moizjv@gmail.com",
+          "date": "2016-05-20T00:36:29Z"
+        },
+        "committer": {
+          "name": "moizjv",
+          "email": "moizjv@gmail.com",
+          "date": "2016-05-20T00:36:29Z"
+        },
+        "message": "Sauce connect 4.3.15",
+        "tree": {
+          "sha": "4d67151f19c45984f886e48cb09dc439aa1f923f",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/4d67151f19c45984f886e48cb09dc439aa1f923f"
+        },
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/3f3650bba19512c692e8c62a4a0910e4aa715878",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/3f3650bba19512c692e8c62a4a0910e4aa715878",
+      "html_url": "https://github.com/saucelabs/ci-sauce/commit/3f3650bba19512c692e8c62a4a0910e4aa715878",
+      "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/3f3650bba19512c692e8c62a4a0910e4aa715878/comments",
+      "author": {
+        "login": "moizjv",
+        "id": 1308607,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/moizjv",
+        "html_url": "https://github.com/moizjv",
+        "followers_url": "https://api.github.com/users/moizjv/followers",
+        "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+        "organizations_url": "https://api.github.com/users/moizjv/orgs",
+        "repos_url": "https://api.github.com/users/moizjv/repos",
+        "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/moizjv/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "moizjv",
+        "id": 1308607,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/moizjv",
+        "html_url": "https://github.com/moizjv",
+        "followers_url": "https://api.github.com/users/moizjv/followers",
+        "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+        "organizations_url": "https://api.github.com/users/moizjv/orgs",
+        "repos_url": "https://api.github.com/users/moizjv/repos",
+        "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/moizjv/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0"
+        }
+      ]
+    },
+    {
+      "sha": "993bed6bbdfbabe8eeaf074777cce94a0051a4b3",
+      "commit": {
+        "author": {
+          "name": "Gavin Mogan",
+          "email": "github@gavinmogan.com",
+          "date": "2016-05-20T00:41:47Z"
+        },
+        "committer": {
+          "name": "Gavin Mogan",
+          "email": "github@gavinmogan.com",
+          "date": "2016-05-20T00:41:47Z"
+        },
+        "message": "Merge pull request #20 from saucelabs/sauce-connect\n\nSauce connect 4.3.15",
+        "tree": {
+          "sha": "4d67151f19c45984f886e48cb09dc439aa1f923f",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/4d67151f19c45984f886e48cb09dc439aa1f923f"
+        },
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/993bed6bbdfbabe8eeaf074777cce94a0051a4b3",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/993bed6bbdfbabe8eeaf074777cce94a0051a4b3",
+      "html_url": "https://github.com/saucelabs/ci-sauce/commit/993bed6bbdfbabe8eeaf074777cce94a0051a4b3",
+      "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/993bed6bbdfbabe8eeaf074777cce94a0051a4b3/comments",
+      "author": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/f2b26d70abca023cf4a7b51ba0a9deb30ebe3dd0"
+        },
+        {
+          "sha": "3f3650bba19512c692e8c62a4a0910e4aa715878",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/3f3650bba19512c692e8c62a4a0910e4aa715878",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/3f3650bba19512c692e8c62a4a0910e4aa715878"
+        }
+      ]
+    },
+    {
+      "sha": "f28424dc59beebf0a397e6f00aed8473e3de979b",
+      "commit": {
+        "author": {
+          "name": "Gavin Mogan",
+          "email": "gavin@saucelabs.com",
+          "date": "2016-05-20T00:44:30Z"
+        },
+        "committer": {
+          "name": "Gavin Mogan",
+          "email": "gavin@saucelabs.com",
+          "date": "2016-05-20T00:44:30Z"
+        },
+        "message": "[maven-release-plugin] prepare release ci-sauce-1.114",
+        "tree": {
+          "sha": "af2c69b104d985be68f460e7b750b76b74ee97d9",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/trees/af2c69b104d985be68f460e7b750b76b74ee97d9"
+        },
+        "url": "https://api.github.com/repos/saucelabs/ci-sauce/git/commits/f28424dc59beebf0a397e6f00aed8473e3de979b",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/f28424dc59beebf0a397e6f00aed8473e3de979b",
+      "html_url": "https://github.com/saucelabs/ci-sauce/commit/f28424dc59beebf0a397e6f00aed8473e3de979b",
+      "comments_url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/f28424dc59beebf0a397e6f00aed8473e3de979b/comments",
+      "author": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "halkeye",
+        "id": 110087,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/110087?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "993bed6bbdfbabe8eeaf074777cce94a0051a4b3",
+          "url": "https://api.github.com/repos/saucelabs/ci-sauce/commits/993bed6bbdfbabe8eeaf074777cce94a0051a4b3",
+          "html_url": "https://github.com/saucelabs/ci-sauce/commit/993bed6bbdfbabe8eeaf074777cce94a0051a4b3"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "31783ccd164a7f6d24c11f7c3d1f16191459cfb5",
+      "filename": "pom.xml",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/saucelabs/ci-sauce/blob/f28424dc59beebf0a397e6f00aed8473e3de979b/pom.xml",
+      "raw_url": "https://github.com/saucelabs/ci-sauce/raw/f28424dc59beebf0a397e6f00aed8473e3de979b/pom.xml",
+      "contents_url": "https://api.github.com/repos/saucelabs/ci-sauce/contents/pom.xml?ref=f28424dc59beebf0a397e6f00aed8473e3de979b",
+      "patch": "@@ -3,7 +3,7 @@\n \n     <groupId>com.saucelabs</groupId>\n     <artifactId>ci-sauce</artifactId>\n-    <version>1.113</version>\n+    <version>1.114</version>\n     <packaging>jar</packaging>\n \n \n@@ -48,7 +48,7 @@\n         <connection>scm:git:git://github.com/saucelabs/ci-sauce.git</connection>\n         <developerConnection>scm:git:git@github.com:saucelabs/ci-sauce.git</developerConnection>\n         <url>git@github.com:saucelabs/ci-sauce.git</url>\n-      <tag>ci-sauce-1.113</tag>\n+      <tag>ci-sauce-1.114</tag>\n   </scm>\n     <distributionManagement>\n         <snapshotRepository>"
+    },
+    {
+      "sha": "37fb321a0375d3ee6d3d345a613b6e7e5bf02c1b",
+      "filename": "src/main/java/com/saucelabs/ci/sauceconnect/SauceConnectFourManager.java",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/saucelabs/ci-sauce/blob/f28424dc59beebf0a397e6f00aed8473e3de979b/src/main/java/com/saucelabs/ci/sauceconnect/SauceConnectFourManager.java",
+      "raw_url": "https://github.com/saucelabs/ci-sauce/raw/f28424dc59beebf0a397e6f00aed8473e3de979b/src/main/java/com/saucelabs/ci/sauceconnect/SauceConnectFourManager.java",
+      "contents_url": "https://api.github.com/repos/saucelabs/ci-sauce/contents/src/main/java/com/saucelabs/ci/sauceconnect/SauceConnectFourManager.java?ref=f28424dc59beebf0a397e6f00aed8473e3de979b",
+      "patch": "@@ -130,7 +130,7 @@ public String getDefaultSauceConnectLogDirectory() {\n      */\n     private static final String SAUCE_CONNECT_4_STARTED = \"Sauce Connect is up, you may start your tests\";\n \n-    public static final String CURRENT_SC_VERSION = \"4.3.14\";\n+    public static final String CURRENT_SC_VERSION = \"4.3.15\";\n     public static final String SAUCE_CONNECT_4 = \"sc-\" + CURRENT_SC_VERSION;\n \n     private static final String OSX_DIR = SAUCE_CONNECT_4 + \"-osx\";"
+    },
+    {
+      "sha": "2cb061077021673c636b6e0304257f94c5898d1e",
+      "filename": "src/main/resources/sc-4.3.14-linux.tar.gz",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/saucelabs/ci-sauce/blob/ae7fed743f8d48103459182e9cf877a114737705/src/main/resources/sc-4.3.14-linux.tar.gz",
+      "raw_url": "https://github.com/saucelabs/ci-sauce/raw/ae7fed743f8d48103459182e9cf877a114737705/src/main/resources/sc-4.3.14-linux.tar.gz",
+      "contents_url": "https://api.github.com/repos/saucelabs/ci-sauce/contents/src/main/resources/sc-4.3.14-linux.tar.gz?ref=ae7fed743f8d48103459182e9cf877a114737705"
+    },
+    {
+      "sha": "c42dc645e97a79ff7e3025fc58bb2511ec8eadf2",
+      "filename": "src/main/resources/sc-4.3.14-linux32.tar.gz",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/saucelabs/ci-sauce/blob/ae7fed743f8d48103459182e9cf877a114737705/src/main/resources/sc-4.3.14-linux32.tar.gz",
+      "raw_url": "https://github.com/saucelabs/ci-sauce/raw/ae7fed743f8d48103459182e9cf877a114737705/src/main/resources/sc-4.3.14-linux32.tar.gz",
+      "contents_url": "https://api.github.com/repos/saucelabs/ci-sauce/contents/src/main/resources/sc-4.3.14-linux32.tar.gz?ref=ae7fed743f8d48103459182e9cf877a114737705"
+    },
+    {
+      "sha": "eb7ba5533fd48072b685a6b2ec50b4f7db4aee60",
+      "filename": "src/main/resources/sc-4.3.14-osx.zip",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/saucelabs/ci-sauce/blob/ae7fed743f8d48103459182e9cf877a114737705/src/main/resources/sc-4.3.14-osx.zip",
+      "raw_url": "https://github.com/saucelabs/ci-sauce/raw/ae7fed743f8d48103459182e9cf877a114737705/src/main/resources/sc-4.3.14-osx.zip",
+      "contents_url": "https://api.github.com/repos/saucelabs/ci-sauce/contents/src/main/resources/sc-4.3.14-osx.zip?ref=ae7fed743f8d48103459182e9cf877a114737705"
+    },
+    {
+      "sha": "4532b8beb7868295c213573cf78fcac2034f7cb6",
+      "filename": "src/main/resources/sc-4.3.14-win32.zip",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/saucelabs/ci-sauce/blob/ae7fed743f8d48103459182e9cf877a114737705/src/main/resources/sc-4.3.14-win32.zip",
+      "raw_url": "https://github.com/saucelabs/ci-sauce/raw/ae7fed743f8d48103459182e9cf877a114737705/src/main/resources/sc-4.3.14-win32.zip",
+      "contents_url": "https://api.github.com/repos/saucelabs/ci-sauce/contents/src/main/resources/sc-4.3.14-win32.zip?ref=ae7fed743f8d48103459182e9cf877a114737705"
+    },
+    {
+      "sha": "a6916bec1deb29319991ddc1abfb70ceac33cdfc",
+      "filename": "src/main/resources/sc-4.3.15-linux.tar.gz",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/saucelabs/ci-sauce/blob/f28424dc59beebf0a397e6f00aed8473e3de979b/src/main/resources/sc-4.3.15-linux.tar.gz",
+      "raw_url": "https://github.com/saucelabs/ci-sauce/raw/f28424dc59beebf0a397e6f00aed8473e3de979b/src/main/resources/sc-4.3.15-linux.tar.gz",
+      "contents_url": "https://api.github.com/repos/saucelabs/ci-sauce/contents/src/main/resources/sc-4.3.15-linux.tar.gz?ref=f28424dc59beebf0a397e6f00aed8473e3de979b"
+    },
+    {
+      "sha": "b79c4d174a249a7cc9962d5276466915edc56bb4",
+      "filename": "src/main/resources/sc-4.3.15-linux32.tar.gz",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/saucelabs/ci-sauce/blob/f28424dc59beebf0a397e6f00aed8473e3de979b/src/main/resources/sc-4.3.15-linux32.tar.gz",
+      "raw_url": "https://github.com/saucelabs/ci-sauce/raw/f28424dc59beebf0a397e6f00aed8473e3de979b/src/main/resources/sc-4.3.15-linux32.tar.gz",
+      "contents_url": "https://api.github.com/repos/saucelabs/ci-sauce/contents/src/main/resources/sc-4.3.15-linux32.tar.gz?ref=f28424dc59beebf0a397e6f00aed8473e3de979b"
+    },
+    {
+      "sha": "ce8804cbef5dfe1f189b5c49fdd32d2cac0320b8",
+      "filename": "src/main/resources/sc-4.3.15-osx.zip",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/saucelabs/ci-sauce/blob/f28424dc59beebf0a397e6f00aed8473e3de979b/src/main/resources/sc-4.3.15-osx.zip",
+      "raw_url": "https://github.com/saucelabs/ci-sauce/raw/f28424dc59beebf0a397e6f00aed8473e3de979b/src/main/resources/sc-4.3.15-osx.zip",
+      "contents_url": "https://api.github.com/repos/saucelabs/ci-sauce/contents/src/main/resources/sc-4.3.15-osx.zip?ref=f28424dc59beebf0a397e6f00aed8473e3de979b"
+    },
+    {
+      "sha": "e07d0016e366655ff272d6d330a014f86b5d28f9",
+      "filename": "src/main/resources/sc-4.3.15-win32.zip",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/saucelabs/ci-sauce/blob/f28424dc59beebf0a397e6f00aed8473e3de979b/src/main/resources/sc-4.3.15-win32.zip",
+      "raw_url": "https://github.com/saucelabs/ci-sauce/raw/f28424dc59beebf0a397e6f00aed8473e3de979b/src/main/resources/sc-4.3.15-win32.zip",
+      "contents_url": "https://api.github.com/repos/saucelabs/ci-sauce/contents/src/main/resources/sc-4.3.15-win32.zip?ref=f28424dc59beebf0a397e6f00aed8473e3de979b"
+    }
+  ]
+}

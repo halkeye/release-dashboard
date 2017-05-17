@@ -1,0 +1,16 @@
+{
+  "sha": "bd1518d5e6d0354408ab82f865e95aa9274a86b1",
+  "url": "https://api.github.com/repos/appium/appium/git/tags/bd1518d5e6d0354408ab82f865e95aa9274a86b1",
+  "tagger": {
+    "name": "moizjv",
+    "email": "moizjv@gmail.com",
+    "date": "2015-11-20T19:41:47Z"
+  },
+  "object": {
+    "sha": "ae6877eff263066b26328d457bd285c0cc62430d",
+    "type": "commit",
+    "url": "https://api.github.com/repos/appium/appium/git/commits/ae6877eff263066b26328d457bd285c0cc62430d"
+  },
+  "tag": "v1.4.16",
+  "message": "tag appium@1.4.16 for npm publish\n"
+}

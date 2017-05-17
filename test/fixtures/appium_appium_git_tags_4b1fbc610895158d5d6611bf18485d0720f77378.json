@@ -1,0 +1,16 @@
+{
+  "sha": "4b1fbc610895158d5d6611bf18485d0720f77378",
+  "url": "https://api.github.com/repos/appium/appium/git/tags/4b1fbc610895158d5d6611bf18485d0720f77378",
+  "tagger": {
+    "name": "Jonathan Lipps",
+    "email": "jlipps@gmail.com",
+    "date": "2016-02-25T23:18:48Z"
+  },
+  "object": {
+    "sha": "93004e134878b75c03ff78a6b7041a1f846d0429",
+    "type": "commit",
+    "url": "https://api.github.com/repos/appium/appium/git/commits/93004e134878b75c03ff78a6b7041a1f846d0429"
+  },
+  "tag": "v1.5.0",
+  "message": "tag 1.5.0 release\n"
+}

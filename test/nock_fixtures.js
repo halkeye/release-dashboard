@@ -78,7 +78,13 @@ export function nockReposAppiumGitRefsTags () {
   _nockGithubUrl('appium/appium/git/refs/tags');
   _nockGithubUrl('appium/appium/git/tags/0c39422cb3fd243db00a2f0225be7452a2627cd8');
   _nockGithubUrl('appium/appium/git/tags/dc865428e6a78ed6b8153132d6e50b9afc8c4570');
+  _nockGithubUrl('appium/appium/git/tags/a13a85c026010a81f6f795064a46e0e4f339a63f');
+  _nockGithubUrl('appium/appium/git/tags/bd1518d5e6d0354408ab82f865e95aa9274a86b1');
+  _nockGithubUrl('appium/appium/git/tags/4b1fbc610895158d5d6611bf18485d0720f77378');
   _nockGithubUrl('appium/appium/git/commits/dc865428e6a78ed6b8153132d6e50b9afc8c4570');
+  _nockGithubUrl('appium/appium/compare/v1.4.15...v1.4.16');
+  _nockGithubUrl('appium/appium/compare/v1.4.16...v1.5.0');
+  _nockGithubUrl('appium/appium/compare/v1.5.0...v1.5.1');
   _nockGithubUrl('appium/appium/compare/v1.5.1...v1.5.2');
 }
 
@@ -86,12 +92,24 @@ export function nockReposJenkinsGitRefsTags () {
   _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/git/refs/tags');
   _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/git/tags/54ebdac3f04c59cc31c84f91e3124dda9cecc452');
   _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/git/tags/ccbe562f535a9208601884a29da0ec0378a97b56');
+  _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/git/tags/9800067df19a2274405c7d4218a925308533fd70');
+  _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/git/tags/f2c12ed218950c2ad0bae8388ce3aea5be88bb30');
+  _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/git/tags/f067f926f02817c8f4b4a951760df900960eae87');
   _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/compare/sauce-ondemand-1.151...sauce-ondemand-1.152');
+  _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/compare/sauce-ondemand-1.150...sauce-ondemand-1.151');
+  _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/compare/sauce-ondemand-1.149...sauce-ondemand-1.150');
+  _nockGithubUrl('saucelabs/jenkins-sauce-ondemand-plugin/compare/sauce-ondemand-1.148...sauce-ondemand-1.149');
 }
 
 export function nockReposCiSauceGitRefsTags () {
   _nockGithubUrl('saucelabs/ci-sauce/git/refs/tags');
   _nockGithubUrl('saucelabs/ci-sauce/git/tags/3d717dd59ef142680b6ff93dc87c35a32ce444a8');
   _nockGithubUrl('saucelabs/ci-sauce/git/tags/81fe4acc5c8c464759f4bc5e42d99a29efa9722c');
+  _nockGithubUrl('saucelabs/ci-sauce/git/tags/4be2a4ada6aba2fd20488f64cd59326cf4fbfb40');
+  _nockGithubUrl('saucelabs/ci-sauce/git/tags/e4b6354feade84f40da39a2db4c18c908c3b75c4');
+  _nockGithubUrl('saucelabs/ci-sauce/git/tags/bae1b678917375fcd201a3f26633e4d93fee5561');
   _nockGithubUrl('saucelabs/ci-sauce/compare/ci-sauce-1.115...ci-sauce-1.116');
+  _nockGithubUrl('saucelabs/ci-sauce/compare/ci-sauce-1.114...ci-sauce-1.115');
+  _nockGithubUrl('saucelabs/ci-sauce/compare/ci-sauce-1.113...ci-sauce-1.114');
+  _nockGithubUrl('saucelabs/ci-sauce/compare/ci-sauce-1.112...ci-sauce-1.113');
 }

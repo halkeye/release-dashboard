@@ -1,0 +1,343 @@
+{
+  "url": "https://api.github.com/repos/appium/appium/compare/v1.4.15...v1.4.16",
+  "html_url": "https://github.com/appium/appium/compare/v1.4.15...v1.4.16",
+  "permalink_url": "https://github.com/appium/appium/compare/appium:1ea1dfe...appium:ae6877e",
+  "diff_url": "https://github.com/appium/appium/compare/v1.4.15...v1.4.16.diff",
+  "patch_url": "https://github.com/appium/appium/compare/v1.4.15...v1.4.16.patch",
+  "base_commit": {
+    "sha": "1ea1dfecb50ba196b12c40670fa9546e623f0ba2",
+    "commit": {
+      "author": {
+        "name": "moizjv",
+        "email": "moizjv@gmail.com",
+        "date": "2015-11-17T23:09:20Z"
+      },
+      "committer": {
+        "name": "moizjv",
+        "email": "moizjv@gmail.com",
+        "date": "2015-11-17T23:18:49Z"
+      },
+      "message": "Updating changelog, package.json and npm-shrinkwrap for 1.4.15",
+      "tree": {
+        "sha": "2f529f87f45a2486795e9245fa2fcf7a653ed5ff",
+        "url": "https://api.github.com/repos/appium/appium/git/trees/2f529f87f45a2486795e9245fa2fcf7a653ed5ff"
+      },
+      "url": "https://api.github.com/repos/appium/appium/git/commits/1ea1dfecb50ba196b12c40670fa9546e623f0ba2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/appium/appium/commits/1ea1dfecb50ba196b12c40670fa9546e623f0ba2",
+    "html_url": "https://github.com/appium/appium/commit/1ea1dfecb50ba196b12c40670fa9546e623f0ba2",
+    "comments_url": "https://api.github.com/repos/appium/appium/commits/1ea1dfecb50ba196b12c40670fa9546e623f0ba2/comments",
+    "author": {
+      "login": "moizjv",
+      "id": 1308607,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/moizjv",
+      "html_url": "https://github.com/moizjv",
+      "followers_url": "https://api.github.com/users/moizjv/followers",
+      "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+      "organizations_url": "https://api.github.com/users/moizjv/orgs",
+      "repos_url": "https://api.github.com/users/moizjv/repos",
+      "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/moizjv/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "moizjv",
+      "id": 1308607,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/moizjv",
+      "html_url": "https://github.com/moizjv",
+      "followers_url": "https://api.github.com/users/moizjv/followers",
+      "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+      "organizations_url": "https://api.github.com/users/moizjv/orgs",
+      "repos_url": "https://api.github.com/users/moizjv/repos",
+      "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/moizjv/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "46e25a74758ceae587fc72b0eb2a32976972f53d",
+        "url": "https://api.github.com/repos/appium/appium/commits/46e25a74758ceae587fc72b0eb2a32976972f53d",
+        "html_url": "https://github.com/appium/appium/commit/46e25a74758ceae587fc72b0eb2a32976972f53d"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "1ea1dfecb50ba196b12c40670fa9546e623f0ba2",
+    "commit": {
+      "author": {
+        "name": "moizjv",
+        "email": "moizjv@gmail.com",
+        "date": "2015-11-17T23:09:20Z"
+      },
+      "committer": {
+        "name": "moizjv",
+        "email": "moizjv@gmail.com",
+        "date": "2015-11-17T23:18:49Z"
+      },
+      "message": "Updating changelog, package.json and npm-shrinkwrap for 1.4.15",
+      "tree": {
+        "sha": "2f529f87f45a2486795e9245fa2fcf7a653ed5ff",
+        "url": "https://api.github.com/repos/appium/appium/git/trees/2f529f87f45a2486795e9245fa2fcf7a653ed5ff"
+      },
+      "url": "https://api.github.com/repos/appium/appium/git/commits/1ea1dfecb50ba196b12c40670fa9546e623f0ba2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/appium/appium/commits/1ea1dfecb50ba196b12c40670fa9546e623f0ba2",
+    "html_url": "https://github.com/appium/appium/commit/1ea1dfecb50ba196b12c40670fa9546e623f0ba2",
+    "comments_url": "https://api.github.com/repos/appium/appium/commits/1ea1dfecb50ba196b12c40670fa9546e623f0ba2/comments",
+    "author": {
+      "login": "moizjv",
+      "id": 1308607,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/moizjv",
+      "html_url": "https://github.com/moizjv",
+      "followers_url": "https://api.github.com/users/moizjv/followers",
+      "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+      "organizations_url": "https://api.github.com/users/moizjv/orgs",
+      "repos_url": "https://api.github.com/users/moizjv/repos",
+      "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/moizjv/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "moizjv",
+      "id": 1308607,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/moizjv",
+      "html_url": "https://github.com/moizjv",
+      "followers_url": "https://api.github.com/users/moizjv/followers",
+      "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+      "organizations_url": "https://api.github.com/users/moizjv/orgs",
+      "repos_url": "https://api.github.com/users/moizjv/repos",
+      "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/moizjv/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "46e25a74758ceae587fc72b0eb2a32976972f53d",
+        "url": "https://api.github.com/repos/appium/appium/commits/46e25a74758ceae587fc72b0eb2a32976972f53d",
+        "html_url": "https://github.com/appium/appium/commit/46e25a74758ceae587fc72b0eb2a32976972f53d"
+      }
+    ]
+  },
+  "status": "ahead",
+  "ahead_by": 2,
+  "behind_by": 0,
+  "total_commits": 2,
+  "commits": [
+    {
+      "sha": "c6e3d77935fe8be9ffb2173710f49e1ea0729e5f",
+      "commit": {
+        "author": {
+          "name": "moizjv",
+          "email": "moizjv@gmail.com",
+          "date": "2015-11-19T22:20:12Z"
+        },
+        "committer": {
+          "name": "moizjv",
+          "email": "moizjv@gmail.com",
+          "date": "2015-11-20T18:55:38Z"
+        },
+        "message": "Fixing reload and 9.2 flaky issue",
+        "tree": {
+          "sha": "3d783c2c9fac4ed810eccd88d4a9a110476d8da3",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/3d783c2c9fac4ed810eccd88d4a9a110476d8da3"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/c6e3d77935fe8be9ffb2173710f49e1ea0729e5f",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/c6e3d77935fe8be9ffb2173710f49e1ea0729e5f",
+      "html_url": "https://github.com/appium/appium/commit/c6e3d77935fe8be9ffb2173710f49e1ea0729e5f",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/c6e3d77935fe8be9ffb2173710f49e1ea0729e5f/comments",
+      "author": {
+        "login": "moizjv",
+        "id": 1308607,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/moizjv",
+        "html_url": "https://github.com/moizjv",
+        "followers_url": "https://api.github.com/users/moizjv/followers",
+        "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+        "organizations_url": "https://api.github.com/users/moizjv/orgs",
+        "repos_url": "https://api.github.com/users/moizjv/repos",
+        "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/moizjv/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "moizjv",
+        "id": 1308607,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/moizjv",
+        "html_url": "https://github.com/moizjv",
+        "followers_url": "https://api.github.com/users/moizjv/followers",
+        "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+        "organizations_url": "https://api.github.com/users/moizjv/orgs",
+        "repos_url": "https://api.github.com/users/moizjv/repos",
+        "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/moizjv/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1ea1dfecb50ba196b12c40670fa9546e623f0ba2",
+          "url": "https://api.github.com/repos/appium/appium/commits/1ea1dfecb50ba196b12c40670fa9546e623f0ba2",
+          "html_url": "https://github.com/appium/appium/commit/1ea1dfecb50ba196b12c40670fa9546e623f0ba2"
+        }
+      ]
+    },
+    {
+      "sha": "ae6877eff263066b26328d457bd285c0cc62430d",
+      "commit": {
+        "author": {
+          "name": "moizjv",
+          "email": "moizjv@gmail.com",
+          "date": "2015-11-20T05:05:13Z"
+        },
+        "committer": {
+          "name": "moizjv",
+          "email": "moizjv@gmail.com",
+          "date": "2015-11-20T18:55:50Z"
+        },
+        "message": "Bumping to 1.4.16 and updating changelog",
+        "tree": {
+          "sha": "85516c966af6caa89216777dbf8dba18259853be",
+          "url": "https://api.github.com/repos/appium/appium/git/trees/85516c966af6caa89216777dbf8dba18259853be"
+        },
+        "url": "https://api.github.com/repos/appium/appium/git/commits/ae6877eff263066b26328d457bd285c0cc62430d",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/appium/appium/commits/ae6877eff263066b26328d457bd285c0cc62430d",
+      "html_url": "https://github.com/appium/appium/commit/ae6877eff263066b26328d457bd285c0cc62430d",
+      "comments_url": "https://api.github.com/repos/appium/appium/commits/ae6877eff263066b26328d457bd285c0cc62430d/comments",
+      "author": {
+        "login": "moizjv",
+        "id": 1308607,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/moizjv",
+        "html_url": "https://github.com/moizjv",
+        "followers_url": "https://api.github.com/users/moizjv/followers",
+        "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+        "organizations_url": "https://api.github.com/users/moizjv/orgs",
+        "repos_url": "https://api.github.com/users/moizjv/repos",
+        "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/moizjv/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "moizjv",
+        "id": 1308607,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1308607?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/moizjv",
+        "html_url": "https://github.com/moizjv",
+        "followers_url": "https://api.github.com/users/moizjv/followers",
+        "following_url": "https://api.github.com/users/moizjv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/moizjv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/moizjv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/moizjv/subscriptions",
+        "organizations_url": "https://api.github.com/users/moizjv/orgs",
+        "repos_url": "https://api.github.com/users/moizjv/repos",
+        "events_url": "https://api.github.com/users/moizjv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/moizjv/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c6e3d77935fe8be9ffb2173710f49e1ea0729e5f",
+          "url": "https://api.github.com/repos/appium/appium/commits/c6e3d77935fe8be9ffb2173710f49e1ea0729e5f",
+          "html_url": "https://github.com/appium/appium/commit/c6e3d77935fe8be9ffb2173710f49e1ea0729e5f"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "fc2809a563f5451ac2e083d1314e2f9d54e4626f",
+      "filename": "CHANGELOG.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "changes": 6,
+      "blob_url": "https://github.com/appium/appium/blob/ae6877eff263066b26328d457bd285c0cc62430d/CHANGELOG.md",
+      "raw_url": "https://github.com/appium/appium/raw/ae6877eff263066b26328d457bd285c0cc62430d/CHANGELOG.md",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/CHANGELOG.md?ref=ae6877eff263066b26328d457bd285c0cc62430d",
+      "patch": "@@ -5,6 +5,12 @@ CHANGES IN VERSION 1.5 (from 1.4.?)\n \n - add Tapster support for some more touch methods\n \n+CHANGES IN VERSION 1.4.16 (from 1.4.15)\n+===================================\n+\n+#### iOS\n+- fix for safari and webview issues for 9.2\n+\n CHANGES IN VERSION 1.4.15 (from 1.4.14)\n ===================================\n "
+    },
+    {
+      "sha": "3c841cbe4b74c7ec48b5e4b24d757398d4d34397",
+      "filename": "lib/devices/ios/ios-hybrid.js",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "changes": 5,
+      "blob_url": "https://github.com/appium/appium/blob/ae6877eff263066b26328d457bd285c0cc62430d/lib/devices/ios/ios-hybrid.js",
+      "raw_url": "https://github.com/appium/appium/raw/ae6877eff263066b26328d457bd285c0cc62430d/lib/devices/ios/ios-hybrid.js",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/lib/devices/ios/ios-hybrid.js?ref=ae6877eff263066b26328d457bd285c0cc62430d",
+      "patch": "@@ -78,13 +78,10 @@ iOSHybrid.listWebFrames = function (cb, exitCb) {\n   }.bind(this);\n \n   this.processingRemoteCmd = true;\n-  if (this.remote !== null && this.args.bundleId !== null) {\n+  if (this.remote !== null && this.args.bundleId !== null && this.remoteAppKey) {\n     if (this.args.udid !== null) {\n       this.remote.pageArrayFromJson(onDone);\n     } else {\n-      if (this.remoteAppKey === null) {\n-        return cb(new Error(\"remote debug app key must be set\"));\n-      }\n       this.remote.selectApp(this.remoteAppKey, this.getCurrentUrl(), function (err, perhapsModifiedAppKey, res) {\n         if (err) return onDone(err);\n         this.remoteAppKey = perhapsModifiedAppKey;"
+    },
+    {
+      "sha": "d90337b42ba8fdf62f89525c41913c4a03b00e3e",
+      "filename": "npm-shrinkwrap.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/appium/appium/blob/ae6877eff263066b26328d457bd285c0cc62430d/npm-shrinkwrap.json",
+      "raw_url": "https://github.com/appium/appium/raw/ae6877eff263066b26328d457bd285c0cc62430d/npm-shrinkwrap.json",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/npm-shrinkwrap.json?ref=ae6877eff263066b26328d457bd285c0cc62430d",
+      "patch": "@@ -1,6 +1,6 @@\n {\n   \"name\": \"appium\",\n-  \"version\": \"1.4.15\",\n+  \"version\": \"1.4.16\",\n   \"npm-shrinkwrap-version\": \"5.4.0\",\n   \"node-version\": \"v0.12.7\",\n   \"dependencies\": {"
+    },
+    {
+      "sha": "fb11d7f81270874b250ab0fcaf7e6fb096b776b0",
+      "filename": "package.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/appium/appium/blob/ae6877eff263066b26328d457bd285c0cc62430d/package.json",
+      "raw_url": "https://github.com/appium/appium/raw/ae6877eff263066b26328d457bd285c0cc62430d/package.json",
+      "contents_url": "https://api.github.com/repos/appium/appium/contents/package.json?ref=ae6877eff263066b26328d457bd285c0cc62430d",
+      "patch": "@@ -11,7 +11,7 @@\n     \"firefoxos\",\n     \"testing\"\n   ],\n-  \"version\": \"1.4.15\",\n+  \"version\": \"1.4.16\",\n   \"author\": \"https://github.com/appium\",\n   \"licenses\": [\n     {"
+    }
+  ]
+}
