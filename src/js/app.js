@@ -8,7 +8,6 @@ import '../scss/app.scss';
 import Root from './containers/Root.js';
 
 WebFont.load({ google: { families: [ 'Roboto:400,700:latin', 'Roboto+Mono:400,700:latin' ] } });
-OfflinePluginRuntime.install();
 
 const elm = document.getElementById('content');
 const attrs = {};
