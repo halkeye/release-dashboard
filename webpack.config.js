@@ -1,7 +1,6 @@
 'use strict';
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-// const OfflinePlugin = require('offline-plugin');
 
 const path = require('path');
 

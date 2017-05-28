@@ -1,5 +1,4 @@
 'use strict';
-import * as OfflinePluginRuntime from 'offline-plugin/runtime';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
