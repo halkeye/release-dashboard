@@ -9,7 +9,7 @@ const sourcePath = path.join(__dirname, './src');
 const distPath = path.join(__dirname, './public');
 
 module.exports = function (env) {
-  const nodeEnv = env && env.prod ? 'production' : 'development';
+  const nodeEnv = env || 'development';
   const isProd = nodeEnv === 'production';
   const entry = {
     js: (isProd ? [] : ['webpack-hot-middleware/client']).concat(['js/app.js'])
