@@ -24,7 +24,7 @@ module.exports = function (env) {
     }),
     new ExtractTextPlugin({
       disable: !isProd,
-      filename: '[name].css',
+      filename: '[name].bundle.css',
       allChunks: true
     }),
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
