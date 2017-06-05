@@ -33,7 +33,7 @@ export default class Project extends React.Component {
     }
 
     const githubImgUrl = require('../../img/GitHub-Mark-32px.png');
-    const githubCompareLink = `https://github.com/${project.repo}/compare/${project.tags.slice(0, 2).map(tag => tag.name).join('...')}`;
+    const githubCompareLink = `https://github.com/${project.repo}/compare/${project.tags.slice(0, 2).map(tag => tag.name).sort().join('...')}`;
 
     return (
       <div className="card" style={cardStyle}>
