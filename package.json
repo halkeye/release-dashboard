@@ -73,7 +73,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-event-timeline": "^1.2.3",
-    "react-github-corner": "^0.3.0",
+    "react-github-corner": "^1.0.0",
     "react-md-spinner": "^0.2.3",
     "react-redux": "^5.0.4",
     "react-tabs": "^1.0.0",
