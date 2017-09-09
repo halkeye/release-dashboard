@@ -76,7 +76,7 @@
     "react-github-corner": "^1.0.0",
     "react-md-spinner": "^0.2.3",
     "react-redux": "^5.0.4",
-    "react-tabs": "^1.0.0",
+    "react-tabs": "^2.0.0",
     "react-time": "^4.3.0",
     "react-user-avatar": "^1.8.0",
     "redux": "^3.5.2",
