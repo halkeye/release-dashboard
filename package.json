@@ -71,7 +71,7 @@
     "postcss-loader": "^2.0.5",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react-dom": "^16.0.0",
     "react-event-timeline": "^1.2.3",
     "react-github-corner": "^1.0.0",
     "react-md-spinner": "^0.2.3",
