@@ -22,7 +22,7 @@
     "body-parser": "^1.15.1",
     "cookie-parser": "^1.4.1",
     "ejs": "^2.4.1",
-    "express": "^4.15.2",
+    "express": "^4.15.5",
     "express-session": "^1.15.2",
     "grant-express": "^3.7.2",
     "morgan": "^1.7.0"
