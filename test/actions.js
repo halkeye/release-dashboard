@@ -25,7 +25,7 @@ describe('actions', function () {
   afterEach(function () { nock.cleanAll(); });
 
   describe('fetchConfig', function () {
-    before(function () {
+    it('Dispatch events for each recieved project', async () => {
       nockReleaseDashboardConfigTreesMaster();
       nockReleaseDashboardConfigBlob();
       nockReposAppiumGitRefsTags();
@@ -33,9 +33,7 @@ describe('actions', function () {
       nockReposCiSauceGitRefsTags();
 
       this.store = mockStore({ config: { token: null } });
-      return this.store.dispatch(actions.fetchConfig('halkeye/release-dashboard-config'));
-    });
-    it('Dispatch events for each recieved project', function () {
+      await this.store.dispatch(actions.fetchConfig('halkeye/release-dashboard-config'));
       const expectedActions = [
         {
           'project': { 'annotatedTagFormat': '^v[0-9.]+$', 'deployTargetInterval': 14, 'repo': 'appium/appium' },
@@ -54,13 +52,12 @@ describe('actions', function () {
     });
   });
   describe('receiveProject', function () {
-    before(function () {
+    it('Dispatch events for each recieved project', async () => {
       nockReposAppiumGitRefsTags();
 
       this.store = mockStore({ config: { token: null } });
-      return this.store.dispatch(actions.receiveProject({ 'repo': 'appium/appium', 'annotatedTagFormat': '^v[0-9.]+$', 'deployTargetInterval': 14 }));
-    });
-    it('Dispatch events for each recieved project', function () {
+      await this.store.dispatch(actions.receiveProject({ 'repo': 'appium/appium', 'annotatedTagFormat': '^v[0-9.]+$', 'deployTargetInterval': 14 }));
+
       const expectedActions = [
         {
           'project': {
