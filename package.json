@@ -88,7 +88,7 @@
     "url-loader": "^0.6.1",
     "webfontloader": "^1.6.26",
     "webpack": "^3.0.0",
-    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-middleware": "^2.0.0",
     "webpack-dev-server": "^2.4.5",
     "webpack-hot-middleware": "^2.18.0",
     "whatwg-fetch": "^2.0.0"
