@@ -39,7 +39,7 @@ export default class Project extends React.Component {
       <div className="card" style={cardStyle}>
         <div className="header">
           <div className="info">
-            <TagHeader tag={project.tags[project.tags.length - 1]} project={project} />
+            <TagHeader tag={project.tags[0]} project={project} />
           </div>
         </div>
         <div className="body">
