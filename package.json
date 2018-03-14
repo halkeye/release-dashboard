@@ -24,7 +24,7 @@
     "ejs": "^2.4.1",
     "express": "^4.15.5",
     "express-session": "^1.15.2",
-    "grant-express": "^3.8.0",
+    "grant-express": "^4.0.0",
     "morgan": "^1.7.0"
   },
   "devDependencies": {
