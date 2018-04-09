@@ -24,18 +24,23 @@ var app = express();
 app.set('view engine', 'ejs');
 app.use(morgan('combined'));
 app.use(cookieParser());
-app.use(session({secret: process.env.EXPRESS_SECRET_TOKEN || 'secret-token'}));
+app.use(
+  session({ secret: process.env.EXPRESS_SECRET_TOKEN || 'secret-token' })
+);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(grant);
 if ((process.env.NODE_ENV || 'development') === 'development') {
-  const config = require('./webpack.config.js')();
+  const config = require('./webpack.dev.js');
+  config.mode = 'development';
   const compiler = require('webpack')(config);
   const webpackDevMiddleware = require('webpack-dev-middleware');
-  app.use(webpackDevMiddleware(compiler, {
-    publicPath: config.output.publicPath,
-    stats: { colors: true }
-  }));
+  app.use(
+    webpackDevMiddleware(compiler, {
+      publicPath: config.output.publicPath,
+      stats: { colors: true }
+    })
+  );
   app.use(require('webpack-hot-middleware')(compiler));
 }
 
@@ -46,7 +51,9 @@ app.get('/', function (req, res) {
   }
   const token = req.cookies['gh-token'] || process.env.GITHUB_TOKEN;
 
-  if (!token) { return res.redirect('/connect/github'); }
+  if (!token) {
+    return res.redirect('/connect/github');
+  }
   res.render('index.html.ejs', {
     token: token,
     config_repo: process.env.CONFIG_REPO
@@ -55,7 +62,9 @@ app.get('/', function (req, res) {
 
 app.get('/doneAuth', function (req, res) {
   const token = req.param('access_token');
-  if (!token) { return res.redirect('/connect/github'); }
+  if (!token) {
+    return res.redirect('/connect/github');
+  }
   res.cookie('gh-token', token, { path: '/' });
   return res.redirect('/');
 });

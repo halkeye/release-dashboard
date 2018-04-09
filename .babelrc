@@ -4,18 +4,12 @@
     "transform-class-properties",
     "transform-object-rest-spread",
     "transform-runtime",
+    "react-hot-loader/babel",
     "lodash"
   ],
   "presets": [
     ["env", { "targets": { "node": "current" } }],
     ["es2015", { "modules": false }],
     "react"
-  ],
-  "env": {
-    "development": {
-      "presets": [
-        "react-hmre"
-      ]
-    }
-  }
+  ]
 }

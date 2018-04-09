@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { init, fetchConfig } from '../actions';
@@ -9,7 +9,9 @@ import TimelineView from '../components/TimelineView.js';
 import 'react-tabs/style/react-tabs.scss';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-class AsyncApp extends Component {
+import { hot } from 'react-hot-loader';
+
+class AsyncApp extends React.Component {
   componentDidMount () {
     const { dispatch, token, config_repo } = this.props;
     dispatch(init(token));
@@ -51,4 +53,4 @@ function mapStateToProps (state) {
   return state;
 }
 
-export default connect(mapStateToProps)(AsyncApp);
+export default hot(module)(connect(mapStateToProps)(AsyncApp));
