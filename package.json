@@ -72,7 +72,7 @@
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-event-timeline": "^1.5.1",
+    "react-event-timeline": "^1.5.3",
     "react-github-corner": "^2.1.0",
     "react-hot-loader": "^4.0.1",
     "react-md-spinner": "^0.2.5",
