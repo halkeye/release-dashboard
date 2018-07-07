@@ -75,7 +75,7 @@
     "react-event-timeline": "^1.5.4",
     "react-github-corner": "^2.1.0",
     "react-hot-loader": "^4.0.1",
-    "react-md-spinner": "^0.2.5",
+    "react-md-spinner": "^0.3.0",
     "react-redux": "^5.0.7",
     "react-tabs": "^2.2.1",
     "react-time": "^4.3.0",
