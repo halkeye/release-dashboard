@@ -13,6 +13,10 @@ const elm = document.getElementById('content');
 const attrs = {};
 for (let i = 0; i < elm.attributes.length; i++) {
   let attr = elm.attributes[i];
-  if (attr.name !== 'id') { attrs[attr.name] = attr.value; }
+  let name = attr.name;
+  if (name === 'config-repo') {
+    name = 'configRepo';
+  }
+  if (name !== 'id') { attrs[name] = attr.value; }
 }
 ReactDOM.render(<Root {...attrs} />, elm);
