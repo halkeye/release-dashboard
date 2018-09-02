@@ -1,15 +1,18 @@
 {
+  "env": {
+    "production": {
+      "plugins": ["transform-react-remove-prop-types"]
+    }
+  },
   "plugins": [
-    "transform-decorators-legacy",
-    "transform-class-properties",
-    "transform-object-rest-spread",
-    "transform-runtime",
+    "lodash",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-syntax-object-rest-spread",
     "react-hot-loader/babel",
-    "lodash"
   ],
   "presets": [
-    ["env", { "targets": { "node": "current" } }],
-    ["es2015", { "modules": false }],
-    "react"
+    ["@babel/preset-env", { "targets": { "node": "current" } }],
+    "@babel/preset-react"
   ]
 }
