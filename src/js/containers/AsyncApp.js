@@ -13,9 +13,9 @@ import { hot } from 'react-hot-loader';
 
 class AsyncApp extends React.Component {
   componentDidMount () {
-    const { dispatch, token, config_repo } = this.props;
+    const { dispatch, token, configRepo } = this.props;
     dispatch(init(token));
-    dispatch(fetchConfig(config_repo));
+    dispatch(fetchConfig(configRepo));
   }
 
   render () {
@@ -42,7 +42,7 @@ class AsyncApp extends React.Component {
 
 AsyncApp.propTypes = {
   token: PropTypes.string.isRequired,
-  config_repo: PropTypes.string.isRequired,
+  configRepo: PropTypes.string.isRequired,
   config: PropTypes.object.isRequired,
   projects: PropTypes.array.isRequired,
   errors: PropTypes.array.isRequired,

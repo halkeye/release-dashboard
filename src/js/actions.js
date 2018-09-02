@@ -25,7 +25,7 @@ function githubFetch (url, token) {
     }
     return response;
   })
-  .then(response => response.json());
+    .then(response => response.json());
 }
 
 export function init (token) {
@@ -127,25 +127,20 @@ function tagsForProject (token, project) {
   } else if (project.annotatedTagFormat) {
     const re = new RegExp(project.annotatedTagFormat);
     return githubFetch(`https://api.github.com/repos/${project.repo}/git/refs/tags`, token)
-        // .then(tags => tags.filter(tag => tag.object.type.includes('tag'))) // annotated only
-        .then(tags => tags.filter(tag => re.test(tag.ref.substr('refs/tags/'.length))))
-        .then(tags => tags.map(tag => {
-          return {
-            sha: tag.object.sha,
-            name: tag.ref.substr('refs/tags/'.length),
-            commitUrl: tag.object.url
-          };
-        }))
-        .then(tags => tags.sort(alphaSortTags))
-        .then(tags => tags.slice(-5))
-        .then(tags => Promise.all(tags.map(tag => getTagInfo(token, project, tag))));
+    // .then(tags => tags.filter(tag => tag.object.type.includes('tag'))) // annotated only
+      .then(tags => tags.filter(tag => re.test(tag.ref.substr('refs/tags/'.length))))
+      .then(tags => tags.map(tag => {
+        return {
+          sha: tag.object.sha,
+          name: tag.ref.substr('refs/tags/'.length),
+          commitUrl: tag.object.url
+        };
+      }))
+      .then(tags => tags.sort(alphaSortTags))
+      .then(tags => tags.slice(-5))
+      .then(tags => Promise.all(tags.map(tag => getTagInfo(token, project, tag))));
   }
   return Promise.reject(new Error(`Not sure how to handle ${project}`));
-}
-
-function getCommit (token, project, sha) {
-  return githubFetch(`https://api.github.com/repos/${project.repo}/commits?sha=${sha}`, token)
-    .then(commits => { return processCommit(commits[0]); });
 }
 
 function processCommit (commit) {

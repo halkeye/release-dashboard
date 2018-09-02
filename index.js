@@ -56,7 +56,7 @@ app.get('/', function (req, res) {
   }
   res.render('index.html.ejs', {
     token: token,
-    config_repo: process.env.CONFIG_REPO
+    configRepo: process.env.CONFIG_REPO
   });
 });
 
