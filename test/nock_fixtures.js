@@ -59,8 +59,9 @@ export function nockReleaseDashboardConfigBlob () {
 }
 
 function _nockGithubUrl (url) {
-  nock('https://api.github.com:443')
+  nock('https://api.github.com:443', { 'encodedQueryParams': true })
     .get(`/repos/${url}`)
+    .times(99)
     .reply(
       200,
       fs.readFileSync(`${__dirname}/fixtures/${url.replace(/\//g, '_')}.json`).toString(),

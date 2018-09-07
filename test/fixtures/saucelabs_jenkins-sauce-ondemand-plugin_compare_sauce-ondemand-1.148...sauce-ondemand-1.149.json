@@ -1,4 +1,434 @@
 {
-  "message": "Not Found",
-  "documentation_url": "https://developer.github.com/v3"
+  "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/compare/sauce-ondemand-1.148...sauce-ondemand-1.149",
+  "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/compare/sauce-ondemand-1.148...sauce-ondemand-1.149",
+  "permalink_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/compare/saucelabs:3e35579...saucelabs:8e32d2a",
+  "diff_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/compare/sauce-ondemand-1.148...sauce-ondemand-1.149.diff",
+  "patch_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/compare/sauce-ondemand-1.148...sauce-ondemand-1.149.patch",
+  "base_commit": {
+    "sha": "3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+    "node_id": "MDY6Q29tbWl0NDY2NzYwMDc6M2UzNTU3OTgzYWQzZTlmMGNmMDNhNDRhMzRlM2M1ZTJlZDM5MjgwOQ==",
+    "commit": {
+      "author": {
+        "name": "Gavin Mogan",
+        "email": "gavin@saucelabs.com",
+        "date": "2016-01-22T00:39:18Z"
+      },
+      "committer": {
+        "name": "Gavin Mogan",
+        "email": "gavin@saucelabs.com",
+        "date": "2016-01-22T00:39:18Z"
+      },
+      "message": "[maven-release-plugin] prepare release sauce-ondemand-1.148",
+      "tree": {
+        "sha": "2d7e23d9b8d0414cf0ce7ff36bb593bc1f8eb525",
+        "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/trees/2d7e23d9b8d0414cf0ce7ff36bb593bc1f8eb525"
+      },
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+    "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/commit/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+    "comments_url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809/comments",
+    "author": {
+      "login": "halkeye",
+      "id": 110087,
+      "node_id": "MDQ6VXNlcjExMDA4Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/110087?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/halkeye",
+      "html_url": "https://github.com/halkeye",
+      "followers_url": "https://api.github.com/users/halkeye/followers",
+      "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+      "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+      "organizations_url": "https://api.github.com/users/halkeye/orgs",
+      "repos_url": "https://api.github.com/users/halkeye/repos",
+      "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/halkeye/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "halkeye",
+      "id": 110087,
+      "node_id": "MDQ6VXNlcjExMDA4Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/110087?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/halkeye",
+      "html_url": "https://github.com/halkeye",
+      "followers_url": "https://api.github.com/users/halkeye/followers",
+      "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+      "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+      "organizations_url": "https://api.github.com/users/halkeye/orgs",
+      "repos_url": "https://api.github.com/users/halkeye/repos",
+      "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/halkeye/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f4a04c473c467512d18ab47946ea59b175fa582f",
+        "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/f4a04c473c467512d18ab47946ea59b175fa582f",
+        "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/commit/f4a04c473c467512d18ab47946ea59b175fa582f"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+    "node_id": "MDY6Q29tbWl0NDY2NzYwMDc6M2UzNTU3OTgzYWQzZTlmMGNmMDNhNDRhMzRlM2M1ZTJlZDM5MjgwOQ==",
+    "commit": {
+      "author": {
+        "name": "Gavin Mogan",
+        "email": "gavin@saucelabs.com",
+        "date": "2016-01-22T00:39:18Z"
+      },
+      "committer": {
+        "name": "Gavin Mogan",
+        "email": "gavin@saucelabs.com",
+        "date": "2016-01-22T00:39:18Z"
+      },
+      "message": "[maven-release-plugin] prepare release sauce-ondemand-1.148",
+      "tree": {
+        "sha": "2d7e23d9b8d0414cf0ce7ff36bb593bc1f8eb525",
+        "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/trees/2d7e23d9b8d0414cf0ce7ff36bb593bc1f8eb525"
+      },
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+    "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/commit/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+    "comments_url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809/comments",
+    "author": {
+      "login": "halkeye",
+      "id": 110087,
+      "node_id": "MDQ6VXNlcjExMDA4Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/110087?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/halkeye",
+      "html_url": "https://github.com/halkeye",
+      "followers_url": "https://api.github.com/users/halkeye/followers",
+      "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+      "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+      "organizations_url": "https://api.github.com/users/halkeye/orgs",
+      "repos_url": "https://api.github.com/users/halkeye/repos",
+      "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/halkeye/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "halkeye",
+      "id": 110087,
+      "node_id": "MDQ6VXNlcjExMDA4Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/110087?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/halkeye",
+      "html_url": "https://github.com/halkeye",
+      "followers_url": "https://api.github.com/users/halkeye/followers",
+      "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+      "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+      "organizations_url": "https://api.github.com/users/halkeye/orgs",
+      "repos_url": "https://api.github.com/users/halkeye/repos",
+      "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/halkeye/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f4a04c473c467512d18ab47946ea59b175fa582f",
+        "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/f4a04c473c467512d18ab47946ea59b175fa582f",
+        "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/commit/f4a04c473c467512d18ab47946ea59b175fa582f"
+      }
+    ]
+  },
+  "status": "ahead",
+  "ahead_by": 3,
+  "behind_by": 0,
+  "total_commits": 3,
+  "commits": [
+    {
+      "sha": "4fa81b2d114bb8950691718752950043f10ffa71",
+      "node_id": "MDY6Q29tbWl0NDY2NzYwMDc6NGZhODFiMmQxMTRiYjg5NTA2OTE3MTg3NTI5NTAwNDNmMTBmZmE3MQ==",
+      "commit": {
+        "author": {
+          "name": "Gavin Mogan",
+          "email": "gavin@saucelabs.com",
+          "date": "2016-01-22T00:39:23Z"
+        },
+        "committer": {
+          "name": "Gavin Mogan",
+          "email": "gavin@saucelabs.com",
+          "date": "2016-01-22T00:39:23Z"
+        },
+        "message": "[maven-release-plugin] prepare for next development iteration",
+        "tree": {
+          "sha": "22078fff2826264ddf2f90bf945a06903dcbb7a9",
+          "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/trees/22078fff2826264ddf2f90bf945a06903dcbb7a9"
+        },
+        "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/4fa81b2d114bb8950691718752950043f10ffa71",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/4fa81b2d114bb8950691718752950043f10ffa71",
+      "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/commit/4fa81b2d114bb8950691718752950043f10ffa71",
+      "comments_url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/4fa81b2d114bb8950691718752950043f10ffa71/comments",
+      "author": {
+        "login": "halkeye",
+        "id": 110087,
+        "node_id": "MDQ6VXNlcjExMDA4Nw==",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/110087?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "halkeye",
+        "id": 110087,
+        "node_id": "MDQ6VXNlcjExMDA4Nw==",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/110087?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+          "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+          "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/commit/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809"
+        }
+      ]
+    },
+    {
+      "sha": "f6e3161c3efb6e8798eee0f19e465db7973d7d12",
+      "node_id": "MDY6Q29tbWl0NDY2NzYwMDc6ZjZlMzE2MWMzZWZiNmU4Nzk4ZWVlMGYxOWU0NjVkYjc5NzNkN2QxMg==",
+      "commit": {
+        "author": {
+          "name": "Gavin Mogan",
+          "email": "gavin@saucelabs.com",
+          "date": "2016-01-26T16:59:29Z"
+        },
+        "committer": {
+          "name": "Gavin Mogan",
+          "email": "gavin@saucelabs.com",
+          "date": "2016-01-26T16:59:53Z"
+        },
+        "message": "Remove SauceCredentialsEnvironmentContributor.java as it doesn't add anything and breaks pipeline. Fixes #14",
+        "tree": {
+          "sha": "d1be4fb141019d6b80a5529a934be046a9270b40",
+          "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/trees/d1be4fb141019d6b80a5529a934be046a9270b40"
+        },
+        "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/f6e3161c3efb6e8798eee0f19e465db7973d7d12",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/f6e3161c3efb6e8798eee0f19e465db7973d7d12",
+      "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/commit/f6e3161c3efb6e8798eee0f19e465db7973d7d12",
+      "comments_url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/f6e3161c3efb6e8798eee0f19e465db7973d7d12/comments",
+      "author": {
+        "login": "halkeye",
+        "id": 110087,
+        "node_id": "MDQ6VXNlcjExMDA4Nw==",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/110087?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "halkeye",
+        "id": 110087,
+        "node_id": "MDQ6VXNlcjExMDA4Nw==",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/110087?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4fa81b2d114bb8950691718752950043f10ffa71",
+          "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/4fa81b2d114bb8950691718752950043f10ffa71",
+          "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/commit/4fa81b2d114bb8950691718752950043f10ffa71"
+        }
+      ]
+    },
+    {
+      "sha": "8e32d2acc71c61bbe15eae800a602cdec6e863dc",
+      "node_id": "MDY6Q29tbWl0NDY2NzYwMDc6OGUzMmQyYWNjNzFjNjFiYmUxNWVhZTgwMGE2MDJjZGVjNmU4NjNkYw==",
+      "commit": {
+        "author": {
+          "name": "Gavin Mogan",
+          "email": "gavin@saucelabs.com",
+          "date": "2016-01-26T18:15:27Z"
+        },
+        "committer": {
+          "name": "Gavin Mogan",
+          "email": "gavin@saucelabs.com",
+          "date": "2016-01-26T18:15:27Z"
+        },
+        "message": "[maven-release-plugin] prepare release sauce-ondemand-1.149",
+        "tree": {
+          "sha": "4f261af10c3fce7fd7d79437d13da71f70ed8e67",
+          "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/trees/4f261af10c3fce7fd7d79437d13da71f70ed8e67"
+        },
+        "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/git/commits/8e32d2acc71c61bbe15eae800a602cdec6e863dc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/8e32d2acc71c61bbe15eae800a602cdec6e863dc",
+      "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/commit/8e32d2acc71c61bbe15eae800a602cdec6e863dc",
+      "comments_url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/8e32d2acc71c61bbe15eae800a602cdec6e863dc/comments",
+      "author": {
+        "login": "halkeye",
+        "id": 110087,
+        "node_id": "MDQ6VXNlcjExMDA4Nw==",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/110087?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "halkeye",
+        "id": 110087,
+        "node_id": "MDQ6VXNlcjExMDA4Nw==",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/110087?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/halkeye",
+        "html_url": "https://github.com/halkeye",
+        "followers_url": "https://api.github.com/users/halkeye/followers",
+        "following_url": "https://api.github.com/users/halkeye/following{/other_user}",
+        "gists_url": "https://api.github.com/users/halkeye/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/halkeye/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/halkeye/subscriptions",
+        "organizations_url": "https://api.github.com/users/halkeye/orgs",
+        "repos_url": "https://api.github.com/users/halkeye/repos",
+        "events_url": "https://api.github.com/users/halkeye/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/halkeye/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f6e3161c3efb6e8798eee0f19e465db7973d7d12",
+          "url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/commits/f6e3161c3efb6e8798eee0f19e465db7973d7d12",
+          "html_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/commit/f6e3161c3efb6e8798eee0f19e465db7973d7d12"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "87dee7b1121eafe301e9c3dc0e196c8401cd052c",
+      "filename": "pom.xml",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/blob/8e32d2acc71c61bbe15eae800a602cdec6e863dc/pom.xml",
+      "raw_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/raw/8e32d2acc71c61bbe15eae800a602cdec6e863dc/pom.xml",
+      "contents_url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/contents/pom.xml?ref=8e32d2acc71c61bbe15eae800a602cdec6e863dc",
+      "patch": "@@ -17,15 +17,15 @@\n \n \n     <artifactId>sauce-ondemand</artifactId>\n-    <version>1.148</version>\n+    <version>1.149</version>\n     <packaging>hpi</packaging>\n     <name>Jenkins Sauce OnDemand plugin</name>\n     <url>http://wiki.jenkins-ci.org/display/JENKINS/Sauce+OnDemand+Plugin</url>\n \n     <scm>\n         <connection>scm:git:git://github.com/jenkinsci/sauce-ondemand-plugin.git</connection>\n         <developerConnection>scm:git:git@github.com:jenkinsci/sauce-ondemand-plugin.git</developerConnection>\n-        <tag>sauce-ondemand-1.148</tag>\n+        <tag>sauce-ondemand-1.149</tag>\n     </scm>\n \n     <developers>"
+    },
+    {
+      "sha": "8cef42a6f99e2fb8f449774a5ae587905013ae0c",
+      "filename": "src/main/java/hudson/plugins/sauce_ondemand/credentials/SauceCredentialsEnvironmentContributor.java",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "changes": 26,
+      "blob_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/blob/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809/src/main/java/hudson/plugins/sauce_ondemand/credentials/SauceCredentialsEnvironmentContributor.java",
+      "raw_url": "https://github.com/saucelabs/jenkins-sauce-ondemand-plugin/raw/3e3557983ad3e9f0cf03a44a34e3c5e2ed392809/src/main/java/hudson/plugins/sauce_ondemand/credentials/SauceCredentialsEnvironmentContributor.java",
+      "contents_url": "https://api.github.com/repos/saucelabs/jenkins-sauce-ondemand-plugin/contents/src/main/java/hudson/plugins/sauce_ondemand/credentials/SauceCredentialsEnvironmentContributor.java?ref=3e3557983ad3e9f0cf03a44a34e3c5e2ed392809",
+      "patch": "@@ -1,26 +0,0 @@\n-package hudson.plugins.sauce_ondemand.credentials;\n-\n-import hudson.EnvVars;\n-import hudson.Extension;\n-import hudson.model.AbstractProject;\n-import hudson.model.EnvironmentContributor;\n-import hudson.model.Run;\n-import hudson.model.TaskListener;\n-import hudson.plugins.sauce_ondemand.SauceOnDemandBuildWrapper;\n-\n-import javax.annotation.Nonnull;\n-import java.io.IOException;\n-\n-@Extension\n-public class SauceCredentialsEnvironmentContributor extends EnvironmentContributor {\n-    @Override\n-    public void buildEnvironmentFor(@Nonnull Run r, @Nonnull EnvVars envs, @Nonnull TaskListener listener) throws IOException, InterruptedException {\n-        super.buildEnvironmentFor(r, envs, listener);\n-\n-        SauceCredentials creds = SauceCredentials.getCredentials((AbstractProject) r.getParent());\n-        if (creds != null) {\n-            envs.put(SauceOnDemandBuildWrapper.SAUCE_USERNAME, creds.getUsername());\n-            envs.put(SauceOnDemandBuildWrapper.SAUCE_ACCESS_KEY, creds.getPassword().getPlainText());\n-        }\n-    }\n-}"
+    }
+  ]
 }

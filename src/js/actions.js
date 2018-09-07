@@ -1,4 +1,4 @@
-import fetch from 'isomorphic-fetch';
+import axios from 'axios';
 import naturalSort from 'javascript-natural-sort';
 import atob from 'atob';
 
@@ -14,18 +14,13 @@ export const INIT = 'INIT';
 
 function githubFetch (url, token) {
   const options = token ? {
+    json: true,
     headers: {
       'Authorization': `token ${token}`
     }
   } : {};
 
-  return fetch(url, options).then(function (response) {
-    if (!response.ok) {
-      throw Error(response.statusText);
-    }
-    return response;
-  })
-    .then(response => response.json());
+  return axios(url, options).then(response => response.data);
 }
 
 export function init (token) {
@@ -98,6 +93,12 @@ function recieveTagsForProject (project, tags) {
       // can't get a diff for the last one
       if (!tags[idx + 1]) { return Promise.resolve(); }
       return githubFetch(`https://api.github.com/repos/${project.repo}/compare/${tags[idx + 1].name}...${tag.name}`, token)
+        .then(json => {
+          if (!json.commits) {
+            console.log('gavin', json, `https://api.github.com/repos/${project.repo}/compare/${tags[idx + 1].name}...${tag.name}`);
+          }
+          return json;
+        })
         .then(json => { return json.commits.map(commit => processCommit(commit)); })
         .then(commits => commits.reverse())
         .then(commits => dispatch({

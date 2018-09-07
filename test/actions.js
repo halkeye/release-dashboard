@@ -20,10 +20,10 @@ import { omit } from 'lodash';
 
 const middlewares = [ thunk ];
 const mockStore = configureMockStore(middlewares);
+nock.disableNetConnect();
 
 describe('actions', function () {
-  afterEach(function () { nock.cleanAll(); });
-
+  beforeEach(() => nock.cleanAll());
   describe('fetchConfig', function () {
     it('Dispatch events for each recieved project', async () => {
       nockReleaseDashboardConfigTreesMaster();
