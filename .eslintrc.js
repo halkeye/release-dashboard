@@ -1,6 +1,11 @@
 module.exports = {
     "parser": "babel-eslint",
     "extends": ["standard", "plugin:react/recommended"],
+    "settings": {
+        "react": {
+            "version": "16.0"
+        }
+    },
     "plugins": [
         "standard",
         "promise",

@@ -22,6 +22,7 @@ var grant = new Grant({
 
 var app = express();
 app.set('view engine', 'ejs');
+app.set('env', process.env.NODE_ENV || 'development');
 app.use(morgan('combined'));
 app.use(cookieParser());
 app.use(
@@ -30,7 +31,7 @@ app.use(
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(grant);
-if ((process.env.NODE_ENV || 'development') === 'development') {
+if (app.get('env') === 'development') {
   const config = require('./webpack.dev.js');
   config.mode = 'development';
   const compiler = require('webpack')(config);
