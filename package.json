@@ -80,7 +80,7 @@
     "react-event-timeline": "^1.6.3",
     "react-github-corner": "^2.3.0",
     "react-hot-loader": "^4.6.3",
-    "react-md-spinner": "^0.3.0",
+    "react-md-spinner": "^0.4.0",
     "react-redux": "^7.0.3",
     "react-tabs": "^3.0.0",
     "react-time": "^4.3.0",
