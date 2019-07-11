@@ -10,6 +10,7 @@ export default class TagHeader extends React.Component {
     project: PropTypes.object,
     tag: PropTypes.object
   };
+
   render () {
     const repoName = this.props.project.repo.split('/')[1];
     if (!this.props.tag) {

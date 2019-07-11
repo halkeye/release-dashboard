@@ -18,7 +18,7 @@ import { omit } from 'lodash';
 
 // nock.recorder.rec({ logging: function(content) { require('fs').appendFile('record.txt', content); } });
 
-const middlewares = [ thunk ];
+const middlewares = [thunk];
 const mockStore = configureMockStore(middlewares);
 nock.disableNetConnect();
 
@@ -36,16 +36,16 @@ describe('actions', function () {
       await this.store.dispatch(actions.fetchConfig('halkeye/release-dashboard-config'));
       const expectedActions = [
         {
-          'project': { 'annotatedTagFormat': '^v[0-9.]+$', 'deployTargetInterval': 14, 'repo': 'appium/appium' },
-          'type': 'RECEIVE_PROJECT'
+          project: { annotatedTagFormat: '^v[0-9.]+$', deployTargetInterval: 14, repo: 'appium/appium' },
+          type: 'RECEIVE_PROJECT'
         },
         {
-          'project': { 'annotatedTagFormat': '^sauce-ondemand-[0-9.]+$', 'deployTargetInterval': false, 'repo': 'saucelabs/jenkins-sauce-ondemand-plugin' },
-          'type': 'RECEIVE_PROJECT'
+          project: { annotatedTagFormat: '^sauce-ondemand-[0-9.]+$', deployTargetInterval: false, repo: 'saucelabs/jenkins-sauce-ondemand-plugin' },
+          type: 'RECEIVE_PROJECT'
         },
         {
-          'project': { 'annotatedTagFormat': '^ci-sauce-[0-9.]+$', 'deployTargetInterval': false, 'repo': 'saucelabs/ci-sauce' },
-          'type': 'RECEIVE_PROJECT'
+          project: { annotatedTagFormat: '^ci-sauce-[0-9.]+$', deployTargetInterval: false, repo: 'saucelabs/ci-sauce' },
+          type: 'RECEIVE_PROJECT'
         }
       ];
       expect(this.store.getActions().map(obj => omit(obj, ['lastUpdated']))).toEqual(expectedActions);
@@ -56,16 +56,16 @@ describe('actions', function () {
       nockReposAppiumGitRefsTags();
 
       this.store = mockStore({ config: { token: null } });
-      await this.store.dispatch(actions.receiveProject({ 'repo': 'appium/appium', 'annotatedTagFormat': '^v[0-9.]+$', 'deployTargetInterval': 14 }));
+      await this.store.dispatch(actions.receiveProject({ repo: 'appium/appium', annotatedTagFormat: '^v[0-9.]+$', deployTargetInterval: 14 }));
 
       const expectedActions = [
         {
-          'project': {
-            'annotatedTagFormat': '^v[0-9.]+$',
-            'deployTargetInterval': 14,
-            'repo': 'appium/appium'
+          project: {
+            annotatedTagFormat: '^v[0-9.]+$',
+            deployTargetInterval: 14,
+            repo: 'appium/appium'
           },
-          'type': 'RECEIVE_PROJECT'
+          type: 'RECEIVE_PROJECT'
         }
       ];
       const recievedActions = this.store.getActions().map(obj => omit(obj, ['lastUpdated']));

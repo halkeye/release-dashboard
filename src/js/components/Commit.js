@@ -6,6 +6,7 @@ export default class Commit extends React.Component {
     project: PropTypes.object.isRequired,
     commit: PropTypes.object.isRequired
   };
+
   render () {
     const commitUrl = `https://github.com/${this.props.project.repo}/commit/${this.props.commit.sha}`;
     return (

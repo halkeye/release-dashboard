@@ -17,6 +17,7 @@ export default class Project extends React.Component {
   static propTypes = {
     project: PropTypes.object.isRequired
   };
+
   render () {
     const project = this.props.project;
     const useTarget = !!this.props.project.deployTargetInterval;

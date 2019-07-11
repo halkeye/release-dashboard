@@ -6,6 +6,7 @@ export default class Time extends React.Component {
   static propTypes = {
     date: PropTypes.instanceOf(Date)
   };
+
   render () {
     return (
       <span>

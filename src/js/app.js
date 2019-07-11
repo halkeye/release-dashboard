@@ -7,12 +7,12 @@ import '../scss/app.scss';
 
 import Root from './containers/Root.js';
 
-WebFont.load({ google: { families: [ 'Roboto:400,700:latin', 'Roboto+Mono:400,700:latin' ] } });
+WebFont.load({ google: { families: ['Roboto:400,700:latin', 'Roboto+Mono:400,700:latin'] } });
 
 const elm = document.getElementById('content');
 const attrs = {};
 for (let i = 0; i < elm.attributes.length; i++) {
-  let attr = elm.attributes[i];
+  const attr = elm.attributes[i];
   let name = attr.name;
   if (name === 'config-repo') {
     name = 'configRepo';

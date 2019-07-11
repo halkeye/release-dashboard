@@ -16,7 +16,7 @@ function githubFetch (url, token) {
   const options = token ? {
     json: true,
     headers: {
-      'Authorization': `token ${token}`
+      Authorization: `token ${token}`
     }
   } : {};
 
