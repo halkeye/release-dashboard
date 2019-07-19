@@ -67,7 +67,7 @@
     "less-loader": "^5.0.0",
     "lodash": "^4.17.11",
     "md5": "^2.2.1",
-    "mini-css-extract-plugin": "^0.7.0",
+    "mini-css-extract-plugin": "^0.8.0",
     "mocha": "^6.0.1",
     "moment": "^2.23.0",
     "nock": "^10.0.6",
